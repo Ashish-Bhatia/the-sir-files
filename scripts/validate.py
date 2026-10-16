@@ -39,5 +39,16 @@ assert sum(g['non_returns'].values())==g['pre']-g['draft']
 assert sum(g['logical_flags'].values())==58923
 assert g['pre']-g['final']==127468
 assert len(list(csv.DictReader((R/'assets/claims.csv').open())))==len(d['claims'])
+st=d['revision_stages']
+groups=[set(st[k]) for k in ['ssr_scheduled','ssr_deferred','sir_not_started_as_stated_in_order']]
+assert [len(g) for g in groups]==[17,16,3]
+assert set.union(*groups)=={j['slug'] for j in d['jurisdictions']}
+assert not (groups[0]&groups[1] or groups[0]&groups[2] or groups[1]&groups[2])
+a=d['maharashtra_applications']
+assert a['form_6']+a['form_7']+a['form_8']==a['total']==1138055
+assert a['outcomes_observed'] is False
+assert len({c['id'] for c in d['claims']})==len(d['claims'])
+for j in d['jurisdictions']:
+ assert j['revision_stage_source'] in ids
 print(json.dumps({'html_pages':len(pages),'jurisdictions':36,'sources':len(ids),'claims':len(d['claims']),'internal_link_and_fragment_errors':errors,'goa_arithmetic':'pass'},indent=2))
 raise SystemExit(bool(errors))

@@ -30,8 +30,8 @@
       "type": "Official order",
       "date": "2026-10-01",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17541",
-      "note": "BLO comparisons of pre/post SIR, follow-up visits and Form 6 assistance.",
-      "review_status": "Original endpoint unavailable; CEO Goa special-drive document inspected as corroboration"
+      "note": "1 October signed special-drive directions, paragraph 4: identify old-to-current missing entries, revisit and facilitate eligible applications. Primary-source availability gap closed; outcomes remain unverified.",
+      "review_status": "Original two-page ECI order now opened and inspected in continuation review"
     },
     {
       "id": "SC-2026-05",
@@ -300,7 +300,7 @@
       "issuer": "PTI via ThePrint",
       "date": "2026-10-12",
       "url": "https://theprint.in/india/sir-maharashtra-extends-deadline-for-claims-objections-on-draft-voter-list-to-oct-26/3069634/",
-      "note": "Reports claims through October 26, disposal by November 10, final publication November 16. Signed latest notification still required.",
+      "note": "Reports claims through October 26, disposal by November 10, final publication November 16. Signed latest notification still required. The signed ECI extension is now inspected as MH-EXT-OCT12; this reporting is no longer the strongest available schedule source.",
       "type": "Secondary report",
       "review_status": "Report retrieved in current review; underlying primary records still required"
     },
@@ -313,6 +313,56 @@
       "note": "Reports continued interim stay and preservation of original forms and electronic evidence. Signed order and case identifiers not authenticated here.",
       "type": "Secondary report",
       "review_status": "Report retrieved in current review; underlying primary records still required"
+    },
+    {
+      "id": "ECI-SSR-OCT15",
+      "title": "2027 Special Summary Revision directions",
+      "issuer": "Election Commission of India",
+      "type": "Official order",
+      "date": "2026-10-15",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17546",
+      "note": "15-page order No.23/2026-ERS. Scope and schedule on page 1. SSR is a separate revision stage; do not combine its outcomes with SIR without version mapping.",
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+    },
+    {
+      "id": "MH-EXT-OCT12",
+      "title": "Maharashtra revised SIR schedule and notification",
+      "issuer": "Election Commission of India, hosted by District Pune",
+      "type": "Official order",
+      "date": "2026-10-12",
+      "url": "https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/2026/10/17919700141486.pdf",
+      "note": "Two-page signed letter and notification. Visually checked. Letter directs immediate State Gazette publication; the actual Gazette issue remains unverified.",
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+    },
+    {
+      "id": "MH-CEO-OCT09",
+      "title": "Maharashtra CEO application bulletin",
+      "issuer": "Chief Electoral Officer Maharashtra, hosted by District Pune",
+      "type": "Official press note",
+      "date": "2026-10-09",
+      "url": "https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/2026/10/17915512404571.pdf",
+      "note": "Marathi bulletin visually checked. Counts through 8 October, not approvals or published inclusions. Its old 12 October deadline was superseded by the 12 October order.",
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+    },
+    {
+      "id": "PUNE-SIR-PAGE",
+      "title": "Pune SIR information page: conflicting schedule sections",
+      "issuer": "District Administration Pune",
+      "type": "Official portal",
+      "date": "2026-10-17",
+      "url": "https://pune.gov.in/en/sir-2026/",
+      "note": "Observation date, not order date. Overview and Important Dates contain different timetables; the same page links a later signed extension. Footer says last updated 15 October. No actual voter harm established by this observation.",
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+    },
+    {
+      "id": "BB-MH-OCT15",
+      "title": "Maharashtra petition: reported separate hearing, no immediate notice",
+      "issuer": "Bar & Bench",
+      "type": "Secondary report",
+      "date": "2026-10-15",
+      "url": "https://www.barandbench.com/amp/story/news/litigation/we-will-look-at-it-state-wise-supreme-court-in-plea-alleging-large-scale-voter-deletions-in-maharashtra-sir",
+      "note": "Reporter describes hearing proposed for 26 October and refusal to issue notice immediately. Keep separate from the different petition covered by TOI-NOTICE-OCT15. Signed record pending.",
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
     }
   ],
   "jurisdictions": [
@@ -340,7 +390,9 @@
       "questions": [
         "Obtain the constituency mapping table that links the 2002 reference to 2026 polling parts."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "arunachal-pradesh",
@@ -366,7 +418,9 @@
       "questions": [
         "Establish how older address and family relationships were validated against the January 2006 reference."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "chandigarh",
@@ -392,7 +446,9 @@
       "questions": [
         "Reconcile each final-roll change with the prior part, reason, ERO order and supplementary list."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "dadra-nagar-haveli-daman-diu",
@@ -418,7 +474,9 @@
       "questions": [
         "Obtain part-by-part reconciliation and notice delivery returns across both territories."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "haryana",
@@ -444,7 +502,9 @@
       "questions": [
         "Sample the evidence behind all cases coded shifted, absent or not found."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "jharkhand",
@@ -470,7 +530,9 @@
       "questions": [
         "Obtain the signed revised publication schedule and form-disposal returns."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "karnataka",
@@ -522,7 +584,9 @@
         "How many disputed objections were accepted, rejected or left pending?",
         "What do original electronic submission records show?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "maharashtra",
@@ -538,23 +602,27 @@
         "MAHA-CEO",
         "RER-1960",
         "IE-MH-AGE",
-        "PTI-MH-TIME"
+        "PTI-MH-TIME",
+        "MH-EXT-OCT12",
+        "MH-CEO-OCT09",
+        "PUNE-SIR-PAGE",
+        "BB-MH-OCT15"
       ],
       "tag": "A moving deadline, and a data-quality question",
       "deck": "Maharashtra brings two distinct issues into focus: changing public deadlines and an alleged birth-year anomaly in the underlying data.",
-      "lead": "A deadline is not a minor administrative detail when it determines whether someone can object to an omission. September orders shifted Maharashtra’s schedule; reporting in October described a further extension to 26 October. Meanwhile, separate reporting identified a cluster of implausible ages associated with the default birth year 1900. These are two different lines of inquiry.",
+      "lead": "The signed 12 October ECI extension now establishes Maharashtra’s revised timetable. The 9 October CEO bulletin separately records application intake. Neither source settles actual registration outcomes.",
       "facts": [
         [
           "26 Oct",
-          "Reported claims deadline, 2026"
+          "Claims deadline, signed order"
         ],
         [
           "10 Nov",
-          "Reported disposal deadline"
+          "Disposal deadline, signed order"
         ],
         [
-          "Pending",
-          "Signed latest extension"
+          "16 Nov",
+          "Final publication target"
         ]
       ],
       "story": [
@@ -572,11 +640,20 @@
         ]
       ],
       "questions": [
-        "Where is the authenticated order and Gazette notification for the October extension?",
+        "Locate the actual State Gazette issue publishing the 12 October notification; the signed notification itself has now been obtained.",
         "Were any decisions affected by the alleged 1900 birth-year defaults?",
         "Can ERO decisions be reconciled with final roll supplements?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred",
+      "latest_verified_schedule": {
+        "source_id": "MH-EXT-OCT12",
+        "claims_to": "2026-10-26",
+        "disposal_by": "2026-11-10",
+        "final_target": "2026-11-16",
+        "gazette_issue_verified": false
+      }
     },
     {
       "slug": "manipur",
@@ -602,7 +679,9 @@
       "questions": [
         "Request ERO reason-code, notice and appeal summaries disaggregated by constituency."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "meghalaya",
@@ -628,7 +707,9 @@
       "questions": [
         "Verify the rate at which unmatched cases were accepted following documentary inquiry."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "mizoram",
@@ -654,7 +735,9 @@
       "questions": [
         "Compare draft-publication dates with the actual notice registers and appeals."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "nagaland",
@@ -680,7 +763,9 @@
       "questions": [
         "Confirm whether the 22 November original final-roll date was subsequently amended."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "delhi",
@@ -731,7 +816,9 @@
         "How many eligible electors were successfully restored following follow-up visits?",
         "Were all claims-period extensions reflected in accessible official notices?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "odisha",
@@ -757,7 +844,9 @@
       "questions": [
         "Match pre-draft omissions to claims, decisions and final-roll supplements."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "punjab",
@@ -783,7 +872,9 @@
       "questions": [
         "Request district ERO registers of shifted voters, notices and accepted corrections."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "sikkim",
@@ -809,7 +900,9 @@
       "questions": [
         "Seek polling-part changes and independent supervisor sampling results."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "telangana",
@@ -835,7 +928,9 @@
       "questions": [
         "Obtain the pre-bifurcation reference-roll mapping, change logs and validation sign-offs."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "tripura",
@@ -885,7 +980,9 @@
         "Are district and constituency notices publicly archived?",
         "Do the actual case files meet the post-draft notice standard?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR schedule deferred"
     },
     {
       "slug": "uttarakhand",
@@ -935,7 +1032,9 @@
         "Were any statutory notices served before the draft?",
         "Was the public given an updated schedule by the CEO and DEOs?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "andaman-nicobar",
@@ -961,7 +1060,9 @@
       "questions": [
         "Gather the final-publication notice and applications disposed of during the 2026 exercise."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "assam",
@@ -987,7 +1088,9 @@
       "questions": [
         "Locate the applicable ECI order and current roll-decision statistics before drawing comparisons."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "bihar",
@@ -1038,7 +1141,9 @@
         "What evidence supported the combined “shifted/not found” classification?",
         "Were appeals and citizenship referrals resolved within the prescribed periods?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "chhattisgarh",
@@ -1064,7 +1169,9 @@
       "questions": [
         "Collect final-roll stock-flow reconciliation and appeal outcomes."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "goa",
@@ -1115,7 +1222,9 @@
         "Of the 97 persons, how many are now enrolled and by which process?",
         "Which ECINet matching-rule versions were used, and could authorised ERO decisions be implemented?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "gujarat",
@@ -1141,7 +1250,9 @@
       "questions": [
         "Find category-wise initial exclusions, approved additions and reasoned adverse decisions."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "himachal-pradesh",
@@ -1167,7 +1278,9 @@
       "questions": [
         "Verify whether the relevant later SIR phase and publication records are available."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SIR not started, according to 15 October order"
     },
     {
       "slug": "jammu-kashmir",
@@ -1193,7 +1306,9 @@
       "questions": [
         "Establish the exact operative rolls and territorial mappings before analysis."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SIR not started, according to 15 October order"
     },
     {
       "slug": "kerala",
@@ -1219,7 +1334,9 @@
       "questions": [
         "Collect a primary final-roll press note with separate additions and deletions."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "ladakh",
@@ -1245,7 +1362,9 @@
       "questions": [
         "Obtain part-level comparison and formal ERO decision totals."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SIR not started, according to 15 October order"
     },
     {
       "slug": "lakshadweep",
@@ -1271,7 +1390,9 @@
       "questions": [
         "Collect original objections and their disposal and appeal summary."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "madhya-pradesh",
@@ -1297,7 +1418,9 @@
       "questions": [
         "Request official source-by-source roll reconciliation for 2026."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "puducherry",
@@ -1323,7 +1446,9 @@
       "questions": [
         "Obtain the final-roll amendment lists and published constituency reports."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "rajasthan",
@@ -1349,7 +1474,9 @@
       "questions": [
         "Track additions, deletions and appeals using the final-roll baseline."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "tamil-nadu",
@@ -1375,7 +1502,9 @@
       "questions": [
         "Require reports stratified by the applicable 2002-versus-2005 baseline."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "uttar-pradesh",
@@ -1401,7 +1530,9 @@
       "questions": [
         "Begin with a small, reproducible sample of ERO case files and published amendments."
       ],
-      "depth": "Reference file"
+      "depth": "Reference file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     },
     {
       "slug": "west-bengal",
@@ -1452,7 +1583,9 @@
         "How many disputed notices resulted in retention, correction or exclusion?",
         "Were orders implemented in the operative roll before election deadlines?"
       ],
-      "depth": "Detailed file"
+      "depth": "Detailed file",
+      "revision_stage_source": "ECI-SSR-OCT15",
+      "revision_stage": "SSR scheduled"
     }
   ],
   "chronology": [
@@ -1547,6 +1680,11 @@
       "Press account reports notice on SIR governance allegations; no merits finding established."
     ],
     [
+      "15 Oct 2026",
+      "2027 SSR ordered in 17 jurisdictions",
+      "A separate revision stage; the order defers schedules elsewhere. Later SSR entries must be reconciled with SIR and continuous-update records."
+    ],
+    [
       "17 Oct 2026",
       "GitHub publication review",
       "Earlier archive recovered, source gaps narrowed and claims register added."
@@ -1584,10 +1722,10 @@
       "ECI-2026-05"
     ],
     [
-      "Gazette notices for deadline extensions",
+      "Gazette publication and public timetable consistency",
       "Maharashtra / Delhi",
-      "Trace any Rule 12 extension to its Gazette publication and the actual notification served.",
-      "RER-1960"
+      "Maharashtra signed extension and notification located. Obtain the actual Gazette issue and reconcile outdated district-page sections. Delhi still requires its latest primary schedule.",
+      "MH-EXT-OCT12"
     ],
     [
       "ECINet technical audit",
@@ -1624,6 +1762,12 @@
       "National",
       "Reconcile directions in the 27 May judgment with referrals to the competent authority.",
       "SC-2026-05"
+    ],
+    [
+      "Post-SIR to SSR version continuity",
+      "17 SSR jurisdictions",
+      "Reconcile eligible restoration applications across the SIR final roll, continuous-update supplements and the next SSR draft, without counting one event twice.",
+      "ECI-SSR-OCT15"
     ]
   ],
   "goa": {
@@ -1659,10 +1803,16 @@
       "date": "2026-10-17",
       "subject": "Form 7 source status",
       "correction": "9 October ECI order is now retrieved and inspected; previous pending-source status superseded. Implementation remains unverified."
+    },
+    {
+      "id": "COR-03",
+      "date": "2026-10-17",
+      "correction": "Maharashtra extension upgraded from secondary reporting to a signed ECI letter and notification. Actual State Gazette publication remains unverified. Original 1 October drive source is now directly available.",
+      "document": "MH-EXT-OCT12"
     }
   ],
   "review_date": "2026-10-17",
-  "edition": "GitHub publication 1.0",
+  "edition": "GitHub publication 1.1",
   "coverage_note": "36 jurisdiction files: 8 developed analyses and 28 reference files. A directory entry is not a completed local investigation. Research review on 17 October IST, sources checked through 16 October 2026. No live monitoring.",
   "claims": [
     {
@@ -1784,6 +1934,149 @@
       "limitation": "Instructions do not prove outcomes; election cutoffs still apply.",
       "next_evidence": "Case-level enrolment and publication returns.",
       "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "MH-TIME-01",
+      "claim": "Signed Maharashtra extension located",
+      "status": "Primary order inspected",
+      "source_id": "MH-EXT-OCT12",
+      "locator": "Pages 1–2",
+      "limitation": "Actual State Gazette publication not yet verified.",
+      "next_evidence": "Gazette issue, date and page reference.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "MH-INTAKE-01",
+      "claim": "CEO bulletin reports 719,382 Form 6 applications through 8 October",
+      "status": "Official intake data",
+      "source_id": "MH-CEO-OCT09",
+      "locator": "Single-page bulletin dated 9 October",
+      "limitation": "Not a count of accepted claims or restored voters; includes new applicants.",
+      "next_evidence": "Disposal returns and published entry reconciliation.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "PUNE-WEB-01",
+      "claim": "Pune page contains conflicting schedule sections",
+      "status": "Observed official-page inconsistency",
+      "source_id": "PUNE-SIR-PAGE",
+      "locator": "Overview, Important Dates and Press Note links",
+      "limitation": "No evidence here of a specific person missing a deadline because of it.",
+      "next_evidence": "Dated page versions, correction history and impact records.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "SSR-01",
+      "claim": "15 October order schedules a distinct SSR stage",
+      "status": "Primary order inspected",
+      "source_id": "ECI-SSR-OCT15",
+      "locator": "Page 1",
+      "limitation": "Stage boundaries must be retained in all longitudinal analysis.",
+      "next_evidence": "Actual draft and final publication records when issued.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "MH-COURT-01",
+      "claim": "Maharashtra plea reported separately, with no immediate notice",
+      "status": "Secondary court report",
+      "source_id": "BB-MH-OCT15",
+      "locator": "15 October hearing report",
+      "limitation": "Not the same procedural event as notice in a different national petition.",
+      "next_evidence": "Signed order and verified docket identity.",
+      "reviewed_on": "2026-10-17"
     }
-  ]
+  ],
+  "continuation_review": {
+    "reviewed_on": "2026-10-17",
+    "scope": "Primary-source follow-up: Maharashtra schedule and application bulletin, post-SIR drive and 2027 SSR boundary",
+    "new_sources": [
+      "ECI-SSR-OCT15",
+      "MH-EXT-OCT12",
+      "MH-CEO-OCT09",
+      "PUNE-SIR-PAGE",
+      "BB-MH-OCT15"
+    ],
+    "resolved_source_gaps": [
+      "Signed Maharashtra extension and notification located",
+      "Original 1 October ECI drive order now accessible"
+    ],
+    "remaining_gaps": [
+      "Actual Maharashtra Gazette issue",
+      "Application disposal and publication outcomes",
+      "Authenticated October court orders and exact Form 6 version",
+      "Independent ECINet review report"
+    ],
+    "not_claimed": [
+      "No RTI or institutional correspondence sent",
+      "No internal systems accessed",
+      "No individual voter records audited"
+    ]
+  },
+  "revision_stages": {
+    "source_id": "ECI-SSR-OCT15",
+    "order_date": "2026-10-15",
+    "ssr_scheduled": [
+      "andaman-nicobar",
+      "assam",
+      "bihar",
+      "chhattisgarh",
+      "goa",
+      "gujarat",
+      "kerala",
+      "lakshadweep",
+      "madhya-pradesh",
+      "manipur",
+      "puducherry",
+      "punjab",
+      "rajasthan",
+      "tamil-nadu",
+      "uttar-pradesh",
+      "uttarakhand",
+      "west-bengal"
+    ],
+    "ssr_deferred": [
+      "andhra-pradesh",
+      "arunachal-pradesh",
+      "chandigarh",
+      "dadra-nagar-haveli-daman-diu",
+      "delhi",
+      "haryana",
+      "jharkhand",
+      "karnataka",
+      "maharashtra",
+      "meghalaya",
+      "mizoram",
+      "nagaland",
+      "odisha",
+      "sikkim",
+      "telangana",
+      "tripura"
+    ],
+    "sir_not_started_as_stated_in_order": [
+      "himachal-pradesh",
+      "jammu-kashmir",
+      "ladakh"
+    ],
+    "ssr_schedule": {
+      "qualifying_date": "2027-01-01",
+      "draft": "2026-11-12",
+      "claims_from": "2026-11-12",
+      "claims_to": "2026-12-11",
+      "disposal_by": "2026-12-28",
+      "final": "2027-01-04"
+    },
+    "limitation": "Administrative scope of this order, not proof of completion or correctness of individual SIR outcomes."
+  },
+  "maharashtra_applications": {
+    "source_id": "MH-CEO-OCT09",
+    "as_of": "2026-10-08",
+    "period_from": "2026-08-31",
+    "unit": "applications",
+    "form_6": 719382,
+    "form_8": 399925,
+    "form_7": 18748,
+    "total": 1138055,
+    "outcomes_observed": false,
+    "limitation": "Mixed new and previously omitted applicant population; not a count of restorations. Separate forms need not represent unique people."
+  }
 }

@@ -2,11 +2,11 @@
 
 ## Passed
 
-- 48 research/navigation pages plus one 404 page.
+- 50 research/navigation pages plus one 404 page.
 - Internal page, asset and fragment checks: zero missing targets.
 - One title per HTML page; no duplicate element IDs.
-- 36 jurisdiction records; source references resolve in the 31-record ledger.
-- All 12 claims link to existing sources. CSV and JSON row counts agree.
+- 36 jurisdiction records; source references resolve in the 36-record ledger.
+- All 17 claims link to existing sources. CSV and JSON row counts agree.
 - Goa draft-to-final equation, pre-to-draft count and logical-discrepancy category sum reconcile.
 - Node syntax checks pass for site.js and search-data.js.
 
@@ -23,6 +23,14 @@
 
 Run `python3 scripts/validate.py`, `node --check assets/site.js` and `node --check assets/search-data.js` from the repository root.
 
-## Live deployment verification
+## Prior edition live deployment verification
 
 GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claims register, research JSON and site JavaScript. All seven responses matched the committed local files byte for byte. Live JSON contained 31 sources, 12 claims and 36 jurisdictions. Verified 17 October 2026 IST. This verifies serving and edition identity, not rendered browser behaviour.
+
+## Edition 1.1 continuation checks
+
+- Added two research articles, five sources and five claims.
+- The 17 scheduled, 16 deferred and 3 not-started jurisdiction groups are disjoint and cover all 36 records.
+- Maharashtra application sum reconciles to 1,138,055 forms; it remains explicitly labelled intake, not unique people or outcomes.
+- Maharashtra signed extension replaces the reporting-only source status. Gazette publication remains unverified.
+- Internal link, fragment, source-reference and JavaScript syntax checks repeated for this edition.
