@@ -22,3 +22,7 @@
 ## Reproduce
 
 Run `python3 scripts/validate.py`, `node --check assets/site.js` and `node --check assets/search-data.js` from the repository root.
+
+## Live deployment verification
+
+GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claims register, research JSON and site JavaScript. All seven responses matched the committed local files byte for byte. Live JSON contained 31 sources, 12 claims and 36 jurisdictions. Verified 17 October 2026 IST. This verifies serving and edition identity, not rendered browser behaviour.

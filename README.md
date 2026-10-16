@@ -12,7 +12,7 @@ This is an initial research edition. It is not a completed national forensic aud
 
 Repository Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save.
 
-Expected URL after GitHub confirms deployment: https://ashish-bhatia.github.io/the-sir-files/
+Live URL, verified 17 October 2026 IST: https://ashish-bhatia.github.io/the-sir-files/
 
 The site is buildless and contains .nojekyll. No custom GitHub Actions workflow, API keys, packages or server is needed. GitHub may run its own Pages deployment infrastructure after branch publishing is enabled.
 
