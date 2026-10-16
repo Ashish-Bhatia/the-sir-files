@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ashish-bhatia.github.io/the-sir-files/sitemap.xml

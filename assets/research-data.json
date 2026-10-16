@@ -1,0 +1,1789 @@
+{
+  "title": "The SIR Files",
+  "as_of": "2026-10-16",
+  "source_note": "Editorial source ledger. A citation to an official statement proves that the institution made it, not that underlying actions were correctly implemented.",
+  "sources": [
+    {
+      "id": "ECI-2026-05",
+      "title": "ECI order and Annexures I–VI",
+      "issuer": "Election Commission of India",
+      "type": "Official order",
+      "date": "2026-05-14",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17345",
+      "note": "Authoritative 30-page order. Phase III lists 19 States/UTs and individual schedules; Annexure V has historical-roll reference dates.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "ECI-2026-09",
+      "title": "ECI SIR review and September directions",
+      "issuer": "Election Commission of India",
+      "type": "Official press note",
+      "date": "2026-09-26",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17536",
+      "note": "ECINet expert-review announcement, Goa 97-person follow-up, extension and collection directions.",
+      "review_status": "Original endpoint unavailable; official Nagaland government reproduction inspected"
+    },
+    {
+      "id": "ECI-2026-10",
+      "title": "Special post-SIR enrolment drive",
+      "issuer": "Election Commission of India",
+      "type": "Official order",
+      "date": "2026-10-01",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17541",
+      "note": "BLO comparisons of pre/post SIR, follow-up visits and Form 6 assistance.",
+      "review_status": "Original endpoint unavailable; CEO Goa special-drive document inspected as corroboration"
+    },
+    {
+      "id": "SC-2026-05",
+      "title": "Association for Democratic Reforms v. Election Commission of India",
+      "issuer": "Supreme Court of India",
+      "type": "Judgment",
+      "date": "2026-05-27",
+      "url": "https://api.sci.gov.in/supremecourt/2025/35785/35785_2025_1_1501_71617_Judgement_27-May-2026.pdf",
+      "note": "2026 INSC 564, W.P.(C) 640/2025: Bihar SIR power and process upheld, with specific citizenship-inquiry limits. The SCI download did not resolve in this review; the 124-page copy linked by CEO Goa was inspected. See paragraphs 186–187.",
+      "mirror_url": "https://ceogoa.nic.in/PDF/SIR2026/SIR-Judgement-2026.pdf",
+      "review_status": "Government-hosted mirror inspected; original SCI endpoint unavailable"
+    },
+    {
+      "id": "SC-SUMMARY",
+      "title": "Landmark judicial summary: Bihar SIR",
+      "issuer": "Supreme Court of India",
+      "type": "Judicial summary",
+      "date": "2026-05-27",
+      "url": "https://www.sci.gov.in/landmark-judgment-summaries/",
+      "note": "Court-authored accessible summary; rely on judgment for exact holding.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "RPA-1950",
+      "title": "Representation of the People Act, 1950",
+      "issuer": "Legislative Department",
+      "type": "Legislation",
+      "date": "1950-05-12",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/ac33f0f2d5331c5a00d5c944e8bfe29c.pdf",
+      "note": "Sections 16–24 on qualifications, corrections, inclusion and appeals.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "RER-1960",
+      "title": "Registration of Electors Rules, 1960",
+      "issuer": "Legislative Department",
+      "type": "Rules",
+      "date": "1960-09-30",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/f7dc5e0686b1be5b478fdef741981e60.pdf",
+      "note": "Official electoral-law compendium containing Registration of Electors Rules, 1960. Consult the relevant rules and subsequent amendments, not the whole compilation as a single enactment.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "CIT-1955",
+      "title": "Citizenship Act, 1955",
+      "issuer": "Ministry of Home Affairs",
+      "type": "Legislation",
+      "date": "1955-12-30",
+      "url": "https://www.mha.gov.in/sites/default/files/2026-01/Citizenship_Act_1955_20012026.pdf",
+      "note": "Statutory nationality criteria; not interchangeable with documentary checklists.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "GOA-FINAL",
+      "title": "Goa SIR final publication",
+      "issuer": "Chief Electoral Officer Goa",
+      "type": "Official report",
+      "date": "2026-02-21",
+      "url": "https://ceogoa.nic.in/PDF/SIR2026/press-note-Final-publication.pdf",
+      "note": "Original 11,85,034 → draft 10,84,992 → final 10,57,566; breakdown of notices and outcomes.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "GOA-CAMPS",
+      "title": "Goa October special enrolment camps",
+      "issuer": "Chief Electoral Officer Goa",
+      "type": "Official notice",
+      "date": "2026-10-07",
+      "url": "https://ceogoa.nic.in/PDF/PressNoteCEO.pdf",
+      "note": "Scanned official notice inspected visually: camps 7–9 October, not proof of successful enrolment.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "GOA-SUPP",
+      "title": "Goa roll supplements",
+      "issuer": "Chief Electoral Officer Goa",
+      "type": "Official portal",
+      "date": "2026-10-10",
+      "url": "https://ceogoa.nic.in/",
+      "note": "Access current supplements and state CEO notices.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "WB-SC-JAN",
+      "title": "West Bengal SIR Supreme Court interim directions",
+      "issuer": "Supreme Court of India",
+      "type": "Court order",
+      "date": "2026-01-19",
+      "url": "https://api.sci.gov.in/supremecourt/2025/64235/64235_2025_1_30_67603_Order_19-Jan-2026.pdf",
+      "note": "Access to logical-discrepancy notices and electoral-roll inquiry.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "WB-SC-FEB",
+      "title": "West Bengal SIR additional judicial directions",
+      "issuer": "Supreme Court of India",
+      "type": "Court order",
+      "date": "2026-02-20",
+      "url": "https://api.sci.gov.in/supremecourt/2025/64235/64235_2025_1_31_68933_Order_20-Feb-2026.pdf",
+      "note": "Exceptional judicial-officer review arrangement; does not itself govern every state.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "VOTERS",
+      "title": "ECI Voters Services Portal",
+      "issuer": "Election Commission of India",
+      "type": "Official portal",
+      "date": "2026-10-15",
+      "url": "https://voters.eci.gov.in/",
+      "note": "Forms, electoral searches and application channels; availability depends on portal access.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "FORM-7",
+      "title": "Official Form 7 instructions",
+      "issuer": "Election Commission of India",
+      "type": "Official form",
+      "date": "2026-10-15",
+      "url": "https://voters.eci.gov.in/guidelines/Form-7_en.pdf",
+      "note": "Deletion objection grounds and applicant duties.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "ECI-PRESS-2025",
+      "title": "ECI Bihar final roll press release",
+      "issuer": "ECI through Press Information Bureau",
+      "type": "Official press note",
+      "date": "2025-09-30",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173316&lang=1&reg=3",
+      "note": "Original, draft and final totals; use historical press notes and judgment.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "GOA-97",
+      "title": "ECI September note on Goa 97-person cohort",
+      "issuer": "Election Commission of India",
+      "type": "Official press note",
+      "date": "2026-09-26",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17536",
+      "note": "81 of 97 had submitted Form 6; not the number approved.",
+      "review_status": "Original endpoint unavailable; official Nagaland government reproduction inspected"
+    },
+    {
+      "id": "MAHA-CEO",
+      "title": "Maharashtra CEO",
+      "issuer": "Chief Electoral Officer Maharashtra",
+      "type": "Official portal",
+      "date": "2026-10-15",
+      "url": "https://ceoelection.maharashtra.gov.in/",
+      "note": "State operational documents and current notices; superseded deadlines must be distinguished.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "SC-DOCKET",
+      "title": "Supreme Court cause lists",
+      "issuer": "Supreme Court of India",
+      "type": "Court portal",
+      "date": "2026-10-15",
+      "url": "https://www.sci.gov.in/published-cause-list/",
+      "note": "A listed hearing is not a signed judgment.",
+      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+    },
+    {
+      "id": "PIB-ALAND",
+      "title": "ECI statement on historical Aland Form 7 objections",
+      "issuer": "ECI via PIB",
+      "type": "Official statement",
+      "date": "2025-09-19",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2168836&lang=2&reg=48",
+      "note": "Historical comparison: ECI reported 6,018 applications, 24 substantiated and 5,994 rejected; not a 2026 SIR outcome.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "ECI-F7-OCT",
+      "title": "Individual Form 7 limits and scrutiny safeguards",
+      "issuer": "Election Commission of India",
+      "type": "Official order",
+      "date": "2026-10-09",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17545",
+      "note": "Signed 9 October 2026 order, No.23/Inst/2026-ERS, paragraphs 3–8. Retrieved and inspected in this review; replaces the earlier pending-source label.",
+      "review_status": "Source opened and inspected in this review"
+    },
+    {
+      "id": "NAG-SEP26",
+      "title": "Commission meeting decisions reproduced by DIPR Nagaland",
+      "issuer": "DIPR Nagaland",
+      "type": "Official statement",
+      "date": "2026-09-28",
+      "url": "https://ipr.nagaland.gov.in/election-commission-of-india-informs-on-sir",
+      "note": "Reproduces 26 September ECI decisions. Institutional account, not raw meeting minutes or a completed technical audit.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "SC-GOA-COPY",
+      "title": "Government-hosted copy of 2026 INSC 564",
+      "issuer": "CEO Goa / Supreme Court of India",
+      "type": "Judgment",
+      "date": "2026-05-27",
+      "url": "https://ceogoa.nic.in/PDF/SIR2026/SIR-Judgement-2026.pdf",
+      "note": "124-page judgment linked by CEO Goa. Original SCI endpoint unavailable during this review.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "GOA-DRIVE-COPY",
+      "title": "Post-SIR special-drive press note",
+      "issuer": "Chief Electoral Officer Goa",
+      "type": "Official notice",
+      "date": "2026-10-01",
+      "url": "https://ceogoa.nic.in/PDF/Press-Note-Special-Drive.pdf",
+      "note": "Ten-page multilingual document. Instructions and a drive announcement do not establish restoration outcomes; embedded order should be read with election-period restrictions.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "PTI-GOA-OCT02",
+      "title": "CEO account: 88 of the 97 Form 6 applications accepted",
+      "issuer": "PTI via ThePrint",
+      "type": "Secondary report",
+      "date": "2026-10-02",
+      "url": "https://theprint.in/india/goa-ceo-says-88-of-97-left-out-voters-have-filed-form-6-applications-accepted/3059788/",
+      "note": "Reports the Goa CEO’s 1 October status statement. Individual orders and final supplement entries remain unexamined.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "LB-FORM6-OCT12",
+      "title": "Reported courtroom clarification on revised Form 6",
+      "issuer": "Lawbeat",
+      "type": "Secondary report",
+      "date": "2026-10-12",
+      "url": "https://lawbeat.in/top-stories/supreme-court-clarifies-no-adjudication-on-modified-form-6-justice-bagchi-says-sc-neither-approved-nor-disapproved-it-1640826",
+      "note": "Reports no adjudication on revised Form 6. Oral remarks reported by journalists, not an authenticated signed October order.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "IE-FORM6-OCT12",
+      "title": "Reported Form 6 clarification",
+      "issuer": "The Indian Express",
+      "type": "Secondary report",
+      "date": "2026-10-12",
+      "url": "https://indianexpress.com/article/legal-news/sc-form-6-10918144/",
+      "note": "Corroborating report: neither approval nor disapproval. Does not replace the signed case record.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "TOI-NOTICE-OCT15",
+      "title": "Reported notice in SIR decision-making petition",
+      "issuer": "The Times of India",
+      "type": "Secondary report",
+      "date": "2026-10-15",
+      "url": "https://timesofindia.indiatimes.com/india/supreme-court-issues-notice-on-sir-petition-seeks-records-of-ec-decision-making/articleshow/134963954.cms",
+      "note": "Reports notice and requests for records. Notice is not a merits finding. Signed order and complete petition still required.",
+      "review_status": "Source opened in this review"
+    },
+    {
+      "id": "IE-MH-AGE",
+      "title": "Reported Maharashtra birth-year anomaly",
+      "issuer": "The Indian Express",
+      "date": "2026-10-09",
+      "url": "https://indianexpress.com/article/cities/mumbai/maharashtra-voters-100-years-age-month-fix-10913432/",
+      "note": "Report describes 270,313 affected records and an October 6 fix. Original correspondence, before/after data and impact audit not obtained.",
+      "type": "Secondary report",
+      "review_status": "Report retrieved in current review; underlying primary records still required"
+    },
+    {
+      "id": "PTI-MH-TIME",
+      "title": "Reported Maharashtra revised timetable",
+      "issuer": "PTI via ThePrint",
+      "date": "2026-10-12",
+      "url": "https://theprint.in/india/sir-maharashtra-extends-deadline-for-claims-objections-on-draft-voter-list-to-oct-26/3069634/",
+      "note": "Reports claims through October 26, disposal by November 10, final publication November 16. Signed latest notification still required.",
+      "type": "Secondary report",
+      "review_status": "Report retrieved in current review; underlying primary records still required"
+    },
+    {
+      "id": "IE-KA-PRESERVE",
+      "title": "Reported preservation direction in Karnataka Form 7 litigation",
+      "issuer": "The Indian Express",
+      "date": "2026-10-14",
+      "url": "https://indianexpress.com/article/legal-news/karnataka-hc-stays-probe-bjp-sir-agents-form-7-10921927/",
+      "note": "Reports continued interim stay and preservation of original forms and electronic evidence. Signed order and case identifiers not authenticated here.",
+      "type": "Secondary report",
+      "review_status": "Report retrieved in current review; underlying primary records still required"
+    }
+  ],
+  "jurisdictions": [
+    {
+      "slug": "andhra-pradesh",
+      "name": "Andhra Pradesh",
+      "baseline": "01 Jan 2002",
+      "draft": "21 Jul 2026",
+      "final": "22 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The January 2002 reference predates the creation of Telangana. A sound technical audit must show how the historical record was assigned to present constituencies, rather than treating place names as stable identifiers.",
+      "lead": "The January 2002 reference predates the creation of Telangana. A sound technical audit must show how the historical record was assigned to present constituencies, rather than treating place names as stable identifiers.",
+      "facts": [],
+      "story": [
+        [
+          "A pre-bifurcation roll in a later map",
+          "Obtain the constituency mapping table that links the 2002 reference to 2026 polling parts."
+        ]
+      ],
+      "questions": [
+        "Obtain the constituency mapping table that links the 2002 reference to 2026 polling parts."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "arunachal-pradesh",
+      "name": "Arunachal Pradesh",
+      "baseline": "01 Jan 2006",
+      "draft": "21 Jul 2026",
+      "final": "22 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The Commission chose January 2006 as Arunachal Pradesh’s reference, not the 2002 date used in several other states. Comparisons across states that ignore this difference would be misleading.",
+      "lead": "The Commission chose January 2006 as Arunachal Pradesh’s reference, not the 2002 date used in several other states. Comparisons across states that ignore this difference would be misleading.",
+      "facts": [],
+      "story": [
+        [
+          "A different historical starting point",
+          "Establish how older address and family relationships were validated against the January 2006 reference."
+        ]
+      ],
+      "questions": [
+        "Establish how older address and family relationships were validated against the January 2006 reference."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "chandigarh",
+      "name": "Chandigarh",
+      "baseline": "01 Jan 2002",
+      "draft": "21 Jul 2026",
+      "final": "22 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A compact jurisdiction does not remove the need for formal ERO decisions. Polling-part changes and ordinary residence still require a traceable entry history.",
+      "lead": "A compact jurisdiction does not remove the need for formal ERO decisions. Polling-part changes and ordinary residence still require a traceable entry history.",
+      "facts": [],
+      "story": [
+        [
+          "One urban territory, many revisions",
+          "Reconcile each final-roll change with the prior part, reason, ERO order and supplementary list."
+        ]
+      ],
+      "questions": [
+        "Reconcile each final-roll change with the prior part, reason, ERO order and supplementary list."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "dadra-nagar-haveli-daman-diu",
+      "name": "Dadra & Nagar Haveli and Daman & Diu",
+      "baseline": "01 Jan 2002",
+      "draft": "10 Jul 2026",
+      "final": "11 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The order addresses a combined Union Territory. Publication and comparison should still be checked at the constituency and polling-part level, not only against a combined total.",
+      "lead": "The order addresses a combined Union Territory. Publication and comparison should still be checked at the constituency and polling-part level, not only against a combined total.",
+      "facts": [],
+      "story": [
+        [
+          "Combined administration, distinct local rolls",
+          "Obtain part-by-part reconciliation and notice delivery returns across both territories."
+        ]
+      ],
+      "questions": [
+        "Obtain part-by-part reconciliation and notice delivery returns across both territories."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "haryana",
+      "name": "Haryana",
+      "baseline": "01 Jan 2002",
+      "draft": "21 Jul 2026",
+      "final": "22 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A historical-roll mismatch cannot by itself decide whether an elector currently lives at an address. Haryana’s evaluation should separate verified movement from failed contact.",
+      "lead": "A historical-roll mismatch cannot by itself decide whether an elector currently lives at an address. Haryana’s evaluation should separate verified movement from failed contact.",
+      "facts": [],
+      "story": [
+        [
+          "The ordinary-residence test matters",
+          "Sample the evidence behind all cases coded shifted, absent or not found."
+        ]
+      ],
+      "questions": [
+        "Sample the evidence behind all cases coded shifted, absent or not found."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "jharkhand",
+      "name": "Jharkhand",
+      "baseline": "01 Jan 2003",
+      "draft": "05 Aug 2026",
+      "final": "07 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A January 2003 historical reference and an August original draft date frame this file. The meaningful denominator is not only the draft count but the number of properly decided claims and objections.",
+      "lead": "A January 2003 historical reference and an August original draft date frame this file. The meaningful denominator is not only the draft count but the number of properly decided claims and objections.",
+      "facts": [],
+      "story": [
+        [
+          "What exactly changed after the draft?",
+          "Obtain the signed revised publication schedule and form-disposal returns."
+        ]
+      ],
+      "questions": [
+        "Obtain the signed revised publication schedule and form-disposal returns."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "karnataka",
+      "name": "Karnataka",
+      "baseline": "01 Jan 2002",
+      "draft": "05 Aug 2026",
+      "final": "07 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "FORM-7",
+        "RER-1960",
+        "PIB-ALAND",
+        "IE-KA-PRESERVE"
+      ],
+      "tag": "What an objection can—and cannot—establish",
+      "deck": "Bulk Form 7 applications are a legitimate object of forensic examination. Their existence alone does not prove that voters were deleted or that crimes were committed.",
+      "lead": "Karnataka presents a test of two systems operating in parallel: electoral adjudication and criminal investigation. In October 2026, proceedings concerning allegedly false Form 7 objections were reported in the High Court. The central evidence is the original application, applicant authentication, the objected-to elector’s response, and what the ERO actually decided.",
+      "facts": [
+        [
+          "Form 7",
+          "Deletion objection"
+        ],
+        [
+          "ERO",
+          "Decision-maker"
+        ],
+        [
+          "Unresolved",
+          "Reported 2026 cases"
+        ]
+      ],
+      "story": [
+        [
+          "Applications are not deletions",
+          "An applicant may claim that a registered person died, shifted, duplicated an entry or lacked eligibility. The ERO must consider the statutory ground and the evidence. An unproved assertion in Form 7 should not be counted as a completed deletion."
+        ],
+        [
+          "A historical warning",
+          "The Commission’s account of the Aland matter described 6,018 applications in 2023, of which 24 were considered genuine. That historical incident is an important comparator—but not proof about people involved in 2026 litigation."
+        ],
+        [
+          "Electronic provenance matters",
+          "Preservation should reach original forms, submission timestamps, authentication events and case histories. A headline about a stay or alleged impersonation is not a signed criminal judgment."
+        ]
+      ],
+      "questions": [
+        "Can authenticated High Court orders and case numbers be obtained?",
+        "How many disputed objections were accepted, rejected or left pending?",
+        "What do original electronic submission records show?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "maharashtra",
+      "name": "Maharashtra",
+      "baseline": "01 Jan 2002",
+      "draft": "05 Aug 2026",
+      "final": "07 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05",
+        "ECI-2026-09",
+        "MAHA-CEO",
+        "RER-1960",
+        "IE-MH-AGE",
+        "PTI-MH-TIME"
+      ],
+      "tag": "A moving deadline, and a data-quality question",
+      "deck": "Maharashtra brings two distinct issues into focus: changing public deadlines and an alleged birth-year anomaly in the underlying data.",
+      "lead": "A deadline is not a minor administrative detail when it determines whether someone can object to an omission. September orders shifted Maharashtra’s schedule; reporting in October described a further extension to 26 October. Meanwhile, separate reporting identified a cluster of implausible ages associated with the default birth year 1900. These are two different lines of inquiry.",
+      "facts": [
+        [
+          "26 Oct",
+          "Reported claims deadline, 2026"
+        ],
+        [
+          "10 Nov",
+          "Reported disposal deadline"
+        ],
+        [
+          "Pending",
+          "Signed latest extension"
+        ]
+      ],
+      "story": [
+        [
+          "The timetable must have one authoritative version",
+          "Original ECI Annexure VI envisaged an October 7 final roll. Later instructions superseded that schedule. Before advising any applicant, the latest signed order and the required notification must be checked; a cached district page does not settle the matter."
+        ],
+        [
+          "A data error is not automatically a deletion",
+          "Reporting described approximately 2.7 lakh anomalous ages, concentrated in some Nashik constituencies. The meaningful question is not just whether the data were corrected, but whether incorrect values triggered unnecessary notices or changed any ERO decision."
+        ],
+        [
+          "What would establish impact",
+          "A complete incident report would connect each affected record to its source value, ETL transformations, notice history, corrected value and final registration status."
+        ]
+      ],
+      "questions": [
+        "Where is the authenticated order and Gazette notification for the October extension?",
+        "Were any decisions affected by the alleged 1900 birth-year defaults?",
+        "Can ERO decisions be reconciled with final roll supplements?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "manipur",
+      "name": "Manipur",
+      "baseline": "01 Jan 2005",
+      "draft": "05 Jul 2026",
+      "final": "06 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The 2005 historical reference has to be interpreted under modern registration law. Any claim about current absence needs individual evidence rather than a demographic inference.",
+      "lead": "The 2005 historical reference has to be interpreted under modern registration law. Any claim about current absence needs individual evidence rather than a demographic inference.",
+      "facts": [],
+      "story": [
+        [
+          "The record must distinguish absence from ineligibility",
+          "Request ERO reason-code, notice and appeal summaries disaggregated by constituency."
+        ]
+      ],
+      "questions": [
+        "Request ERO reason-code, notice and appeal summaries disaggregated by constituency."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "meghalaya",
+      "name": "Meghalaya",
+      "baseline": "01 Jan 2005",
+      "draft": "05 Aug 2026",
+      "final": "07 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A historical match is one source of information. People who moved, newly reached voting age or otherwise qualified later must be evaluated under the 1950 Act.",
+      "lead": "A historical match is one source of information. People who moved, newly reached voting age or otherwise qualified later must be evaluated under the 1950 Act.",
+      "facts": [],
+      "story": [
+        [
+          "A 2005 benchmark, not an automatic exclusion rule",
+          "Verify the rate at which unmatched cases were accepted following documentary inquiry."
+        ]
+      ],
+      "questions": [
+        "Verify the rate at which unmatched cases were accepted following documentary inquiry."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "mizoram",
+      "name": "Mizoram",
+      "baseline": "01 Jan 2005",
+      "draft": "05 Jul 2026",
+      "final": "06 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The May order placed Mizoram in the first Phase III schedule group. Timing affects how much notice and appeal opportunity an affected elector actually had.",
+      "lead": "The May order placed Mizoram in the first Phase III schedule group. Timing affects how much notice and appeal opportunity an affected elector actually had.",
+      "facts": [],
+      "story": [
+        [
+          "Earlier in the phase, still governed by the same safeguards",
+          "Compare draft-publication dates with the actual notice registers and appeals."
+        ]
+      ],
+      "questions": [
+        "Compare draft-publication dates with the actual notice registers and appeals."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "nagaland",
+      "name": "Nagaland",
+      "baseline": "01 Jan 2005",
+      "draft": "20 Sep 2026",
+      "final": "22 Nov 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "Nagaland’s original Annexure VI schedule ran later than most Phase III jurisdictions. It cannot be rolled into national statistics on the same assumed final date.",
+      "lead": "Nagaland’s original Annexure VI schedule ran later than most Phase III jurisdictions. It cannot be rolled into national statistics on the same assumed final date.",
+      "facts": [],
+      "story": [
+        [
+          "A later timetable changes the urgency",
+          "Confirm whether the 22 November original final-roll date was subsequently amended."
+        ]
+      ],
+      "questions": [
+        "Confirm whether the 22 November original final-roll date was subsequently amended."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "delhi",
+      "name": "NCT of Delhi",
+      "baseline": "01 Jan 2002",
+      "draft": "05 Aug 2026",
+      "final": "07 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05",
+        "ECI-2026-09",
+        "RPA-1950"
+      ],
+      "tag": "A large verification exercise under a changing timetable",
+      "deck": "Delhi’s concern is not only how many notices were issued, but what happened after residents responded.",
+      "lead": "Delhi entered the May 2026 revision with a 2002 historical-roll reference. The Commission’s September update extended the claims-and-objections deadline to 30 October. Reports describe considerable document verification in cases where a historical link was missing or logically inconsistent. Verified cases, accepted inclusions and retained entries are not equivalent measures.",
+      "facts": [
+        [
+          "2002",
+          "Historical reference year"
+        ],
+        [
+          "30 Oct",
+          "Claims deadline in Sep order"
+        ],
+        [
+          "Open",
+          "Application outcomes"
+        ]
+      ],
+      "story": [
+        [
+          "The baseline is a reference, not a verdict",
+          "Being unlinked to the January 2002 roll is not proof of non-citizenship or absence of ordinary residence in 2026. The legal question for the ERO remains present eligibility."
+        ],
+        [
+          "The response to a notice must count",
+          "The number of people who supplied documents is an activity measure. What matters for inclusion is how many decisions were made, how many were favourable and whether the correct entries appeared in the final roll."
+        ],
+        [
+          "A practical route to accountability",
+          "Data should be obtainable by constituency: flagged cases, served notices, responses received, reasons for rejection, successful appeals and corrections."
+        ]
+      ],
+      "questions": [
+        "How many discrepancy notices were disposed of before the final roll?",
+        "How many eligible electors were successfully restored following follow-up visits?",
+        "Were all claims-period extensions reflected in accessible official notices?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "odisha",
+      "name": "Odisha",
+      "baseline": "01 Jan 2002",
+      "draft": "05 Jul 2026",
+      "final": "06 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "Odisha was in the early group with a 5 July draft target. The issue to follow is the complete sequence from provisional omissions to final decisions.",
+      "lead": "Odisha was in the early group with a 5 July draft target. The issue to follow is the complete sequence from provisional omissions to final decisions.",
+      "facts": [],
+      "story": [
+        [
+          "One of the first Phase III drafts",
+          "Match pre-draft omissions to claims, decisions and final-roll supplements."
+        ]
+      ],
+      "questions": [
+        "Match pre-draft omissions to claims, decisions and final-roll supplements."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "punjab",
+      "name": "Punjab",
+      "baseline": "01 Jan 2003",
+      "draft": "31 Jul 2026",
+      "final": "01 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The 2003 benchmark is useful for historical matching, but legal registration turns on current qualifying criteria. The appeal path must be visible in any adverse case.",
+      "lead": "The 2003 benchmark is useful for historical matching, but legal registration turns on current qualifying criteria. The appeal path must be visible in any adverse case.",
+      "facts": [],
+      "story": [
+        [
+          "The difference between a historical link and current residence",
+          "Request district ERO registers of shifted voters, notices and accepted corrections."
+        ]
+      ],
+      "questions": [
+        "Request district ERO registers of shifted voters, notices and accepted corrections."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "sikkim",
+      "name": "Sikkim",
+      "baseline": "01 Jan 2002",
+      "draft": "05 Jul 2026",
+      "final": "06 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A state-level percentage may obscure a concentrated issue in one polling part. Here, too, the original reference is 2002.",
+      "lead": "A state-level percentage may obscure a concentrated issue in one polling part. Here, too, the original reference is 2002.",
+      "facts": [],
+      "story": [
+        [
+          "Small numbers can conceal large local effects",
+          "Seek polling-part changes and independent supervisor sampling results."
+        ]
+      ],
+      "questions": [
+        "Seek polling-part changes and independent supervisor sampling results."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "telangana",
+      "name": "Telangana",
+      "baseline": "01 Jan 2002",
+      "draft": "31 Jul 2026",
+      "final": "01 Oct 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "Telangana became a state in 2014, yet Annexure V assigns a 2002 reference. The geographical and administrative mapping from older rolls deserves its own technical documentation.",
+      "lead": "Telangana became a state in 2014, yet Annexure V assigns a 2002 reference. The geographical and administrative mapping from older rolls deserves its own technical documentation.",
+      "facts": [],
+      "story": [
+        [
+          "The baseline predates the state itself",
+          "Obtain the pre-bifurcation reference-roll mapping, change logs and validation sign-offs."
+        ]
+      ],
+      "questions": [
+        "Obtain the pre-bifurcation reference-roll mapping, change logs and validation sign-offs."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "tripura",
+      "name": "Tripura",
+      "baseline": "01 Jan 2005",
+      "draft": "21 Oct 2026",
+      "final": "23 Dec 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05",
+        "RER-1960"
+      ],
+      "tag": "The correction file",
+      "deck": "A past version of our own investigation misread Tripura’s claims deadline. The signed ECI annexure resolves the matter.",
+      "lead": "This case is about accountability in research as much as election administration. An earlier edition of The SIR Files suggested that ECI had published an impossible claims period. Inspection of the complete 30-page order showed the end date was 20 November, not 20 October. The incorrect assertion was withdrawn.",
+      "facts": [
+        [
+          "21 Oct",
+          "Claims open, original schedule"
+        ],
+        [
+          "20 Nov",
+          "Claims close, original schedule"
+        ],
+        [
+          "23 Dec",
+          "Original final-roll date"
+        ]
+      ],
+      "story": [
+        [
+          "What the controlling order says",
+          "Annexure VI of the 14 May 2026 order provides an internally consistent schedule. Any later amendment should be examined separately."
+        ],
+        [
+          "Why the correction stays public",
+          "A research archive should preserve its corrections. The evidence label was changed when the original document was examined, rather than concealing the old error."
+        ],
+        [
+          "What remains worth investigating",
+          "The further question is whether actual revision steps, notifications, Form 6 submissions and decision registers followed the operative schedule."
+        ]
+      ],
+      "questions": [
+        "Were any subsequent schedule amendments issued for Tripura?",
+        "Are district and constituency notices publicly archived?",
+        "Do the actual case files meet the post-draft notice standard?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "uttarakhand",
+      "name": "Uttarakhand",
+      "baseline": "01 Jan 2003",
+      "draft": "14 Jul 2026",
+      "final": "15 Sep 2026",
+      "group": "Phase III (14 May 2026)",
+      "verified": "ECI annexure; dates are original, and may be superseded",
+      "sources": [
+        "ECI-2026-05",
+        "RER-1960"
+      ],
+      "tag": "A four-day question in the original timetable",
+      "deck": "The May 2026 schedule places the start of the notice/disposal window before draft publication. The discrepancy is verifiable; its effect is not.",
+      "lead": "On page 30 of the 14 May ECI order, Uttarakhand’s draft is dated 14 July, while a notice/disposal window begins on 10 July. The dates do not align with the ordinary understanding of post-draft discrepancy notices. There may be a clerical explanation or an intentionally broader preparatory window. The original document alone cannot decide which.",
+      "facts": [
+        [
+          "14 Jul",
+          "Draft date in original"
+        ],
+        [
+          "10 Jul",
+          "Notice window starts"
+        ],
+        [
+          "Unverified",
+          "Correcting instruction"
+        ]
+      ],
+      "story": [
+        [
+          "Read the whole order",
+          "The same ECI order says notices for unmatched or discrepant cases are to be issued after publication of the draft. The apparent tension therefore deserves clarification from the operative state circulars."
+        ],
+        [
+          "The decisive files",
+          "The public timetable should be compared with actual service dates, types of notices and the responsible ERO’s statutory authority. A contradictory printed date does not establish that any elector was denied a hearing."
+        ],
+        [
+          "A 2003 reference",
+          "The historical matching date is 1 January 2003. It is evidence used in processing, not a substitute for present-day eligibility."
+        ]
+      ],
+      "questions": [
+        "Was a corrigendum issued for the notice/disposal window?",
+        "Were any statutory notices served before the draft?",
+        "Was the public given an updated schedule by the CEO and DEOs?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "andaman-nicobar",
+      "name": "Andaman & Nicobar Islands",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The May annexure records 2002 and 2026 intensive-revision reference dates. It does not supply a 2026 list of disputed individual cases.",
+      "lead": "The May annexure records 2002 and 2026 intensive-revision reference dates. It does not supply a 2026 list of disputed individual cases.",
+      "facts": [],
+      "story": [
+        [
+          "A completed reference, not a new allegation",
+          "Gather the final-publication notice and applications disposed of during the 2026 exercise."
+        ]
+      ],
+      "questions": [
+        "Gather the final-publication notice and applications disposed of during the 2026 exercise."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "assam",
+      "name": "Assam",
+      "baseline": "01 Jan 2005",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The Commission’s annexure lists January 2005 as the last reference. Other registers or citizenship procedures must not be conflated with electoral-roll adjudication without specific statutory authority.",
+      "lead": "The Commission’s annexure lists January 2005 as the last reference. Other registers or citizenship procedures must not be conflated with electoral-roll adjudication without specific statutory authority.",
+      "facts": [],
+      "story": [
+        [
+          "A 2005 historical reference in a distinct legal context",
+          "Locate the applicable ECI order and current roll-decision statistics before drawing comparisons."
+        ]
+      ],
+      "questions": [
+        "Locate the applicable ECI order and current roll-decision statistics before drawing comparisons."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "bihar",
+      "name": "Bihar",
+      "baseline": "01 Jan 2003 / 01 Jul 2025",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "SC-2026-05",
+        "SC-SUMMARY",
+        "RPA-1950"
+      ],
+      "tag": "The case that reached the Supreme Court",
+      "deck": "Bihar supplies the constitutional judgment, but the difference between a lawful process and a correct individual decision remains central to the record.",
+      "lead": "A contested enumeration campaign in 2025 changed the language of India’s electoral-roll debate. Its draft was missing roughly 65 lakh entries from the pre-revision electorate. Months later, the Supreme Court upheld the Commission’s authority and the framework used. Neither event, alone, tells us whether every omitted citizen had a fair chance to remain on the roll.",
+      "facts": [
+        [
+          "7.89 crore",
+          "Approx. pre-SIR entries"
+        ],
+        [
+          "7.24 crore",
+          "Draft roll entries"
+        ],
+        [
+          "7.42 crore",
+          "Final roll entries"
+        ]
+      ],
+      "story": [
+        [
+          "What the Court decided",
+          "In May 2026 the Supreme Court held that Article 324 and Section 21(3) allow special intensive revision. The Court accepted the central aim of correcting the register and found the Bihar framework compliant with the governing election rules. It maintained a boundary: an ERO’s inquiry into eligibility must not be mistaken for formal adjudication of Indian citizenship."
+        ],
+        [
+          "What the numbers leave unanswered",
+          "A draft name not found and a final deletion are different events. The official figures record approximately 21.53 lakh additions and 3.66 lakh further removals between draft and final. Without identity-level links, a simple subtraction cannot identify how many people from the original missing cohort later returned."
+        ],
+        [
+          "Where scrutiny belongs",
+          "For any challenged case, the source is a specific ERO order: the alleged ground, BLO inquiries, the notice and the hearing record. A system-wide judgment cannot substitute for inspecting those files."
+        ]
+      ],
+      "questions": [
+        "How many of the draft’s 65 lakh absent names reappeared through Form 6 or corrections?",
+        "What evidence supported the combined “shifted/not found” classification?",
+        "Were appeals and citizenship referrals resolved within the prescribed periods?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "chhattisgarh",
+      "name": "Chhattisgarh",
+      "baseline": "01 Jan 2003 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure confirms earlier 2003 and later 2026 references. The file presently records that documentary fact, not a verified deletion allegation.",
+      "lead": "The annexure confirms earlier 2003 and later 2026 references. The file presently records that documentary fact, not a verified deletion allegation.",
+      "facts": [],
+      "story": [
+        [
+          "A 2026 revision is listed, but not yet audited here",
+          "Collect final-roll stock-flow reconciliation and appeal outcomes."
+        ]
+      ],
+      "questions": [
+        "Collect final-roll stock-flow reconciliation and appeal outcomes."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "goa",
+      "name": "Goa",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "GOA-FINAL",
+        "GOA-CAMPS",
+        "GOA-97"
+      ],
+      "tag": "The most complete numerical record",
+      "deck": "In Goa, the state CEO’s own report permits a proper accounting of the change from the old roll to the final register. It also points to thousands of decisions still requiring individual audit.",
+      "lead": "The Goa case is not principally about one dramatic number. It is about whether each part of the roll can be explained. The state’s signed final-publication report separates draft omissions, accepted additions, form-based deletions and determinations made after discrepancy proceedings. It provides the clearest opportunity yet to connect software flags to accountable decisions.",
+      "facts": [
+        [
+          "11,85,034",
+          "Pre-SIR"
+        ],
+        [
+          "10,84,992",
+          "Draft"
+        ],
+        [
+          "10,57,566",
+          "Final"
+        ]
+      ],
+      "story": [
+        [
+          "A reconciliation that balances",
+          "Starting from the draft, 12,166 accepted additions and 39,592 removals produce the reported final electorate exactly. Of those removals, 3,812 were processed through forms, while 35,780 followed eligibility proceedings relating to unmatched records or logical discrepancies."
+        ],
+        [
+          "The flags behind the notices",
+          "ECINet reportedly flagged 58,923 logical discrepancies among historically linked voters; 41,116 involved a father’s-name mismatch. Names can differ through spelling, transliteration or source error. A flag is a request for examination, not proof that an elector is ineligible."
+        ],
+        [
+          "The unfinished 97-person file",
+          "ECI subsequently identified 97 people requiring special follow-up, of whom 81 had submitted Form 6 by 26 September. Goa announced further camps in October. Submitted applications cannot be equated with approved restoration without the final orders and supplements."
+        ]
+      ],
+      "questions": [
+        "What statutory grounds supported each of the 35,780 post-draft eligibility decisions?",
+        "Of the 97 persons, how many are now enrolled and by which process?",
+        "Which ECINet matching-rule versions were used, and could authorised ERO decisions be implemented?"
+      ],
+      "depth": "Detailed file"
+    },
+    {
+      "slug": "gujarat",
+      "name": "Gujarat",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "Comparing a 2002 reference to a 2026 revised roll is a research starting point. The administrative record needed for evaluating exclusion is much more granular.",
+      "lead": "Comparing a 2002 reference to a 2026 revised roll is a research starting point. The administrative record needed for evaluating exclusion is much more granular.",
+      "facts": [],
+      "story": [
+        [
+          "Historical and 2026 reference rolls",
+          "Find category-wise initial exclusions, approved additions and reasoned adverse decisions."
+        ]
+      ],
+      "questions": [
+        "Find category-wise initial exclusions, approved additions and reasoned adverse decisions."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "himachal-pradesh",
+      "name": "Himachal Pradesh",
+      "baseline": "01 Jan 2002",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The state appears in Annexure V with a 2002 historical qualifying date. There is insufficient verified material in the current archive to advance any claim about 2026 exclusions.",
+      "lead": "The state appears in Annexure V with a 2002 historical qualifying date. There is insufficient verified material in the current archive to advance any claim about 2026 exclusions.",
+      "facts": [],
+      "story": [
+        [
+          "An older reference without a full case study",
+          "Verify whether the relevant later SIR phase and publication records are available."
+        ]
+      ],
+      "questions": [
+        "Verify whether the relevant later SIR phase and publication records are available."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "jammu-kashmir",
+      "name": "Jammu & Kashmir",
+      "baseline": "01 Jan 2005",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure identifies a 2005 reference. Any cross-year comparison should first account for changes in jurisdiction, constituency boundaries and the applicable elections.",
+      "lead": "The annexure identifies a 2005 reference. Any cross-year comparison should first account for changes in jurisdiction, constituency boundaries and the applicable elections.",
+      "facts": [],
+      "story": [
+        [
+          "Historical electoral geography requires care",
+          "Establish the exact operative rolls and territorial mappings before analysis."
+        ]
+      ],
+      "questions": [
+        "Establish the exact operative rolls and territorial mappings before analysis."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "kerala",
+      "name": "Kerala",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure records January 2002 and January 2026. That entry provides scope for a state report but says nothing by itself about wrongdoing or restoration outcomes.",
+      "lead": "The annexure records January 2002 and January 2026. That entry provides scope for a state report but says nothing by itself about wrongdoing or restoration outcomes.",
+      "facts": [],
+      "story": [
+        [
+          "A 2026 intensive revision reference",
+          "Collect a primary final-roll press note with separate additions and deletions."
+        ]
+      ],
+      "questions": [
+        "Collect a primary final-roll press note with separate additions and deletions."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "ladakh",
+      "name": "Ladakh",
+      "baseline": "01 Jan 2005",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A 2005 historical reference is recorded. Such references should be matched using documented identity logic, not unsupported guesses about residence or family links.",
+      "lead": "A 2005 historical reference is recorded. Such references should be matched using documented identity logic, not unsupported guesses about residence or family links.",
+      "facts": [],
+      "story": [
+        [
+          "Small population, high value of record linkage",
+          "Obtain part-level comparison and formal ERO decision totals."
+        ]
+      ],
+      "questions": [
+        "Obtain part-level comparison and formal ERO decision totals."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "lakshadweep",
+      "name": "Lakshadweep",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure lists 2002 and 2026 historical dates. Even where overall numbers are small, each objection should have a traceable statutory ground.",
+      "lead": "The annexure lists 2002 and 2026 historical dates. Even where overall numbers are small, each objection should have a traceable statutory ground.",
+      "facts": [],
+      "story": [
+        [
+          "A small electorate still requires a full audit trail",
+          "Collect original objections and their disposal and appeal summary."
+        ]
+      ],
+      "questions": [
+        "Collect original objections and their disposal and appeal summary."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "baseline": "01 Jan 2003 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure lists earlier 2003 and later 2026 reference dates. A useful investigation needs separate reports of provisional draft non-inclusion and final statutory decisions.",
+      "lead": "The annexure lists earlier 2003 and later 2026 reference dates. A useful investigation needs separate reports of provisional draft non-inclusion and final statutory decisions.",
+      "facts": [],
+      "story": [
+        [
+          "The 2003 baseline is only the beginning",
+          "Request official source-by-source roll reconciliation for 2026."
+        ]
+      ],
+      "questions": [
+        "Request official source-by-source roll reconciliation for 2026."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "puducherry",
+      "name": "Puducherry",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure records 2002 and 2026 intensive-revision references. Treat each segment of the territory as a legal administrative jurisdiction when testing publication and notice.",
+      "lead": "The annexure records 2002 and 2026 intensive-revision references. Treat each segment of the territory as a legal administrative jurisdiction when testing publication and notice.",
+      "facts": [],
+      "story": [
+        [
+          "Separate territories, a single Union Territory file",
+          "Obtain the final-roll amendment lists and published constituency reports."
+        ]
+      ],
+      "questions": [
+        "Obtain the final-roll amendment lists and published constituency reports."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "rajasthan",
+      "name": "Rajasthan",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "A reference roll can be used to find anomalies but does not independently count eligible voters who disappeared. The annexure lists 2002 and 2026 dates.",
+      "lead": "A reference roll can be used to find anomalies but does not independently count eligible voters who disappeared. The annexure lists 2002 and 2026 dates.",
+      "facts": [],
+      "story": [
+        [
+          "Why historical matching is not a vote-loss metric",
+          "Track additions, deletions and appeals using the final-roll baseline."
+        ]
+      ],
+      "questions": [
+        "Track additions, deletions and appeals using the final-roll baseline."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "tamil-nadu",
+      "name": "Tamil Nadu",
+      "baseline": "01 Jan 2002 (197 constituencies) / 01 Jan 2005 (37 constituencies) / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "Annexure V unusually distinguishes 197 Assembly constituencies with a 2002 reference from 37 with a 2005 reference, followed by 2026. A state-wide match rate without this split would be methodologically unsound.",
+      "lead": "Annexure V unusually distinguishes 197 Assembly constituencies with a 2002 reference from 37 with a 2005 reference, followed by 2026. A state-wide match rate without this split would be methodologically unsound.",
+      "facts": [],
+      "story": [
+        [
+          "Two historical references within one state",
+          "Require reports stratified by the applicable 2002-versus-2005 baseline."
+        ]
+      ],
+      "questions": [
+        "Require reports stratified by the applicable 2002-versus-2005 baseline."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "uttar-pradesh",
+      "name": "Uttar Pradesh",
+      "baseline": "01 Jan 2003 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "ECI-2026-05"
+      ],
+      "tag": "REFERENCE FILE · PRIMARY DATA STILL NEEDED",
+      "deck": "The annexure records January 2003 and January 2026. The size of a state alone does not establish the quality of enumeration, deletion or appeal decisions.",
+      "lead": "The annexure records January 2003 and January 2026. The size of a state alone does not establish the quality of enumeration, deletion or appeal decisions.",
+      "facts": [],
+      "story": [
+        [
+          "The 2003 reference meets a large 2026 roll",
+          "Begin with a small, reproducible sample of ERO case files and published amendments."
+        ]
+      ],
+      "questions": [
+        "Begin with a small, reproducible sample of ERO case files and published amendments."
+      ],
+      "depth": "Reference file"
+    },
+    {
+      "slug": "west-bengal",
+      "name": "West Bengal",
+      "baseline": "01 Jan 2002 / 01 Jan 2026",
+      "draft": null,
+      "final": null,
+      "group": "Other states and UTs in Annexure V",
+      "verified": "Reference-roll record, not a statement of current SIR completion",
+      "sources": [
+        "WB-SC-JAN",
+        "WB-SC-FEB",
+        "RER-1960"
+      ],
+      "tag": "Judicial safeguards in practice",
+      "deck": "The West Bengal proceedings illustrate how the courts can order exceptional procedures without rewriting the system for the entire country.",
+      "lead": "In West Bengal, the question moved from whether a revision could happen to whether affected electors could understand and challenge discrepancies. Supreme Court orders in January and February 2026 addressed notice accessibility and the adjudication of pending cases, including an exceptional role for judicial officers.",
+      "facts": [
+        [
+          "19 Jan",
+          "First key order, 2026"
+        ],
+        [
+          "20 Feb",
+          "Further directions, 2026"
+        ],
+        [
+          "Open",
+          "Individual-level outcomes"
+        ]
+      ],
+      "story": [
+        [
+          "Notice that can be acted upon",
+          "A notice is useful only if its grounds are intelligible, it reaches the person concerned, and there is time and a genuine way to respond. The Court’s directions recognised the importance of accessible discrepancy lists and practical opportunities to resolve them."
+        ],
+        [
+          "Exceptional does not mean universal",
+          "The February directions must be understood in their West Bengal context. They should not be described as transferring the ERO’s normal legal duties to courts throughout India."
+        ],
+        [
+          "The missing denominator",
+          "Without full sets of notices, decisions, successful challenges and appeals, it is impossible to measure accurately how many eligible electors were finally and wrongly excluded."
+        ]
+      ],
+      "questions": [
+        "What was the actual backlog when exceptional adjudication began?",
+        "How many disputed notices resulted in retention, correction or exclusion?",
+        "Were orders implemented in the operative roll before election deadlines?"
+      ],
+      "depth": "Detailed file"
+    }
+  ],
+  "chronology": [
+    [
+      "1950",
+      "The electoral register acquires a statutory foundation",
+      "The Representation of the People Act governs qualifications, additions, corrections and appeals."
+    ],
+    [
+      "1960",
+      "Registration of Electors Rules",
+      "Procedure for drafting, claims, hearings, amendments and intensive revision."
+    ],
+    [
+      "2002–06",
+      "State-specific intensive-revision reference rolls",
+      "The reference years differ by jurisdiction. They are historical evidence, not a certificate of citizenship."
+    ],
+    [
+      "24 Jun 2025",
+      "ECI orders SIR, starting with Bihar",
+      "The decision invokes Article 324 and the election laws; scrutiny turns to the process and access to remedies."
+    ],
+    [
+      "01 Aug 2025",
+      "Bihar draft roll appears",
+      "Approximately 65 lakh pre-SIR entries are absent from the provisional draft."
+    ],
+    [
+      "30 Sep 2025",
+      "Bihar final roll published",
+      "Around 7.42 crore voters; additions and further removals mean draft absence does not map one-to-one to final exclusion."
+    ],
+    [
+      "27 Oct 2025",
+      "A subsequent multi-jurisdiction phase",
+      "Different jurisdictions follow their own timetables and publication rules."
+    ],
+    [
+      "19 Jan–20 Feb 2026",
+      "West Bengal court directions",
+      "Accessible discrepancy notices and an exceptional framework for unresolved cases."
+    ],
+    [
+      "21 Feb 2026",
+      "Goa publishes final roll",
+      "Its signed report permits exact draft-to-final reconciliation."
+    ],
+    [
+      "14 May 2026",
+      "Phase III covers 19 States/UTs",
+      "The May order contains distinct draft and final targets, historical years and the no-documents-during-enumeration rule."
+    ],
+    [
+      "27 May 2026",
+      "Supreme Court judgment on Bihar SIR",
+      "The broad process is upheld; citizenship determinations remain legally bounded."
+    ],
+    [
+      "26 Sep 2026",
+      "New ECI safeguards and review promise",
+      "Doorstep document collection and an announced independent-expert review of ECINet."
+    ],
+    [
+      "01 Oct 2026",
+      "ECI instructs a post-SIR revisit",
+      "BLOs are directed to compare old/current rolls, visit absent electors and assist eligible applicants."
+    ],
+    [
+      "07 Oct 2026",
+      "Goa announces special enrolment camps",
+      "State implementation is documented; actual results still need registers and supplements."
+    ],
+    [
+      "15 Oct 2026",
+      "Archive reconciles Goa and corrects Tripura report",
+      "A signed source resolves a previous research error; the audited Goa figures are separated by legal stage."
+    ],
+    [
+      "09 Oct 2026",
+      "Form 7 limits issued",
+      "Signed ECI order located and inspected in the 17 October review."
+    ],
+    [
+      "12 Oct 2026",
+      "Reported Form 6 clarification",
+      "Court reporting says neither approval nor disapproval; signed October order remains to be authenticated."
+    ],
+    [
+      "15 Oct 2026",
+      "Further petition reported",
+      "Press account reports notice on SIR governance allegations; no merits finding established."
+    ],
+    [
+      "17 Oct 2026",
+      "GitHub publication review",
+      "Earlier archive recovered, source gaps narrowed and claims register added."
+    ]
+  ],
+  "open_questions": [
+    [
+      "The ERO decision-to-roll gap",
+      "Goa",
+      "How many of the 35,780 determinations can be paired to hearing records, reasons and implemented entries?",
+      "GOA-FINAL"
+    ],
+    [
+      "The 97-person restoration cohort",
+      "Goa",
+      "PTI reports 88 accepted applications. Reconcile those cases with individual ERO orders and the relevant supplements; determine remaining outcomes.",
+      "GOA-97"
+    ],
+    [
+      "Court’s exact Form 6 position",
+      "National",
+      "Locate the signed October order and establish whether modified declaration forms were adjudicated.",
+      "SC-2026-05"
+    ],
+    [
+      "Actual Form 7 authentication",
+      "Karnataka",
+      "Separate objection submissions from ERO acceptance and potential criminal conduct.",
+      "FORM-7"
+    ],
+    [
+      "The national number that cannot yet be calculated",
+      "National",
+      "Build one harmonised pre/draft/final/restored series by state and election date.",
+      "ECI-2026-05"
+    ],
+    [
+      "Gazette notices for deadline extensions",
+      "Maharashtra / Delhi",
+      "Trace any Rule 12 extension to its Gazette publication and the actual notification served.",
+      "RER-1960"
+    ],
+    [
+      "ECINet technical audit",
+      "National",
+      "Obtain the full independent expert report, rule versions, logs and remediation decisions.",
+      "ECI-2026-09"
+    ],
+    [
+      "Uttarakhand notice chronology",
+      "Uttarakhand",
+      "Why does the original notice/disposal period start before draft publication?",
+      "ECI-2026-05"
+    ],
+    [
+      "Form 7 implementation after the authenticated order",
+      "National",
+      "Source gap closed. Now obtain implementation instructions, rejection returns and objection outcomes to test compliance.",
+      "ECI-F7-OCT"
+    ],
+    [
+      "Actual post-SIR restoration outcomes",
+      "All jurisdictions",
+      "Count identified people, contacted people, eligible claims and finally updated roll entries.",
+      "ECI-2026-10"
+    ],
+    [
+      "Commission decision records",
+      "National",
+      "Test claims about unanimity against original approved meeting minutes and decision files.",
+      "ECI-2026-09"
+    ],
+    [
+      "Citizenship referral compliance",
+      "National",
+      "Reconcile directions in the 27 May judgment with referrals to the competent authority.",
+      "SC-2026-05"
+    ]
+  ],
+  "goa": {
+    "pre": 1185034,
+    "draft": 1084992,
+    "final": 1057566,
+    "accepted": 12166,
+    "form_deletions": 3812,
+    "eligibility_deletions": 35780,
+    "non_returns": {
+      "Shifted": 40469,
+      "Absent/untraceable": 29729,
+      "Recorded deceased": 25574,
+      "Other": 2273,
+      "Registered elsewhere": 1997
+    },
+    "logical_flags": {
+      "Father name mismatch": 41116,
+      "Parent-child gap under 15": 7197,
+      "Parent-child gap over 50": 3830,
+      "More than six linked progeny": 3348,
+      "Grandparent gap under 40": 3432
+    }
+  },
+  "editorial_corrections": [
+    {
+      "id": "COR-01",
+      "date": "2026-10-15",
+      "correction": "Earlier statement of an impossible Tripura claims deadline withdrawn. Signed ECI Annexure VI says 21 October–20 November 2026.",
+      "document": "ECI-2026-05"
+    },
+    {
+      "date": "2026-10-17",
+      "subject": "Form 7 source status",
+      "correction": "9 October ECI order is now retrieved and inspected; previous pending-source status superseded. Implementation remains unverified."
+    }
+  ],
+  "review_date": "2026-10-17",
+  "edition": "GitHub publication 1.0",
+  "coverage_note": "36 jurisdiction files: 8 developed analyses and 28 reference files. A directory entry is not a completed local investigation. Research review on 17 October IST, sources checked through 16 October 2026. No live monitoring.",
+  "claims": [
+    {
+      "id": "LAW-01",
+      "claim": "Bihar SIR framework upheld",
+      "status": "Judicial finding",
+      "source_id": "SC-GOA-COPY",
+      "locator": "Judgment paras 186–187",
+      "limitation": "Does not decide every later local action or revised form.",
+      "next_evidence": "Later signed order or evidence of a distinct issue changes scope.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "DATA-01",
+      "claim": "Goa draft-to-final arithmetic balances",
+      "status": "Official data; calculated",
+      "source_id": "GOA-FINAL",
+      "locator": "Pages 1–3",
+      "limitation": "Arithmetic does not establish legality of individual outcomes.",
+      "next_evidence": "An authenticated correction or a reconciliation discrepancy.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "F7-01",
+      "claim": "Individual Form 7 limits: 10 per claims period; 5 monthly in continuous updating",
+      "status": "Primary order inspected",
+      "source_id": "ECI-F7-OCT",
+      "locator": "Paragraph 5",
+      "limitation": "BLA rules are separate. Compliance not yet audited.",
+      "next_evidence": "Later amending order or implementation evidence.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "F6-01",
+      "claim": "October reporting describes no adjudication on revised Form 6",
+      "status": "Reported courtroom remarks",
+      "source_id": "LB-FORM6-OCT12",
+      "locator": "12 October report",
+      "limitation": "Signed October order and exact form version required.",
+      "next_evidence": "Authenticated court record differing from report.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "GOA-97",
+      "claim": "88 applications accepted, according to reported CEO statement",
+      "status": "Secondary report of official position",
+      "source_id": "PTI-GOA-OCT02",
+      "locator": "2 October report of 1 October statement",
+      "limitation": "Individual restoration entries not inspected.",
+      "next_evidence": "ERO orders and supplements establishing actual outcomes.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "IT-01",
+      "claim": "Independent ECINet review announced",
+      "status": "Official position",
+      "source_id": "NAG-SEP26",
+      "locator": "ECINet review paragraph",
+      "limitation": "No completed review report obtained.",
+      "next_evidence": "Published audit report with scope and results.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "GOV-01",
+      "claim": "ECI says SIR orders had unanimous approval",
+      "status": "Official position, disputed",
+      "source_id": "NAG-SEP26",
+      "locator": "Unanimity paragraphs",
+      "limitation": "Raw minutes, approvals and objections not obtained.",
+      "next_evidence": "Authenticated decision files confirming or contradicting account.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "NAT-01",
+      "claim": "National wrongful-exclusion total not established in this archive",
+      "status": "Research limitation",
+      "source_id": "ECI-2026-05",
+      "locator": "Scope compared with archive evidence",
+      "limitation": "Does not assert no wrongful exclusion occurred.",
+      "next_evidence": "Harmonised individual-level evidence with eligibility and outcomes.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "TRI-01",
+      "claim": "Original Tripura claims window: 21 October–20 November",
+      "status": "Primary schedule; earlier correction",
+      "source_id": "ECI-2026-05",
+      "locator": "Annexure VI, page 30",
+      "limitation": "Historical timetable, subject to later amendment.",
+      "next_evidence": "Signed superseding schedule.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "UK-01",
+      "claim": "Original Uttarakhand notice window starts before draft date",
+      "status": "Primary schedule anomaly",
+      "source_id": "ECI-2026-05",
+      "locator": "Annexure VI, page 30",
+      "limitation": "No demonstrated implementation effect or illegality from table alone.",
+      "next_evidence": "Clarification, revised schedule and actual notices.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "COURT-01",
+      "claim": "15 October reporting describes notice in further SIR petition",
+      "status": "Secondary report",
+      "source_id": "TOI-NOTICE-OCT15",
+      "locator": "Report of petition and notice",
+      "limitation": "No merits finding established; signed order pending.",
+      "next_evidence": "Authenticated signed order and complete pleadings.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "REST-01",
+      "claim": "Special post-SIR drive instructed",
+      "status": "Official instruction",
+      "source_id": "GOA-DRIVE-COPY",
+      "locator": "Official special-drive document",
+      "limitation": "Instructions do not prove outcomes; election cutoffs still apply.",
+      "next_evidence": "Case-level enrolment and publication returns.",
+      "reviewed_on": "2026-10-17"
+    }
+  ]
+}
