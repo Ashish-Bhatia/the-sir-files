@@ -94,12 +94,13 @@ p=R/'index.html';t=p.read_text().replace('Maharashtra’s signed extension locat
 # Render the follow-up before indexing and applying the shared design.
 import runpy
 runpy.run_path(str(R/'scripts/render_followup.py'))
+runpy.run_path(str(R/'scripts/render_cases.py'))
 # Uniform current datasets, search index and sitemap.
 (R/'assets/research-data.json').write_text(json.dumps(D,ensure_ascii=False,indent=2)+'\n')
 idx=[]
 for p in sorted(R.rglob('*.html')):
  if p.name=='404.html':continue
- t=p.read_text();title=html.unescape(re.search('<title>(.*?)</title>',t).group(1)).replace(' | The SIR Files','');m=re.search('<meta name="description" content="([^"]*)',t);idx.append(dict(title=title,description=html.unescape(m.group(1)) if m else '',kind='State file' if 'state-files/' in str(p) else 'Research',url=p.relative_to(R).as_posix()))
+ t=p.read_text();title=html.unescape(re.search('<title>(.*?)</title>',t).group(1)).replace(' | The SIR Files','');m=re.search('<meta name="description" content="([^"]*)',t);idx.append(dict(title=title,description=html.unescape(m.group(1)) if m else '',kind='Case study' if 'case-studies/' in str(p) else 'State reference' if 'state-files/' in str(p) else 'Reading guide' if 'start-here/' in str(p) else 'Research',url=p.relative_to(R).as_posix()))
 (R/'assets/search-data.js').write_text('window.SIR_INDEX = '+json.dumps(idx,ensure_ascii=False)+';\n')
 (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://ashish-bhatia.github.io/the-sir-files/'+x['url']+'</loc><lastmod>2026-10-17</lastmod></url>' for x in idx)+'</urlset>')
 print('Rendered',len(idx),'research pages and all data-backed state, claim, source and gap sections')

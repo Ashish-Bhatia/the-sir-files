@@ -1,0 +1,366 @@
+{
+  "groups": [
+    {
+      "id": "returning",
+      "title": "Returning to the roll",
+      "question": "What happens after a name is left out?",
+      "intro": "Follow the route from an application to an actual entry on the roll."
+    },
+    {
+      "id": "numbers",
+      "title": "Checking the numbers",
+      "question": "What do the totals establish?",
+      "intro": "Separate changes in the size of a roll from decisions about individual people."
+    },
+    {
+      "id": "safeguards",
+      "title": "Testing the safeguards",
+      "question": "How do legal protections work in practice?",
+      "intro": "Read the court directions, the objection rules and the evidence needed to test compliance."
+    },
+    {
+      "id": "timetables",
+      "title": "Following a changing timetable",
+      "question": "Which deadline belongs to which order?",
+      "intro": "Trace the original schedule, later changes and corrections to our own reporting."
+    }
+  ],
+  "cases": [
+    {
+      "id": "delhi",
+      "group": "returning",
+      "place": "Delhi",
+      "title": "A route back through Form 6",
+      "question": "Does permission to apply mean a name is back on the roll?",
+      "intro": "Two applicants moved address, missed enumeration and challenged the route for returning to the roll. Their court order provides a useful starting point for a much wider question.",
+      "story": [
+        [
+          "The problem",
+          "The two petitioners said their names were deleted after they moved and missed enumeration. They sought a procedure using Form 8 rather than fresh inclusion through Form 6."
+        ],
+        [
+          "The recorded response",
+          "The 14 October High Court order copy allows them to submit Form 6 for processing under law. It addresses the first petitioner’s concern about a false-declaration accusation in the circumstances recorded."
+        ],
+        [
+          "The next step",
+          "The order does not record the eventual ERO decisions or published entries. The reported wider re-verification drive is a separate administrative development."
+        ]
+      ],
+      "established": "The court copy records an application route for these two petitioners.",
+      "limit": "It does not establish completed inclusion or settle the broader challenge to the declaration.",
+      "missing": "Application receipts, ERO decisions, matched published entries and the signed local re-verification instruction.",
+      "sources": [
+        "DHC-FORM6-OCT14",
+        "IE-DELHI-RECHECK-OCT17"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/delhi/",
+          "title": "The Delhi background",
+          "why": "Start with the local process and the evidence gaps."
+        },
+        {
+          "path": "delhi-form-6-order/",
+          "title": "Read the court order analysis",
+          "why": "See exactly what the order records and where its scope ends."
+        },
+        {
+          "path": "form-6/",
+          "title": "Compare the form versions",
+          "why": "Separate the standard PDF, online implementation and court record."
+        },
+        {
+          "path": "statutory-source-update/",
+          "title": "Check the legal source",
+          "why": "See why the date of a statutory compilation matters."
+        }
+      ]
+    },
+    {
+      "id": "maharashtra",
+      "group": "returning",
+      "place": "Maharashtra",
+      "title": "Applications are the start of the story",
+      "question": "How many applications became registrations?",
+      "intro": "An application bulletin and a revised deadline answer different questions. Read them together, then identify the records needed to establish the result.",
+      "story": [
+        [
+          "A count of work received",
+          "The CEO bulletin reports Form 6, Form 7 and Form 8 applications. Those categories track different requests, rather than one population of restored voters."
+        ],
+        [
+          "A deadline changes",
+          "The signed extension is located. Actual Gazette publication remains unverified. A public web page also contains conflicting schedule sections."
+        ],
+        [
+          "The outcome still needs a link",
+          "To establish inclusion, a return must connect accepted requests with the resulting roll entries. Aggregate intake figures do not supply that link."
+        ]
+      ],
+      "established": "The archive contains the signed extension and a CEO application bulletin.",
+      "limit": "Application totals are neither unique-person counts nor completed restoration counts.",
+      "missing": "Gazette publication, disposal returns and matched roll supplements.",
+      "sources": [
+        "MH-EXT-OCT12",
+        "MH-CEO-OCT09",
+        "PUNE-SIR-PAGE"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/maharashtra/",
+          "title": "The Maharashtra background",
+          "why": "Identify the local timing and data questions."
+        },
+        {
+          "path": "maharashtra-primary-records/",
+          "title": "Follow the primary records",
+          "why": "Read the extension, bulletin and schedule discrepancy together."
+        },
+        {
+          "path": "restoration-and-ssr/",
+          "title": "Follow the next revision stage",
+          "why": "Keep the special drive and summary revision separate."
+        }
+      ]
+    },
+    {
+      "id": "goa",
+      "group": "numbers",
+      "place": "Goa",
+      "title": "The totals balance. The individual decisions remain open.",
+      "question": "What does a correct reconciliation prove?",
+      "intro": "Goa’s signed report gives this investigation a complete draft-to-final equation. It also shows why an accounting result is only one part of an outcome audit.",
+      "story": [
+        [
+          "Start with the same populations",
+          "Keep the pre-SIR, draft and final rolls distinct. Each is a stock at a different stage, not a count of people wrongly removed."
+        ],
+        [
+          "Reconcile the movement",
+          "The draft-to-final equation includes accepted additions and two removal categories. The figures balance against the final count."
+        ],
+        [
+          "Return to the people affected",
+          "The separate 97-person discussion concerns applications and reported acceptances. Individual orders and matched supplements are still needed to establish outcomes."
+        ]
+      ],
+      "established": "The official draft-to-final figures reconcile arithmetically.",
+      "limit": "A balanced total does not establish the legality of every eligibility decision.",
+      "missing": "Individual decision files, reasons, appeal outcomes and linked roll entries.",
+      "sources": [
+        "GOA-FINAL",
+        "GOA-97",
+        "PTI-GOA-OCT02"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/goa/",
+          "title": "Read the Goa reconciliation",
+          "why": "Follow each component of the draft-to-final change."
+        },
+        {
+          "path": "national/",
+          "title": "Put the numbers in context",
+          "why": "See why unlike state totals do not establish a national wrongful-exclusion count."
+        }
+      ]
+    },
+    {
+      "id": "uttarakhand",
+      "group": "numbers",
+      "place": "Uttarakhand",
+      "title": "Thirteen districts, one reconciliation",
+      "question": "How far does a district-level check take us?",
+      "intro": "The final report permits a stronger accounting check than a single statewide headline. A later operational bulletin also changes how an older date anomaly should be read.",
+      "story": [
+        [
+          "An earlier timing question",
+          "The historical May schedule had a printed-date anomaly. A later operational source narrows that issue; the old dates alone do not establish actual pre-draft notices."
+        ],
+        [
+          "Check every district",
+          "All 13 district equations and the four statewide column totals reconcile against the official final-publication report."
+        ],
+        [
+          "Keep the limit in view",
+          "Admitted claims and objections are administrative categories. They do not identify a population of people wrongly excluded and later restored."
+        ]
+      ],
+      "established": "All 13 district equations and statewide column totals reconcile.",
+      "limit": "The audit checks official arithmetic, rather than individual eligibility or service of notices.",
+      "missing": "Actual notice-service dates, decision files and person-linked outcomes.",
+      "sources": [
+        "UK-DRAFT-JUL14",
+        "UK-FINAL-OCT03"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/uttarakhand/",
+          "title": "Read the district case file",
+          "why": "Follow the timing qualification and the complete reconciliation table."
+        }
+      ]
+    },
+    {
+      "id": "bihar",
+      "group": "safeguards",
+      "place": "Bihar",
+      "title": "The judgment and the individual decision",
+      "question": "What follows from upholding the SIR framework?",
+      "intro": "The Bihar judgment establishes the legal starting point. The next task is to distinguish the framework the Court upheld from the correctness of a particular local decision.",
+      "story": [
+        [
+          "The framework is challenged",
+          "The national debate begins with the intensive revision and its relationship to election law, eligibility and access to remedies."
+        ],
+        [
+          "The Court decides the framework",
+          "The May judgment upholds the broad process while placing legal bounds on citizenship-related determinations."
+        ],
+        [
+          "Implementation remains a separate test",
+          "A ruling on the framework does not decide every subsequent notice, form version, hearing or exclusion. Those require their own records."
+        ]
+      ],
+      "established": "The archive contains the May judgment and its legal qualifications.",
+      "limit": "The holding does not certify every local decision or later implementation.",
+      "missing": "Case-level notices, hearings, decisions, citizenship referrals and competent-authority outcomes.",
+      "sources": [
+        "SC-GOA-COPY",
+        "ECI-PRESS-2025"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/bihar/",
+          "title": "Start with Bihar",
+          "why": "Read the original revision context and final-roll qualifications."
+        },
+        {
+          "path": "legal/",
+          "title": "Read the legal framework",
+          "why": "Follow the scope of the judgment and the statutory limits."
+        }
+      ]
+    },
+    {
+      "id": "west-bengal",
+      "group": "safeguards",
+      "place": "West Bengal",
+      "title": "A safeguard needs a record of its use",
+      "question": "Were the court-ordered procedures carried through?",
+      "intro": "The January and February orders supply concrete directions. Testing their effect requires records of the notices, adjudications and entries that followed.",
+      "story": [
+        [
+          "The dispute reaches the Court",
+          "The proceedings concern how discrepancies and unresolved cases should be handled in West Bengal."
+        ],
+        [
+          "Specific safeguards are directed",
+          "The inspected January and February orders provide state-specific directions. They should not be treated as a rewritten national procedure."
+        ],
+        [
+          "The outcome audit is still open",
+          "The order text establishes what was directed. Returns and decision records are needed to determine how those directions operated."
+        ]
+      ],
+      "established": "The January and February primary orders are inspected with locators.",
+      "limit": "The order texts do not by themselves establish compliance or final individual outcomes.",
+      "missing": "Notice registers, adjudication returns and operative roll supplements.",
+      "sources": [
+        "WB-SC-JAN",
+        "WB-SC-FEB"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/west-bengal/",
+          "title": "Read the West Bengal case file",
+          "why": "Follow the court directions and the missing implementation evidence."
+        }
+      ]
+    },
+    {
+      "id": "karnataka",
+      "group": "safeguards",
+      "place": "Karnataka",
+      "title": "From a bulk objection to a final decision",
+      "question": "What happened after Form 7 objections were submitted?",
+      "intro": "Bulk applications deserve examination. Submission, acceptance, deletion and criminal liability are different events, each requiring its own evidence.",
+      "story": [
+        [
+          "Identify the objection",
+          "The investigation distinguishes the number of submitted objections from what an ERO eventually did with them."
+        ],
+        [
+          "Check the applicable safeguards",
+          "Form 7 limits and scrutiny directions provide a standard to examine. The Karnataka preservation and criminal-proceeding developments remain reported evidence pending authenticated orders."
+        ],
+        [
+          "Trace the transaction",
+          "An objection record, notice, response, decision and roll change should be linked before drawing an outcome conclusion. An announced ECINet review does not provide those records."
+        ]
+      ],
+      "established": "The October Form 7 directions are located; other local proceedings retain their source qualifications.",
+      "limit": "A submitted objection or a reported stay proves neither wrongful deletion nor guilt or exoneration.",
+      "missing": "Authenticated local court orders, original objections, transaction history and matched ERO decisions.",
+      "sources": [
+        "ECI-F7-OCT",
+        "IE-KA-PRESERVE",
+        "PIB-ALAND"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/karnataka/",
+          "title": "Start with the local question",
+          "why": "Separate bulk objections from established outcomes."
+        },
+        {
+          "path": "form-7/",
+          "title": "Read the safeguards",
+          "why": "Check the objection limits and scrutiny requirements."
+        },
+        {
+          "path": "ecinet/",
+          "title": "Follow the digital evidence",
+          "why": "See what an independent technical audit would need."
+        }
+      ]
+    },
+    {
+      "id": "tripura",
+      "group": "timetables",
+      "place": "Tripura",
+      "title": "A deadline corrected, a later order still missing",
+      "question": "How should an investigation handle a changing schedule?",
+      "intro": "This case starts with a mistake in our own reporting. The signed original annexure resolves it. A later reported timetable introduces a different source question.",
+      "story": [
+        [
+          "We misread the original window",
+          "An earlier version alleged an impossible claims deadline. The original signed annexure gave 21 October to 20 November. The allegation was corrected publicly."
+        ],
+        [
+          "A later timetable is reported",
+          "The archive adds a subsequent public-broadcaster account. It is kept separate from authentication of the replacement instrument."
+        ],
+        [
+          "Keep the versions distinct",
+          "The original May dates remain historical. A later report does not substitute for the signed replacement and any amendments."
+        ]
+      ],
+      "established": "The original annexure resolves our earlier deadline error.",
+      "limit": "The later reported timetable remains unconfirmed against its signed replacement instrument.",
+      "missing": "The signed replacement order and subsequent amendments.",
+      "sources": [
+        "ECI-2026-05",
+        "TRIPURA-REVISED-AIR"
+      ],
+      "sequence": [
+        {
+          "path": "state-files/tripura/",
+          "title": "Read the corrected case file",
+          "why": "Compare the historical record, the correction and the later report."
+        }
+      ]
+    }
+  ]
+}

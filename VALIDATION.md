@@ -73,3 +73,14 @@ GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claim
 - Internal links, fragments, data equations, CSV count and correction coverage pass. Research rendering is idempotent across generated and retained pages.
 - Independent theme tests cover 16 system/storage combinations. Interaction smoke checks cover search, menu, state filters, saved reading and progress.
 - Layout uses responsive editorial grids, native details elements, readable article typography and contents menus. Browser rendering and touch-device inspection remain unverified because the browser control capability is unavailable.
+
+## Single-theme, case-led edition
+
+Current checks: `python3 scripts/validate.py`, `python3 scripts/validate_cases.py` and `node scripts/ui-smoke.cjs`. Earlier theme-switch checks describe historical editions; the switch and its test script are now retired.
+
+- 64 research/navigation pages plus a 404 page. Four groups, eight case overviews and 17 connected supporting chapters.
+- Every case contains the question, sequence, established evidence, limits, open evidence, chapters and source record.
+- Each supporting chapter has one unambiguous primary case, a chapter number, a return link and a next step.
+- All HTML pages use one light palette. No theme script or switch remains. CSS does not respond to system colour preference.
+- Case hub filters combine place/text and thematic group, with a result count and empty state. Existing search, menu, saved-reading and state-filter checks pass.
+- Full render tested for idempotency; research JSON unchanged. Link, fragment and source-reference checks pass. Browser and touch-device visual inspection remain unavailable.
