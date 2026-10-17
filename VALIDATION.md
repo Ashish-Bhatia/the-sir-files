@@ -84,3 +84,14 @@ Current checks: `python3 scripts/validate.py`, `python3 scripts/validate_cases.p
 - All HTML pages use one light palette. No theme script or switch remains. CSS does not respond to system colour preference.
 - Case hub filters combine place/text and thematic group, with a result count and empty state. Existing search, menu, saved-reading and state-filter checks pass.
 - Full render tested for idempotency; research JSON unchanged. Link, fragment and source-reference checks pass. Browser and touch-device visual inspection remain unavailable.
+
+## Basic chronological edition, 18 October 2026
+
+Current checks are `python3 scripts/validate.py`, `python3 scripts/validate_structure.py` and `node scripts/ui-smoke.cjs`. Earlier appearance and case-route checks describe superseded editions.
+
+- One homepage article with 11 sections, ordered from definitions and legal background through the 2025–2026 events and the position covered through 17 October.
+- Six visible menu items on every active page. One fixed dark palette. No case overviews or circular chapter routes in the active pages.
+- 55 active pages, ten one-hop legacy redirects and one 404 page. Redirects are excluded from search and sitemap.
+- Source data, arithmetic checks and correction history preserved. Internal links and fragments pass.
+- Search, close/escape behaviour, state filtering, source filtering and statement filtering tested in a DOM harness.
+- Full rendering tested for idempotency. Browser layout and touch-device visual inspection remain unverified.

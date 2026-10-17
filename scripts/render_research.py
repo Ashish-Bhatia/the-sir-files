@@ -85,7 +85,7 @@ p=R/'legal/index.html';t=p.read_text();t=t if ('Version warning: the linked Act 
 t=t.replace('Section 23(3) also prevents inclusion directions within a defined election-period freeze, beginning after the last nomination date.','Section 23(3) also bars the specified Section 22 amendments, transpositions and deletions, and Section 23 inclusion directions, after the last nomination date and before completion of the relevant election.');p.write_text(t)
 # Audit navigation and dated front-page update.
 for p in R.rglob('*.html'):
- if p.name=='404.html':continue
+ if p.name=='404.html' or 'data-redirect="true"' in p.read_text():continue
  t=p.read_text();base=re.search('data-base="([^"]*)"',t).group(1)
  if f'href="{base}audit/"' not in t:t=t.replace('</nav><div class="rail-caption">',f'<a class="rail-link" href="{base}audit/">Full Audit <span>↗</span></a></nav><div class="rail-caption">',1)
  p.write_text(t)
@@ -94,13 +94,13 @@ p=R/'index.html';t=p.read_text().replace('Maharashtra’s signed extension locat
 # Render the follow-up before indexing and applying the shared design.
 import runpy
 runpy.run_path(str(R/'scripts/render_followup.py'))
-runpy.run_path(str(R/'scripts/render_cases.py'))
+runpy.run_path(str(R/'scripts/render_editorial.py'))
 # Uniform current datasets, search index and sitemap.
 (R/'assets/research-data.json').write_text(json.dumps(D,ensure_ascii=False,indent=2)+'\n')
 idx=[]
 for p in sorted(R.rglob('*.html')):
- if p.name=='404.html':continue
- t=p.read_text();title=html.unescape(re.search('<title>(.*?)</title>',t).group(1)).replace(' | The SIR Files','');m=re.search('<meta name="description" content="([^"]*)',t);idx.append(dict(title=title,description=html.unescape(m.group(1)) if m else '',kind='Case study' if 'case-studies/' in str(p) else 'State reference' if 'state-files/' in str(p) else 'Reading guide' if 'start-here/' in str(p) else 'Research',url=p.relative_to(R).as_posix()))
+ if p.name=='404.html' or 'data-redirect="true"' in p.read_text():continue
+ t=p.read_text();title=html.unescape(re.search('<title>(.*?)</title>',t).group(1)).replace(' | The SIR Files','');m=re.search('<meta name="description" content="([^"]*)',t);idx.append(dict(title=title,description=html.unescape(m.group(1)) if m else '',kind='State report' if 'state-files/' in str(p) else 'Article',url=p.relative_to(R).as_posix()))
 (R/'assets/search-data.js').write_text('window.SIR_INDEX = '+json.dumps(idx,ensure_ascii=False)+';\n')
 (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://ashish-bhatia.github.io/the-sir-files/'+x['url']+'</loc><lastmod>2026-10-17</lastmod></url>' for x in idx)+'</urlset>')
 print('Rendered',len(idx),'research pages and all data-backed state, claim, source and gap sections')
