@@ -11,7 +11,9 @@
       "date": "2026-05-14",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17345",
       "note": "Authoritative 30-page order. Phase III lists 19 States/UTs and individual schedules; Annexure V has historical-roll reference dates.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "ECI-2026-09",
@@ -21,7 +23,9 @@
       "date": "2026-09-26",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17536",
       "note": "ECINet expert-review announcement, Goa 97-person follow-up, extension and collection directions.",
-      "review_status": "Original endpoint unavailable; official Nagaland government reproduction inspected"
+      "review_status": "Original endpoint unavailable; official Nagaland government reproduction inspected",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "ECI-2026-10",
@@ -31,7 +35,9 @@
       "date": "2026-10-01",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17541",
       "note": "1 October signed special-drive directions, paragraph 4: identify old-to-current missing entries, revisit and facilitate eligible applications. Primary-source availability gap closed; outcomes remain unverified.",
-      "review_status": "Original two-page ECI order now opened and inspected in continuation review"
+      "review_status": "Original two-page ECI order now opened and inspected in continuation review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "SC-2026-05",
@@ -42,7 +48,10 @@
       "url": "https://api.sci.gov.in/supremecourt/2025/35785/35785_2025_1_1501_71617_Judgement_27-May-2026.pdf",
       "note": "2026 INSC 564, W.P.(C) 640/2025: Bihar SIR power and process upheld, with specific citizenship-inquiry limits. The SCI download did not resolve in this review; the 124-page copy linked by CEO Goa was inspected. See paragraphs 186–187.",
       "mirror_url": "https://ceogoa.nic.in/PDF/SIR2026/SIR-Judgement-2026.pdf",
-      "review_status": "Government-hosted mirror inspected; original SCI endpoint unavailable"
+      "review_status": "Government-hosted mirror inspected; original SCI endpoint unavailable",
+      "preferred_url": "https://ceogoa.nic.in/PDF/SIR2026/SIR-Judgement-2026.pdf",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     },
     {
       "id": "SC-SUMMARY",
@@ -52,17 +61,21 @@
       "date": "2026-05-27",
       "url": "https://www.sci.gov.in/landmark-judgment-summaries/",
       "note": "Court-authored accessible summary; rely on judgment for exact holding.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "RPA-1950",
-      "title": "Representation of the People Act, 1950",
+      "title": "RPA 1950: historical compilation, later amendments missing",
       "issuer": "Legislative Department",
       "type": "Legislation",
       "date": "1950-05-12",
       "url": "https://www.legislative.gov.in/static/uploads/2025/07/ac33f0f2d5331c5a00d5c944e8bfe29c.pdf",
-      "note": "Sections 16–24 on qualifications, corrections, inclusion and appeals.",
-      "review_status": "Source opened and inspected in this review"
+      "note": "Version defect: Section 14 shows only a January qualifying date; Section 23 stops at subsection (3). Do not use as an up-to-date consolidation. Unchanged provisions still require amendment checks. Current consolidated text retrieval remains open.",
+      "review_status": "Inspected; historical text, not current-law consolidation",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     },
     {
       "id": "RER-1960",
@@ -71,8 +84,10 @@
       "type": "Rules",
       "date": "1960-09-30",
       "url": "https://www.legislative.gov.in/static/uploads/2025/07/f7dc5e0686b1be5b478fdef741981e60.pdf",
-      "note": "Official electoral-law compendium containing Registration of Electors Rules, 1960. Consult the relevant rules and subsequent amendments, not the whole compilation as a single enactment.",
-      "review_status": "Source opened and inspected in this review"
+      "note": "504-page official electoral-law compilation containing the 1960 Rules and forms. Consolidation date not established. Standard Form 6 PDF separately checked; do not assume every rule or form is current solely from a 2025 upload path.",
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     },
     {
       "id": "CIT-1955",
@@ -82,7 +97,10 @@
       "date": "1955-12-30",
       "url": "https://www.mha.gov.in/sites/default/files/2026-01/Citizenship_Act_1955_20012026.pdf",
       "note": "Statutory nationality criteria; not interchangeable with documentary checklists.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Primary PDF opened and inspected in full audit, 17 October 2026",
+      "locator": "Sections 3, 4, 8–10; current eligibility must be assessed on individual facts",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "GOA-FINAL",
@@ -92,7 +110,9 @@
       "date": "2026-02-21",
       "url": "https://ceogoa.nic.in/PDF/SIR2026/press-note-Final-publication.pdf",
       "note": "Original 11,85,034 → draft 10,84,992 → final 10,57,566; breakdown of notices and outcomes.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "GOA-CAMPS",
@@ -102,7 +122,9 @@
       "date": "2026-10-07",
       "url": "https://ceogoa.nic.in/PDF/PressNoteCEO.pdf",
       "note": "Scanned official notice inspected visually: camps 7–9 October, not proof of successful enrolment.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "GOA-SUPP",
@@ -112,7 +134,9 @@
       "date": "2026-10-10",
       "url": "https://ceogoa.nic.in/",
       "note": "Access current supplements and state CEO notices.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "WB-SC-JAN",
@@ -122,7 +146,10 @@
       "date": "2026-01-19",
       "url": "https://api.sci.gov.in/supremecourt/2025/64235/64235_2025_1_30_67603_Order_19-Jan-2026.pdf",
       "note": "Access to logical-discrepancy notices and electoral-roll inquiry.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Primary PDF opened and inspected in full audit, 17 October 2026",
+      "locator": "Mostari Banu, WP(C) 1089/2025 and connected matters, paragraphs 4–10",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "WB-SC-FEB",
@@ -132,7 +159,10 @@
       "date": "2026-02-20",
       "url": "https://api.sci.gov.in/supremecourt/2025/64235/64235_2025_1_31_68933_Order_20-Feb-2026.pdf",
       "note": "Exceptional judicial-officer review arrangement; does not itself govern every state.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Primary PDF opened and inspected in full audit, 17 October 2026",
+      "locator": "Mostari Banu, WP(C) 1089/2025 and connected matters, paragraphs 4–11",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "VOTERS",
@@ -142,7 +172,9 @@
       "date": "2026-10-15",
       "url": "https://voters.eci.gov.in/",
       "note": "Forms, electoral searches and application channels; availability depends on portal access.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Portal retrieval failed with 406 in audit; individual Form 6 and Form 7 PDFs accessible",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     },
     {
       "id": "FORM-7",
@@ -152,7 +184,10 @@
       "date": "2026-10-15",
       "url": "https://voters.eci.gov.in/guidelines/Form-7_en.pdf",
       "note": "Deletion objection grounds and applicant duties.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Primary PDF opened and inspected in full audit, 17 October 2026",
+      "locator": "Official one-page guidance; read with dated 9 October 2026 order",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "ECI-PRESS-2025",
@@ -162,7 +197,9 @@
       "date": "2025-09-30",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2173316&lang=1&reg=3",
       "note": "Original, draft and final totals; use historical press notes and judgment.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "GOA-97",
@@ -172,7 +209,9 @@
       "date": "2026-09-26",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17536",
       "note": "81 of 97 had submitted Form 6; not the number approved.",
-      "review_status": "Original endpoint unavailable; official Nagaland government reproduction inspected"
+      "review_status": "Original endpoint unavailable; official Nagaland government reproduction inspected",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "MAHA-CEO",
@@ -182,7 +221,9 @@
       "date": "2026-10-15",
       "url": "https://ceoelection.maharashtra.gov.in/",
       "note": "State operational documents and current notices; superseded deadlines must be distinguished.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Portal retrieval unsuccessful; identified district-hosted primary PDFs used instead",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     },
     {
       "id": "SC-DOCKET",
@@ -192,7 +233,9 @@
       "date": "2026-10-15",
       "url": "https://www.sci.gov.in/published-cause-list/",
       "note": "A listed hearing is not a signed judgment.",
-      "review_status": "Carried forward from earlier edition; not independently rechecked in this pass"
+      "review_status": "Cause-list portal opened; no authentication of a particular October order",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     },
     {
       "id": "PIB-ALAND",
@@ -202,7 +245,9 @@
       "date": "2025-09-19",
       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2168836&lang=2&reg=48",
       "note": "Historical comparison: ECI reported 6,018 applications, 24 substantiated and 5,994 rejected; not a 2026 SIR outcome.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "ECI-F7-OCT",
@@ -212,7 +257,9 @@
       "date": "2026-10-09",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17545",
       "note": "Signed 9 October 2026 order, No.23/Inst/2026-ERS, paragraphs 3–8. Retrieved and inspected in this review; replaces the earlier pending-source label.",
-      "review_status": "Source opened and inspected in this review"
+      "review_status": "Source opened and inspected in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "NAG-SEP26",
@@ -222,7 +269,9 @@
       "date": "2026-09-28",
       "url": "https://ipr.nagaland.gov.in/election-commission-of-india-informs-on-sir",
       "note": "Reproduces 26 September ECI decisions. Institutional account, not raw meeting minutes or a completed technical audit.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "SC-GOA-COPY",
@@ -232,7 +281,9 @@
       "date": "2026-05-27",
       "url": "https://ceogoa.nic.in/PDF/SIR2026/SIR-Judgement-2026.pdf",
       "note": "124-page judgment linked by CEO Goa. Original SCI endpoint unavailable during this review.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "GOA-DRIVE-COPY",
@@ -242,7 +293,9 @@
       "date": "2026-10-01",
       "url": "https://ceogoa.nic.in/PDF/Press-Note-Special-Drive.pdf",
       "note": "Ten-page multilingual document. Instructions and a drive announcement do not establish restoration outcomes; embedded order should be read with election-period restrictions.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "PTI-GOA-OCT02",
@@ -252,7 +305,9 @@
       "date": "2026-10-02",
       "url": "https://theprint.in/india/goa-ceo-says-88-of-97-left-out-voters-have-filed-form-6-applications-accepted/3059788/",
       "note": "Reports the Goa CEO’s 1 October status statement. Individual orders and final supplement entries remain unexamined.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "LB-FORM6-OCT12",
@@ -262,7 +317,9 @@
       "date": "2026-10-12",
       "url": "https://lawbeat.in/top-stories/supreme-court-clarifies-no-adjudication-on-modified-form-6-justice-bagchi-says-sc-neither-approved-nor-disapproved-it-1640826",
       "note": "Reports no adjudication on revised Form 6. Oral remarks reported by journalists, not an authenticated signed October order.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "IE-FORM6-OCT12",
@@ -272,7 +329,9 @@
       "date": "2026-10-12",
       "url": "https://indianexpress.com/article/legal-news/sc-form-6-10918144/",
       "note": "Corroborating report: neither approval nor disapproval. Does not replace the signed case record.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "TOI-NOTICE-OCT15",
@@ -282,7 +341,9 @@
       "date": "2026-10-15",
       "url": "https://timesofindia.indiatimes.com/india/supreme-court-issues-notice-on-sir-petition-seeks-records-of-ec-decision-making/articleshow/134963954.cms",
       "note": "Reports notice and requests for records. Notice is not a merits finding. Signed order and complete petition still required.",
-      "review_status": "Source opened in this review"
+      "review_status": "Source opened in this review",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "IE-MH-AGE",
@@ -292,7 +353,9 @@
       "url": "https://indianexpress.com/article/cities/mumbai/maharashtra-voters-100-years-age-month-fix-10913432/",
       "note": "Report describes 270,313 affected records and an October 6 fix. Original correspondence, before/after data and impact audit not obtained.",
       "type": "Secondary report",
-      "review_status": "Report retrieved in current review; underlying primary records still required"
+      "review_status": "Report retrieved in current review; underlying primary records still required",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "PTI-MH-TIME",
@@ -302,7 +365,9 @@
       "url": "https://theprint.in/india/sir-maharashtra-extends-deadline-for-claims-objections-on-draft-voter-list-to-oct-26/3069634/",
       "note": "Reports claims through October 26, disposal by November 10, final publication November 16. Signed latest notification still required. The signed ECI extension is now inspected as MH-EXT-OCT12; this reporting is no longer the strongest available schedule source.",
       "type": "Secondary report",
-      "review_status": "Report retrieved in current review; underlying primary records still required"
+      "review_status": "Report retrieved in current review; underlying primary records still required",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "IE-KA-PRESERVE",
@@ -312,7 +377,9 @@
       "url": "https://indianexpress.com/article/legal-news/karnataka-hc-stays-probe-bjp-sir-agents-form-7-10921927/",
       "note": "Reports continued interim stay and preservation of original forms and electronic evidence. Signed order and case identifiers not authenticated here.",
       "type": "Secondary report",
-      "review_status": "Report retrieved in current review; underlying primary records still required"
+      "review_status": "Report retrieved in current review; underlying primary records still required",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
     },
     {
       "id": "ECI-SSR-OCT15",
@@ -322,7 +389,9 @@
       "date": "2026-10-15",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17546",
       "note": "15-page order No.23/2026-ERS. Scope and schedule on page 1. SSR is a separate revision stage; do not combine its outcomes with SIR without version mapping.",
-      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "MH-EXT-OCT12",
@@ -332,7 +401,9 @@
       "date": "2026-10-12",
       "url": "https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/2026/10/17919700141486.pdf",
       "note": "Two-page signed letter and notification. Visually checked. Letter directs immediate State Gazette publication; the actual Gazette issue remains unverified.",
-      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "MH-CEO-OCT09",
@@ -342,7 +413,9 @@
       "date": "2026-10-09",
       "url": "https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/2026/10/17915512404571.pdf",
       "note": "Marathi bulletin visually checked. Counts through 8 October, not approvals or published inclusions. Its old 12 October deadline was superseded by the 12 October order.",
-      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "PUNE-SIR-PAGE",
@@ -352,7 +425,9 @@
       "date": "2026-10-17",
       "url": "https://pune.gov.in/en/sir-2026/",
       "note": "Observation date, not order date. Overview and Important Dates contain different timetables; the same page links a later signed extension. Footer says last updated 15 October. No actual voter harm established by this observation.",
-      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
     },
     {
       "id": "BB-MH-OCT15",
@@ -362,7 +437,73 @@
       "date": "2026-10-15",
       "url": "https://www.barandbench.com/amp/story/news/litigation/we-will-look-at-it-state-wise-supreme-court-in-plea-alleging-large-scale-voter-deletions-in-maharashtra-sir",
       "note": "Reporter describes hearing proposed for 26 October and refusal to issue notice immediately. Keep separate from the different petition covered by TOI-NOTICE-OCT15. Signed record pending.",
-      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST"
+      "review_status": "Opened and inspected in continuation review, 17 October 2026 IST",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
+    },
+    {
+      "id": "UK-FINAL-OCT03",
+      "title": "Uttarakhand final-roll report and district annexure",
+      "issuer": "CEO Uttarakhand",
+      "type": "Official report",
+      "date": "2026-10-03",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3cbf8710b43df3f2c1553e649403426df/uploads/2026/10/202610031173939115.pdf",
+      "note": "PN 63/2026. Four pages: two-page report plus constituency annexure. District totals visually checked and reconciled. Aggregate official data, not independent case adjudication.",
+      "review_status": "Source opened and inspected in full audit",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits",
+      "retrieved_bytes_sha256": "3a13ca86e7f65a73ed6110b5b56c5c704b0332010d0e2a5f8ff1b80dd9d38eec",
+      "retrieved_size_bytes": 1450116
+    },
+    {
+      "id": "UK-DRAFT-JUL14",
+      "title": "Uttarakhand operational draft bulletin",
+      "issuer": "CEO Uttarakhand",
+      "type": "Official press note",
+      "date": "2026-07-14",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3cbf8710b43df3f2c1553e649403426df/uploads/2026/07/20260801442066944.pdf",
+      "note": "PN 36/2026. Operational notice/disposal window begins 14 July, unlike the original May annexure. Later final-publication source supersedes its September target.",
+      "review_status": "Source opened and inspected in full audit",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits",
+      "retrieved_bytes_sha256": "9d627d9da553af930854873429f7ea5dee91da2bac9abd9b57a38b099e436c28",
+      "retrieved_size_bytes": 1664706
+    },
+    {
+      "id": "FORM6-STANDARD",
+      "title": "Official standard Form 6",
+      "issuer": "Election Commission of India",
+      "type": "Official form",
+      "date": "2026-10-17",
+      "url": "https://voters.eci.gov.in/formspdf/Form_6_English.pdf",
+      "note": "Retrieval date, not promulgation date. Declaration (iii), page 2, contains a first-time inclusion assertion. This is the standard PDF, not proof of every online SIR declaration version.",
+      "review_status": "Source opened and inspected in full audit",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "record retained with stated limits"
+    },
+    {
+      "id": "TRIPURA-REVISED-AIR",
+      "title": "Tripura revised timetable reported by Akashvani",
+      "issuer": "Akashvani / Prasar Bharati",
+      "type": "Public broadcaster report",
+      "date": "2026-09-10",
+      "url": "https://newsonair.gov.in/eci-revises-schedule-of-ongoing-sir-of-electoral-rolls-in-tripura/",
+      "note": "Reports qualifying date 1 January 2027, draft 12 December 2026 and final 15 February 2027. Signed replacement order still not obtained; do not offer this as a fully authenticated current timetable.",
+      "review_status": "Source opened and inspected in full audit",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "reported evidence"
+    },
+    {
+      "id": "DELHI-SCHEDULE-CANDIDATE",
+      "title": "Delhi revised schedule, indexed candidate",
+      "issuer": "CEO Delhi",
+      "type": "Source pending verification",
+      "date": "2026-09-27",
+      "url": "https://ceodelhi.gov.in/PDFFolders/2026/Revised_Schedule_of_SIR27Sept2026.pdf",
+      "note": "Exact official URL located through search indexing. Repeated retrieval attempts failed, including a 502 response. Contents not authenticated here. It is a retrieval lead, not inspected primary evidence.",
+      "review_status": "Retrieval failed; unverified candidate",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "qualified"
     }
   ],
   "jurisdictions": [
@@ -546,7 +687,8 @@
         "FORM-7",
         "RER-1960",
         "PIB-ALAND",
-        "IE-KA-PRESERVE"
+        "IE-KA-PRESERVE",
+        "ECI-F7-OCT"
       ],
       "tag": "What an objection can—and cannot—establish",
       "deck": "Bulk Form 7 applications are a legitimate object of forensic examination. Their existence alone does not prove that voters were deleted or that crimes were committed.",
@@ -778,7 +920,8 @@
       "sources": [
         "ECI-2026-05",
         "ECI-2026-09",
-        "RPA-1950"
+        "RPA-1950",
+        "DELHI-SCHEDULE-CANDIDATE"
       ],
       "tag": "A large verification exercise under a changing timetable",
       "deck": "Delhi’s concern is not only how many notices were issued, but what happened after residents responded.",
@@ -942,23 +1085,24 @@
       "verified": "ECI annexure; dates are original, and may be superseded",
       "sources": [
         "ECI-2026-05",
-        "RER-1960"
+        "RER-1960",
+        "TRIPURA-REVISED-AIR"
       ],
       "tag": "The correction file",
       "deck": "A past version of our own investigation misread Tripura’s claims deadline. The signed ECI annexure resolves the matter.",
-      "lead": "This case is about accountability in research as much as election administration. An earlier edition of The SIR Files suggested that ECI had published an impossible claims period. Inspection of the complete 30-page order showed the end date was 20 November, not 20 October. The incorrect assertion was withdrawn.",
+      "lead": "The earlier misreading of the original May claims window remains corrected. A later Akashvani report describes a replacement timetable extending into February 2027. The original dates remain historical; the signed replacement is still required.",
       "facts": [
         [
-          "21 Oct",
-          "Claims open, original schedule"
+          "Historical",
+          "May schedule below"
         ],
         [
-          "20 Nov",
-          "Claims close, original schedule"
+          "15 Feb 2027",
+          "Later reported final target"
         ],
         [
-          "23 Dec",
-          "Original final-roll date"
+          "Pending",
+          "Signed replacement order"
         ]
       ],
       "story": [
@@ -973,16 +1117,27 @@
         [
           "What remains worth investigating",
           "The further question is whether actual revision steps, notifications, Form 6 submissions and decision registers followed the operative schedule."
+        ],
+        [
+          "A later timetable must be distinguished",
+          "Akashvani reported deferral and a new qualifying date. Keep this broadcaster account separate from the original signed May schedule. Do not present either as a verified current deadline without the replacement instrument."
         ]
       ],
       "questions": [
-        "Were any subsequent schedule amendments issued for Tripura?",
+        "Obtain the signed 9 September replacement order and any subsequent amendment; later reporting already shows the May timetable was changed.",
         "Are district and constituency notices publicly archived?",
         "Do the actual case files meet the post-draft notice standard?"
       ],
       "depth": "Detailed file",
       "revision_stage_source": "ECI-SSR-OCT15",
-      "revision_stage": "SSR schedule deferred"
+      "revision_stage": "SSR schedule deferred",
+      "reported_schedule": {
+        "source_id": "TRIPURA-REVISED-AIR",
+        "qualifying_date": "2027-01-01",
+        "draft_target": "2026-12-12",
+        "final_target": "2027-02-15",
+        "signed_order_inspected": false
+      }
     },
     {
       "slug": "uttarakhand",
@@ -994,47 +1149,54 @@
       "verified": "ECI annexure; dates are original, and may be superseded",
       "sources": [
         "ECI-2026-05",
+        "UK-DRAFT-JUL14",
+        "UK-FINAL-OCT03",
         "RER-1960"
       ],
-      "tag": "A four-day question in the original timetable",
-      "deck": "The May 2026 schedule places the start of the notice/disposal window before draft publication. The discrepancy is verifiable; its effect is not.",
-      "lead": "On page 30 of the 14 May ECI order, Uttarakhand’s draft is dated 14 July, while a notice/disposal window begins on 10 July. The dates do not align with the ordinary understanding of post-draft discrepancy notices. There may be a clerical explanation or an intentionally broader preparatory window. The original document alone cannot decide which.",
+      "tag": "From an original date anomaly to a reconciled final roll",
+      "deck": "A later operational bulletin narrows the printed-date question. The October final report supplies a district-level reconciliation.",
+      "lead": "The May annexure’s 10 July notice start is a historical printed-date discrepancy. The July operational bulletin instead begins that window on 14 July. The final report published on 3 October now gives a stronger basis for analysing aggregate outcomes.",
       "facts": [
         [
-          "14 Jul",
-          "Draft date in original"
+          "7,133,785",
+          "Draft entries"
         ],
         [
-          "10 Jul",
-          "Notice window starts"
+          "7,158,949",
+          "Final entries"
         ],
         [
-          "Unverified",
-          "Correcting instruction"
+          "3 Oct",
+          "Final publication reported"
         ]
       ],
       "story": [
         [
-          "Read the whole order",
-          "The same ECI order says notices for unmatched or discrepant cases are to be issued after publication of the draft. The apparent tension therefore deserves clarification from the operative state circulars."
+          "Narrow the earlier question",
+          "The operational bulletin starts the notice/disposal window on 14 July. This does not prove whether any individual notice was served earlier, but it removes any basis to describe the May date alone as proof of actual pre-draft proceedings."
         ],
         [
-          "The decisive files",
-          "The public timetable should be compared with actual service dates, types of notices and the responsible ERO’s statutory authority. A contradictory printed date does not establish that any elector was denied a hearing."
+          "The arithmetic now has a primary source",
+          "Draft entries plus admitted claims minus admitted objections reconcile to the reported final roll, both statewide and in all 13 district totals. Admitted claims include transfer-related form categories; they must not be described as all new voters or restorations."
         ],
         [
-          "A 2003 reference",
-          "The historical matching date is 1 January 2003. It is evidence used in processing, not a substitute for present-day eligibility."
+          "What remains untested",
+          "Case files, notice-service evidence, reasons, appeals and publication dates are still required to decide the correctness of individual exclusions."
         ]
       ],
       "questions": [
-        "Was a corrigendum issued for the notice/disposal window?",
-        "Were any statutory notices served before the draft?",
-        "Was the public given an updated schedule by the CEO and DEOs?"
+        "Were any notices actually issued before the draft, despite the July operational window?",
+        "What reasons and hearings supported admitted objections?",
+        "Which accepted cases concern earlier omissions rather than new eligibility or transfers?"
       ],
       "depth": "Detailed file",
       "revision_stage_source": "ECI-SSR-OCT15",
-      "revision_stage": "SSR scheduled"
+      "revision_stage": "SSR scheduled",
+      "latest_verified_schedule": {
+        "source_id": "UK-FINAL-OCT03",
+        "final_reported": "2026-10-03",
+        "status": "Official publication reported, independently not audited case by case"
+      }
     },
     {
       "slug": "andaman-nicobar",
@@ -1103,7 +1265,8 @@
       "sources": [
         "SC-2026-05",
         "SC-SUMMARY",
-        "RPA-1950"
+        "RPA-1950",
+        "ECI-PRESS-2025"
       ],
       "tag": "The case that reached the Supreme Court",
       "deck": "Bihar supplies the constitutional judgment, but the difference between a lawful process and a correct individual decision remains central to the record.",
@@ -1184,7 +1347,8 @@
       "sources": [
         "GOA-FINAL",
         "GOA-CAMPS",
-        "GOA-97"
+        "GOA-97",
+        "PTI-GOA-OCT02"
       ],
       "tag": "The most complete numerical record",
       "deck": "In Goa, the state CEO’s own report permits a proper accounting of the change from the old roll to the final register. It also points to thousands of decisions still requiring individual audit.",
@@ -1214,7 +1378,7 @@
         ],
         [
           "The unfinished 97-person file",
-          "ECI subsequently identified 97 people requiring special follow-up, of whom 81 had submitted Form 6 by 26 September. Goa announced further camps in October. Submitted applications cannot be equated with approved restoration without the final orders and supplements."
+          "The September account recorded 81 submitted applications. Later PTI reporting recorded 88 accepted applications. Neither figure is this publication’s inspection of the individual orders and restored roll entries."
         ]
       ],
       "questions": [
@@ -1567,11 +1731,11 @@
       "story": [
         [
           "Notice that can be acted upon",
-          "A notice is useful only if its grounds are intelligible, it reaches the person concerned, and there is time and a genuine way to respond. The Court’s directions recognised the importance of accessible discrepancy lists and practical opportunities to resolve them."
+          "The January order directs accessible lists, authorised representatives and additional time linked to list display. These are judicial safeguards; implementation still needs dated registers and receipt records."
         ],
         [
           "Exceptional does not mean universal",
-          "The February directions must be understood in their West Bengal context. They should not be described as transferring the ERO’s normal legal duties to courts throughout India."
+          "The February order invokes Article 142 for an extraordinary West Bengal arrangement involving judicial officers. Its paragraph 9 also permits an ongoing process and later supplementary lists. This is not a universal replacement of ERO duties."
         ],
         [
           "The missing denominator",
@@ -1645,6 +1809,16 @@
       "The broad process is upheld; citizenship determinations remain legally bounded."
     ],
     [
+      "14 Jul 2026",
+      "Uttarakhand operational bulletin",
+      "Later source clarifies the operational notice window; historical May dates remain separately identified."
+    ],
+    [
+      "10 Sep 2026",
+      "Tripura revised timetable reported",
+      "Public broadcaster reports a later schedule; signed replacement not yet obtained."
+    ],
+    [
       "26 Sep 2026",
       "New ECI safeguards and review promise",
       "Doorstep document collection and an announced independent-expert review of ECINet."
@@ -1655,14 +1829,14 @@
       "BLOs are directed to compare old/current rolls, visit absent electors and assist eligible applicants."
     ],
     [
+      "03 Oct 2026",
+      "Uttarakhand final publication reported",
+      "Official state report and district annexure now reconciled."
+    ],
+    [
       "07 Oct 2026",
       "Goa announces special enrolment camps",
       "State implementation is documented; actual results still need registers and supplements."
-    ],
-    [
-      "15 Oct 2026",
-      "Archive reconciles Goa and corrects Tripura report",
-      "A signed source resolves a previous research error; the audited Goa figures are separated by legal stage."
     ],
     [
       "09 Oct 2026",
@@ -1673,6 +1847,11 @@
       "12 Oct 2026",
       "Reported Form 6 clarification",
       "Court reporting says neither approval nor disapproval; signed October order remains to be authenticated."
+    ],
+    [
+      "15 Oct 2026",
+      "Archive reconciles Goa and corrects Tripura report",
+      "A signed source resolves a previous research error; the audited Goa figures are separated by legal stage."
     ],
     [
       "15 Oct 2026",
@@ -1706,7 +1885,7 @@
     [
       "Court’s exact Form 6 position",
       "National",
-      "Locate the signed October order and establish whether modified declaration forms were adjudicated.",
+      "Standard PDF declaration is now inspected. Obtain exact challenged online version and signed October court record; do not infer final judicial approval or invalidation.",
       "SC-2026-05"
     ],
     [
@@ -1734,10 +1913,10 @@
       "ECI-2026-09"
     ],
     [
-      "Uttarakhand notice chronology",
+      "Uttarakhand actual notice service",
       "Uttarakhand",
-      "Why does the original notice/disposal period start before draft publication?",
-      "ECI-2026-05"
+      "Later July bulletin starts the window on 14 July; test actual service dates rather than infer early notices from the May table.",
+      "UK-DRAFT-JUL14"
     ],
     [
       "Form 7 implementation after the authenticated order",
@@ -1809,10 +1988,28 @@
       "date": "2026-10-17",
       "correction": "Maharashtra extension upgraded from secondary reporting to a signed ECI letter and notification. Actual State Gazette publication remains unverified. Original 1 October drive source is now directly available.",
       "document": "MH-EXT-OCT12"
+    },
+    {
+      "id": "COR-04",
+      "date": "2026-10-17",
+      "correction": "Uttarakhand notice-date allegation narrowed after inspection of the July operational bulletin. The May printed-date discrepancy is not evidence of actual early notice service.",
+      "document": "UK-DRAFT-JUL14"
+    },
+    {
+      "id": "COR-05",
+      "date": "2026-10-17",
+      "correction": "Act compilation relabelled historical because it lacks later amendments. Upload date is not legal consolidation date.",
+      "document": "RPA-1950"
+    },
+    {
+      "id": "COR-06",
+      "date": "2026-10-17",
+      "correction": "Tripura historical May schedule supplemented with later broadcaster account; signed replacement remains pending.",
+      "document": "TRIPURA-REVISED-AIR"
     }
   ],
   "review_date": "2026-10-17",
-  "edition": "GitHub publication 1.1",
+  "edition": "GitHub publication 1.2, full audit",
   "coverage_note": "36 jurisdiction files: 8 developed analyses and 28 reference files. A directory entry is not a completed local investigation. Research review on 17 October IST, sources checked through 16 October 2026. No live monitoring.",
   "claims": [
     {
@@ -1901,18 +2098,18 @@
       "status": "Primary schedule; earlier correction",
       "source_id": "ECI-2026-05",
       "locator": "Annexure VI, page 30",
-      "limitation": "Historical timetable, subject to later amendment.",
-      "next_evidence": "Signed superseding schedule.",
+      "limitation": "Historical May timetable. Later broadcaster account reports deferral into February 2027.",
+      "next_evidence": "Signed replacement order and later amendments.",
       "reviewed_on": "2026-10-17"
     },
     {
       "id": "UK-01",
       "claim": "Original Uttarakhand notice window starts before draft date",
-      "status": "Primary schedule anomaly",
+      "status": "Historical anomaly; later operational source located",
       "source_id": "ECI-2026-05",
       "locator": "Annexure VI, page 30",
-      "limitation": "No demonstrated implementation effect or illegality from table alone.",
-      "next_evidence": "Clarification, revised schedule and actual notices.",
+      "limitation": "July bulletin starts the window on the draft date. No actual early service established.",
+      "next_evidence": "Actual dated service records; any formal corrigendum.",
       "reviewed_on": "2026-10-17"
     },
     {
@@ -1929,8 +2126,8 @@
       "id": "REST-01",
       "claim": "Special post-SIR drive instructed",
       "status": "Official instruction",
-      "source_id": "GOA-DRIVE-COPY",
-      "locator": "Official special-drive document",
+      "source_id": "ECI-2026-10",
+      "locator": "Original ECI order, paragraph 4",
       "limitation": "Instructions do not prove outcomes; election cutoffs still apply.",
       "next_evidence": "Case-level enrolment and publication returns.",
       "reviewed_on": "2026-10-17"
@@ -1983,6 +2180,36 @@
       "locator": "15 October hearing report",
       "limitation": "Not the same procedural event as notice in a different national petition.",
       "next_evidence": "Signed order and verified docket identity.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "UK-DATA-01",
+      "claim": "Uttarakhand statewide and 13 district equations reconcile",
+      "status": "Official aggregate data; calculated",
+      "source_id": "UK-FINAL-OCT03",
+      "locator": "Report and annexure, pages 1–4",
+      "limitation": "No independent validation of individual eligibility decisions.",
+      "next_evidence": "ERO files, appeals and published entry links.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "F6-TEXT-01",
+      "claim": "Standard Form 6 contains a first-time inclusion declaration",
+      "status": "Primary form inspected",
+      "source_id": "FORM6-STANDARD",
+      "locator": "Declaration (iii), page 2",
+      "limitation": "Does not authenticate every online SIR version or settle legal validity.",
+      "next_evidence": "Exact disputed form version and signed court record.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "LAW-VERSION-01",
+      "claim": "Linked Act compilation omits later amendments",
+      "status": "Source-version defect",
+      "source_id": "RPA-1950",
+      "locator": "Sections 14 and 23 in the linked text",
+      "limitation": "Do not use it as a current consolidation.",
+      "next_evidence": "Current official consolidated Act and amendment chain.",
       "reviewed_on": "2026-10-17"
     }
   ],
@@ -2078,5 +2305,671 @@
     "total": 1138055,
     "outcomes_observed": false,
     "limitation": "Mixed new and previously omitted applicant population; not a count of restorations. Separate forms need not represent unique people."
-  }
+  },
+  "uttarakhand": {
+    "source_id": "UK-FINAL-OCT03",
+    "pre_date": "2026-06-08",
+    "draft_date": "2026-07-14",
+    "final_date": "2026-10-03",
+    "pre": 7960762,
+    "draft": 7133785,
+    "accepted_claims": 129872,
+    "admitted_objections": 104708,
+    "final": 7158949,
+    "unit": "roll entries and admitted claims/objections as defined by source",
+    "case_level_legality_audited": false,
+    "districts": [
+      {
+        "district": "Uttarkashi",
+        "draft": 224417,
+        "accepted_claims": 1720,
+        "admitted_objections": 1087,
+        "final": 225050
+      },
+      {
+        "district": "Chamoli",
+        "draft": 272187,
+        "accepted_claims": 5094,
+        "admitted_objections": 1274,
+        "final": 276007
+      },
+      {
+        "district": "Rudraprayag",
+        "draft": 180786,
+        "accepted_claims": 1841,
+        "admitted_objections": 191,
+        "final": 182436
+      },
+      {
+        "district": "Tehri Garhwal",
+        "draft": 463628,
+        "accepted_claims": 4302,
+        "admitted_objections": 1292,
+        "final": 466638
+      },
+      {
+        "district": "Dehradun",
+        "draft": 1190805,
+        "accepted_claims": 36042,
+        "admitted_objections": 32050,
+        "final": 1194797
+      },
+      {
+        "district": "Haridwar",
+        "draft": 1246219,
+        "accepted_claims": 22444,
+        "admitted_objections": 23205,
+        "final": 1245458
+      },
+      {
+        "district": "Pauri Garhwal",
+        "draft": 503468,
+        "accepted_claims": 6889,
+        "admitted_objections": 3222,
+        "final": 507135
+      },
+      {
+        "district": "Pithoragarh",
+        "draft": 341497,
+        "accepted_claims": 4711,
+        "admitted_objections": 2570,
+        "final": 343638
+      },
+      {
+        "district": "Bageshwar",
+        "draft": 200919,
+        "accepted_claims": 5233,
+        "admitted_objections": 463,
+        "final": 205689
+      },
+      {
+        "district": "Almora",
+        "draft": 471938,
+        "accepted_claims": 6378,
+        "admitted_objections": 1780,
+        "final": 476536
+      },
+      {
+        "district": "Champawat",
+        "draft": 188924,
+        "accepted_claims": 3537,
+        "admitted_objections": 1473,
+        "final": 190988
+      },
+      {
+        "district": "Nainital",
+        "draft": 693325,
+        "accepted_claims": 12140,
+        "admitted_objections": 7918,
+        "final": 697547
+      },
+      {
+        "district": "Udham Singh Nagar",
+        "draft": 1155672,
+        "accepted_claims": 19541,
+        "admitted_objections": 28183,
+        "final": 1147030
+      }
+    ]
+  },
+  "gap_register": [
+    {
+      "id": "G01",
+      "topic": "National wrongful-exclusion total",
+      "status": "Open",
+      "needed": "A common-date, identity-linked population with eligibility, final decisions and restorations.",
+      "progress": "No national total invented."
+    },
+    {
+      "id": "G02",
+      "topic": "Goa 97-person outcomes",
+      "status": "Partly filled",
+      "needed": "Individual ERO orders and matched roll supplements.",
+      "progress": "81 submissions and 88 reported acceptances now explicitly separated."
+    },
+    {
+      "id": "G03",
+      "topic": "Form 6 version and court position",
+      "status": "Partly filled",
+      "needed": "Exact challenged online declaration, approval history and signed October court record.",
+      "progress": "Standard PDF first-time declaration inspected."
+    },
+    {
+      "id": "G04",
+      "topic": "West Bengal safeguards",
+      "status": "Source gap filled; outcomes open",
+      "needed": "Notice registers, adjudication returns and operative supplements.",
+      "progress": "January and February primary orders inspected with paragraph locators."
+    },
+    {
+      "id": "G05",
+      "topic": "Uttarakhand timing and accounting",
+      "status": "Partly filled",
+      "needed": "Actual service dates and decision files.",
+      "progress": "July operational window and October final report located; all district totals reconcile."
+    },
+    {
+      "id": "G06",
+      "topic": "Tripura current instrument",
+      "status": "Partly filled",
+      "needed": "Signed replacement order and subsequent amendments.",
+      "progress": "Later public-broadcaster timetable added; original schedule labelled historical."
+    },
+    {
+      "id": "G07",
+      "topic": "Maharashtra Gazette publication",
+      "status": "Open",
+      "needed": "Gazette issue containing the located 12 October notification.",
+      "progress": "Signed notification is available; actual publication remains unverified."
+    },
+    {
+      "id": "G08",
+      "topic": "Delhi latest signed schedule",
+      "status": "Open",
+      "needed": "Retrieve indexed official PDF and any later amendment.",
+      "progress": "Candidate URL located, retrieval failed."
+    },
+    {
+      "id": "G09",
+      "topic": "Current statutory consolidation",
+      "status": "Open",
+      "needed": "Current amended Act and rule-version/commencement checks.",
+      "progress": "Older Act compilation identified and relabelled; no silent current-law claim."
+    },
+    {
+      "id": "G10",
+      "topic": "ECINet independent audit",
+      "status": "Open",
+      "needed": "Full expert report, scope, rule versions, permission and transaction history.",
+      "progress": "Announcement remains an official position, not a completed audit."
+    },
+    {
+      "id": "G11",
+      "topic": "Commission approval records",
+      "status": "Open",
+      "needed": "Authenticated minutes, approvals, dissent notes and circulation files.",
+      "progress": "Unanimity assertion remains distinct from proof of decision procedure."
+    },
+    {
+      "id": "G12",
+      "topic": "Karnataka criminal proceedings",
+      "status": "Open",
+      "needed": "Authenticated High Court orders, case identifiers and original objection evidence.",
+      "progress": "Reported stay does not establish guilt or exoneration."
+    },
+    {
+      "id": "G13",
+      "topic": "Citizenship referrals",
+      "status": "Open",
+      "needed": "Case lists, referrals and competent-authority outcomes under judgment directions.",
+      "progress": "Court holding is located; compliance evidence is not."
+    },
+    {
+      "id": "G14",
+      "topic": "Local outcomes in reference files",
+      "status": "Open",
+      "needed": "State and constituency primary returns, appeals and person-linked audits.",
+      "progress": "28 files remain reference files; directory coverage is not substantive completion."
+    }
+  ],
+  "audit_findings": [
+    {
+      "id": "A01",
+      "finding": "Older Act compilation was presented without a version warning",
+      "action": "Relabelled historical; current-law consolidation remains an explicit gap",
+      "source_id": "RPA-1950"
+    },
+    {
+      "id": "A02",
+      "finding": "Uttarakhand narrative over-emphasised a historical printed-date anomaly",
+      "action": "Added later operational source and final-roll reconciliation; no claim of actual pre-draft notices",
+      "source_id": "UK-DRAFT-JUL14"
+    },
+    {
+      "id": "A03",
+      "finding": "Tripura May dates lacked a visible later-schedule update",
+      "action": "Added public-broadcaster account, kept signed replacement pending",
+      "source_id": "TRIPURA-REVISED-AIR"
+    },
+    {
+      "id": "A04",
+      "finding": "State HTML, JSON, source lists and chronology had diverged",
+      "action": "Rebuilt data-backed sections from one research dataset; added regression checks",
+      "source_id": null
+    },
+    {
+      "id": "A05",
+      "finding": "Different applicant populations risk misleading restoration rates",
+      "action": "Kept submissions, accepted claims, unique people and published entries separate",
+      "source_id": "MH-CEO-OCT09"
+    },
+    {
+      "id": "A06",
+      "finding": "Reference-file coverage risked being mistaken for completed investigations",
+      "action": "Added a 36-jurisdiction coverage matrix with explicit case-audit limits",
+      "source_id": "ECI-SSR-OCT15"
+    }
+  ],
+  "audit_scope": {
+    "reviewed_on": "2026-10-17",
+    "html_pages_before": 51,
+    "main_text_words_inventoried": 23665,
+    "jurisdictions_reviewed": 36,
+    "case_level_independent_audits_completed": 0,
+    "scope_note": "Editorial and source audit of the full published corpus. Not a substitute for inaccessible original case records."
+  },
+  "jurisdiction_audit": [
+    {
+      "slug": "andhra-pradesh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain the constituency mapping table that links the 2002 reference to 2026 polling parts."
+      ]
+    },
+    {
+      "slug": "arunachal-pradesh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Establish how older address and family relationships were validated against the January 2006 reference."
+      ]
+    },
+    {
+      "slug": "chandigarh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Reconcile each final-roll change with the prior part, reason, ERO order and supplementary list."
+      ]
+    },
+    {
+      "slug": "dadra-nagar-haveli-daman-diu",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain part-by-part reconciliation and notice delivery returns across both territories."
+      ]
+    },
+    {
+      "slug": "haryana",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Sample the evidence behind all cases coded shifted, absent or not found."
+      ]
+    },
+    {
+      "slug": "jharkhand",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain the signed revised publication schedule and form-disposal returns."
+      ]
+    },
+    {
+      "slug": "karnataka",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Can authenticated High Court orders and case numbers be obtained?",
+        "How many disputed objections were accepted, rejected or left pending?",
+        "What do original electronic submission records show?"
+      ]
+    },
+    {
+      "slug": "maharashtra",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Locate the actual State Gazette issue publishing the 12 October notification; the signed notification itself has now been obtained.",
+        "Were any decisions affected by the alleged 1900 birth-year defaults?",
+        "Can ERO decisions be reconciled with final roll supplements?"
+      ]
+    },
+    {
+      "slug": "manipur",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Request ERO reason-code, notice and appeal summaries disaggregated by constituency."
+      ]
+    },
+    {
+      "slug": "meghalaya",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Verify the rate at which unmatched cases were accepted following documentary inquiry."
+      ]
+    },
+    {
+      "slug": "mizoram",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Compare draft-publication dates with the actual notice registers and appeals."
+      ]
+    },
+    {
+      "slug": "nagaland",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Confirm whether the 22 November original final-roll date was subsequently amended."
+      ]
+    },
+    {
+      "slug": "delhi",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "How many discrepancy notices were disposed of before the final roll?",
+        "How many eligible electors were successfully restored following follow-up visits?",
+        "Were all claims-period extensions reflected in accessible official notices?"
+      ]
+    },
+    {
+      "slug": "odisha",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Match pre-draft omissions to claims, decisions and final-roll supplements."
+      ]
+    },
+    {
+      "slug": "punjab",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Request district ERO registers of shifted voters, notices and accepted corrections."
+      ]
+    },
+    {
+      "slug": "sikkim",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Seek polling-part changes and independent supervisor sampling results."
+      ]
+    },
+    {
+      "slug": "telangana",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain the pre-bifurcation reference-roll mapping, change logs and validation sign-offs."
+      ]
+    },
+    {
+      "slug": "tripura",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain the signed 9 September replacement order and any subsequent amendment; later reporting already shows the May timetable was changed.",
+        "Are district and constituency notices publicly archived?",
+        "Do the actual case files meet the post-draft notice standard?"
+      ]
+    },
+    {
+      "slug": "uttarakhand",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "exact",
+      "unresolved_requests": [
+        "Were any notices actually issued before the draft, despite the July operational window?",
+        "What reasons and hearings supported admitted objections?",
+        "Which accepted cases concern earlier omissions rather than new eligibility or transfers?"
+      ]
+    },
+    {
+      "slug": "andaman-nicobar",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Gather the final-publication notice and applications disposed of during the 2026 exercise."
+      ]
+    },
+    {
+      "slug": "assam",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Locate the applicable ECI order and current roll-decision statistics before drawing comparisons."
+      ]
+    },
+    {
+      "slug": "bihar",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "rounded totals",
+      "unresolved_requests": [
+        "How many of the draft’s 65 lakh absent names reappeared through Form 6 or corrections?",
+        "What evidence supported the combined “shifted/not found” classification?",
+        "Were appeals and citizenship referrals resolved within the prescribed periods?"
+      ]
+    },
+    {
+      "slug": "chhattisgarh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Collect final-roll stock-flow reconciliation and appeal outcomes."
+      ]
+    },
+    {
+      "slug": "goa",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "exact",
+      "unresolved_requests": [
+        "What statutory grounds supported each of the 35,780 post-draft eligibility decisions?",
+        "Of the 97 persons, how many are now enrolled and by which process?",
+        "Which ECINet matching-rule versions were used, and could authorised ERO decisions be implemented?"
+      ]
+    },
+    {
+      "slug": "gujarat",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Find category-wise initial exclusions, approved additions and reasoned adverse decisions."
+      ]
+    },
+    {
+      "slug": "himachal-pradesh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Verify whether the relevant later SIR phase and publication records are available."
+      ]
+    },
+    {
+      "slug": "jammu-kashmir",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Establish the exact operative rolls and territorial mappings before analysis."
+      ]
+    },
+    {
+      "slug": "kerala",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Collect a primary final-roll press note with separate additions and deletions."
+      ]
+    },
+    {
+      "slug": "ladakh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain part-level comparison and formal ERO decision totals."
+      ]
+    },
+    {
+      "slug": "lakshadweep",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Collect original objections and their disposal and appeal summary."
+      ]
+    },
+    {
+      "slug": "madhya-pradesh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Request official source-by-source roll reconciliation for 2026."
+      ]
+    },
+    {
+      "slug": "puducherry",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Obtain the final-roll amendment lists and published constituency reports."
+      ]
+    },
+    {
+      "slug": "rajasthan",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Track additions, deletions and appeals using the final-roll baseline."
+      ]
+    },
+    {
+      "slug": "tamil-nadu",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Require reports stratified by the applicable 2002-versus-2005 baseline."
+      ]
+    },
+    {
+      "slug": "uttar-pradesh",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Reference file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "Begin with a small, reproducible sample of ERO case files and published amendments."
+      ]
+    },
+    {
+      "slug": "west-bengal",
+      "reviewed_on": "2026-10-17",
+      "national_scope_checked": true,
+      "article_depth": "Detailed file",
+      "local_individual_legality_audit_completed": false,
+      "aggregate_reconciliation": "not established",
+      "unresolved_requests": [
+        "What was the actual backlog when exceptional adjudication began?",
+        "How many disputed notices resulted in retention, correction or exclusion?",
+        "Were orders implemented in the operative roll before election deadlines?"
+      ]
+    }
+  ]
 }

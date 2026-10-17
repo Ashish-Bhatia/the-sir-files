@@ -50,5 +50,26 @@ assert a['outcomes_observed'] is False
 assert len({c['id'] for c in d['claims']})==len(d['claims'])
 for j in d['jurisdictions']:
  assert j['revision_stage_source'] in ids
+u=d['uttarakhand']
+assert len(u['districts'])==13
+for row in u['districts']:
+ assert row['draft']+row['accepted_claims']-row['admitted_objections']==row['final']
+for field in ['draft','accepted_claims','admitted_objections','final']:
+ assert sum(row[field] for row in u['districts'])==u[field]
+assert u['pre']-u['final']==801813
+assert len(d['jurisdiction_audit'])==36
+assert all(not x['local_individual_legality_audit_completed'] for x in d['jurisdiction_audit'])
+assert len(d['gap_register'])==14
+assert next(x for x in d['sources'] if x['id']=='RPA-1950')['audit_disposition']=='qualified'
+assert next(x for x in d['sources'] if x['id']=='DELHI-SCHEDULE-CANDIDATE')['type']=='Source pending verification'
+for j in d['jurisdictions']:
+ text=(R/'state-files'/j['slug']/'index.html').read_text()
+ assert j['deck'].replace('&','&amp;').replace('"','&quot;') in text
+ assert 'No independent' not in text or 'audit' in text
+for c in d['claims']:
+ assert 'id="'+c['id']+'"' in (R/'claims/index.html').read_text()
+for g in d['gap_register']:
+ assert 'id="'+g['id']+'"' in (R/'investigations/index.html').read_text()
+assert '7,158,949' in (R/'state-files/uttarakhand/index.html').read_text()
 print(json.dumps({'html_pages':len(pages),'jurisdictions':36,'sources':len(ids),'claims':len(d['claims']),'internal_link_and_fragment_errors':errors,'goa_arithmetic':'pass'},indent=2))
 raise SystemExit(bool(errors))

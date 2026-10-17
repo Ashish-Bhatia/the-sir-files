@@ -2,11 +2,11 @@
 
 ## Passed
 
-- 50 research/navigation pages plus one 404 page.
+- 52 research/navigation pages plus one 404 page.
 - Internal page, asset and fragment checks: zero missing targets.
 - One title per HTML page; no duplicate element IDs.
-- 36 jurisdiction records; source references resolve in the 36-record ledger.
-- All 17 claims link to existing sources. CSV and JSON row counts agree.
+- 36 jurisdiction records; source references resolve in the 41-record ledger.
+- All 20 claims link to existing sources. CSV and JSON row counts agree.
 - Goa draft-to-final equation, pre-to-draft count and logical-discrepancy category sum reconcile.
 - Node syntax checks pass for site.js and search-data.js.
 
@@ -34,3 +34,12 @@ GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claim
 - Maharashtra application sum reconciles to 1,138,055 forms; it remains explicitly labelled intake, not unique people or outcomes.
 - Maharashtra signed extension replaces the reporting-only source status. Gazette publication remains unverified.
 - Internal link, fragment, source-reference and JavaScript syntax checks repeated for this edition.
+
+## Edition 1.2 full audit
+
+- Inspected the complete jurisdiction dataset and published article inventory.
+- Reconciled every Uttarakhand district equation and the four statewide column totals against rendered annexure pages 3–4. Source bytes fingerprinted in the ledger.
+- Reviewed West Bengal primary orders and standard Form 6 wording; legal compilation defect recorded.
+- Rebuilt data-backed sections to eliminate article/data divergence.
+- No national wrongful-exclusion count, legal-compliance certification, independent ECINet audit or completed person-level investigation is claimed.
+- Source retrieval failures and pending originals remain visible in the evidence and gap registers.
