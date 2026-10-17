@@ -102,7 +102,7 @@ for p in sorted(R.rglob('*.html')):
  if p.name=='404.html' or 'data-redirect="true"' in p.read_text():continue
  t=p.read_text();title=html.unescape(re.search('<title>(.*?)</title>',t).group(1)).replace(' | The SIR Files','');m=re.search('<meta name="description" content="([^"]*)',t);idx.append(dict(title=title,description=html.unescape(m.group(1)) if m else '',kind='State report' if 'state-files/' in str(p) else 'Article',url=p.relative_to(R).as_posix()))
 (R/'assets/search-data.js').write_text('window.SIR_INDEX = '+json.dumps(idx,ensure_ascii=False)+';\n')
-(R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://ashish-bhatia.github.io/the-sir-files/'+x['url']+'</loc><lastmod>2026-10-17</lastmod></url>' for x in idx)+'</urlset>')
+(R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://ashish-bhatia.github.io/the-sir-files/'+x['url']+'</loc><lastmod>'+D.get('research_checked_on','2026-10-17')+'</lastmod></url>' for x in idx)+'</urlset>')
 print('Rendered',len(idx),'research pages and all data-backed state, claim, source and gap sections')
 
 # Keep navigation, reading tools and the homepage in sync with regenerated research.

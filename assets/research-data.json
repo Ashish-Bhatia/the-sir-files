@@ -388,10 +388,21 @@
       "type": "Official order",
       "date": "2026-10-15",
       "url": "https://www.eci.gov.in/eci/public/api/document?id=17546",
-      "note": "15-page order No.23/2026-ERS. Scope and schedule on page 1. SSR is a separate revision stage; do not combine its outcomes with SIR without version mapping.",
+      "note": "15-page order No.23/2026-ERS. Scope and dates on page 1. Paragraph 13: notice/display safeguards; 19: appeals; 20(b): personal cross-check triggers; 23(c)(ii): hard copy and readable PDF without photos to recognised parties. Applies to the scheduled SSR jurisdictions, not a compliance finding.",
       "review_status": "Opened and inspected in continuation review, 17 October 2026 IST",
       "audited_on": "2026-10-17",
-      "audit_disposition": "record retained with stated limits"
+      "audit_disposition": "record retained with stated limits",
+      "additional_review": {
+        "date": "2026-10-18",
+        "mode": "Indexed official PDF text",
+        "paragraphs": [
+          "13",
+          "19",
+          "20(b)",
+          "23(c)(ii)"
+        ],
+        "limitation": "No implementation records or sample delivered PDF inspected."
+      }
     },
     {
       "id": "MH-EXT-OCT12",
@@ -545,6 +556,46 @@
       "review_status": "Indexed headline and report excerpts inspected; full-page retrieval unavailable",
       "audited_on": "2026-10-17",
       "audit_disposition": "secondary report; primary local direction pending"
+    },
+    {
+      "id": "DELHI-JUL15",
+      "title": "Delhi CEO forwarding letter and ECI revised schedule, 15 July 2026",
+      "issuer": "CEO Delhi / Election Commission; hosted by District New Delhi",
+      "date": "2026-07-15",
+      "type": "Official order",
+      "url": "https://cdn.s3waas.gov.in/s3f7177163c833dff4b38fc8d2872f1ec6/uploads/2026/07/17854094105672.pdf",
+      "note": "Two scanned pages: CEO forwarding letter and ECI order. Draft 17 August; claims through 16 September; disposal through 15 October; final 19 October. Historical schedule superseded by later changes, not a current deadline. The CEO forwarding subject says 1 October 2026; the attached ECI subject says 1 July 2026. The timetable dates agree, but this qualifying-date wording differs.",
+      "review_status": "Both rendered pages visually inspected; downloaded bytes fingerprinted on 18 October",
+      "audited_on": "2026-10-18",
+      "audit_disposition": "historical signed schedule inspected",
+      "sha256": "ec732b42886eb60fbee31c1705496d282a6594702717ede25efd1eed76a0b035",
+      "listing_url": "https://dmnewdelhi.delhi.gov.in/sample-page/sir-2026/"
+    },
+    {
+      "id": "DELHI-AUG19",
+      "title": "ECI Delhi revised schedule dated 19 August 2026",
+      "issuer": "Election Commission; hosted by District New Delhi",
+      "date": "2026-08-19",
+      "type": "Official order",
+      "url": "https://cdn.s3waas.gov.in/s3f7177163c833dff4b38fc8d2872f1ec6/uploads/2026/09/17897357489430.pdf",
+      "note": "Signed letter No.23/2026-ERS (Vol.-II), dated 19 August. District directory labels the entry 19 September; that is not the order date. Draft 31 August, claims to 30 September, disposal to 29 October, final 4 November. Later extensions supersede these targets.",
+      "review_status": "Full scanned page visually inspected; downloaded bytes fingerprinted on 18 October",
+      "audited_on": "2026-10-18",
+      "audit_disposition": "historical signed schedule inspected; directory date distinguished",
+      "sha256": "8a1f401448598400fdc640c3368453b358e2fe2e431f7c72669460ce225195db",
+      "listing_url": "https://dmnewdelhi.delhi.gov.in/sample-page/sir-2026/"
+    },
+    {
+      "id": "DELHI-OCT17",
+      "title": "CEO Delhi press note dated 17 October 2026",
+      "issuer": "Chief Electoral Officer, Delhi",
+      "date": "2026-10-17",
+      "type": "Official statement",
+      "url": "https://ceodelhi.gov.in/PDFFolders/2026/Press_Note_SIR_17_10_2026.pdf",
+      "note": "Indexed official text describes BLO follow-up for pre-SIR electors absent from the current roll, an October 30 claims deadline, and Form 6 intake: 232,514 during the claims period and 212,400 before draft publication. These are applications, not unique people or completed inclusions. It announces camps on 18 and 25 October.",
+      "review_status": "Official indexed text inspected, including paragraphs 12–16. Direct PDF retrieval returned HTTP 502; full-file visual inspection and hash unavailable.",
+      "audited_on": "2026-10-18",
+      "audit_disposition": "official indexed text; byte retrieval pending"
     }
   ],
   "jurisdictions": [
@@ -964,23 +1015,26 @@
         "RPA-1950",
         "DELHI-SCHEDULE-CANDIDATE",
         "DHC-FORM6-OCT14",
-        "IE-DELHI-RECHECK-OCT17"
+        "IE-DELHI-RECHECK-OCT17",
+        "DELHI-JUL15",
+        "DELHI-AUG19",
+        "DELHI-OCT17"
       ],
       "tag": "A large verification exercise under a changing timetable",
       "deck": "A Delhi court order records a route back through Form 6. Whether the applications became entries on the roll remains a separate question.",
-      "lead": "The 14 October High Court order is now available as a publisher-hosted copy. It concerns two petitioners who moved address and missed enumeration. The later report of a wider re-verification drive is separate evidence, with no matched outcomes yet inspected.",
+      "lead": "Delhi’s timetable changed more than once. Signed July and August orders establish earlier targets. Later September directions and the 17 October CEO press note identify the extended claims period. The note also reports Form 6 intake, which is not a count of completed registrations.",
       "facts": [
         [
-          "2002",
-          "Historical reference year"
+          "31 Aug",
+          "Draft date in August order"
         ],
         [
           "30 Oct",
-          "Claims deadline in Sep order"
+          "Claims deadline in later sources"
         ],
         [
           "Open",
-          "Application outcomes"
+          "Published inclusion outcomes"
         ]
       ],
       "story": [
@@ -999,6 +1053,18 @@
         [
           "What the 14 October order records",
           "In W.P.(C) 14955/2026, the Court closed the writ proceedings and allowed the two petitioners to fill Form 6 for processing under law. This records an application route, not a completed restoration or a ruling on every challenged declaration."
+        ],
+        [
+          "The date on the page and the date on the order",
+          "The district directory lists the revised schedule under 19 September, but the signed letter itself is dated 19 August. It sets a 31 August draft and earlier September/November targets. Later extensions must be read separately."
+        ],
+        [
+          "Applications received are not names restored",
+          "The 17 October CEO note’s indexed text reports 232,514 Form 6 applications during the claims period and 212,400 before draft publication. These are intake counts. Acceptance, unique people and published inclusion are not established by those totals."
+        ],
+        [
+          "The qualifying date in the July bundle",
+          "The CEO forwarding letter refers to 1 October, while the attached ECI order’s subject refers to 1 July. The timetable dates match. This is a wording inconsistency, not proof of an incorrect eligibility decision. The later August order uses 1 October."
         ]
       ],
       "questions": [
@@ -1861,6 +1927,16 @@
       "Later source clarifies the operational notice window; historical May dates remain separately identified."
     ],
     [
+      "15 Jul 2026",
+      "Delhi timetable revised",
+      "Signed orders move the draft target to 17 August and final target to 19 October; later superseded."
+    ],
+    [
+      "19 Aug 2026",
+      "Delhi timetable revised again",
+      "Signed ECI letter sets draft on 31 August and final on 4 November; subsequent extensions are separate."
+    ],
+    [
       "10 Sep 2026",
       "Tripura revised timetable reported",
       "Public broadcaster reports a later schedule; signed replacement not yet obtained."
@@ -2072,7 +2148,7 @@
     }
   ],
   "review_date": "2026-10-17",
-  "edition": "GitHub publication 1.3, Delhi order and statutory-source follow-up",
+  "edition": "SIR source follow-up, 18 October 2026",
   "coverage_note": "36 jurisdiction files: 8 developed analyses and 28 reference files. A directory entry is not a completed local investigation. Research review on 17 October IST, sources checked through 16 October 2026. No live monitoring.",
   "claims": [
     {
@@ -2304,6 +2380,86 @@
       "limitation": "No signed local direction or matched restoration outcomes inspected.",
       "next_evidence": "Signed local instruction, constituency returns and resulting roll supplements.",
       "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "DELHI-SCHEDULE-02",
+      "claim": "Two signed Delhi schedules set successive historical targets",
+      "status": "Official orders inspected",
+      "source_id": "DELHI-AUG19",
+      "locator": "19 August letter and 15 July predecessor",
+      "limitation": "The August order is older than the September directory date and later extensions.",
+      "next_evidence": "Latest signed replacement and subsequent amendments.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "DELHI-INTAKE-01",
+      "claim": "Delhi CEO reports 232,514 Form 6 applications during claims and 212,400 before draft",
+      "status": "Official indexed statement",
+      "source_id": "DELHI-OCT17",
+      "locator": "Paragraph 12",
+      "limitation": "Application counts do not establish unique applicants, acceptance or published inclusion.",
+      "next_evidence": "Full press-note file, disposal returns and matched roll entries.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "DELHI-DRIVE-02",
+      "claim": "CEO Delhi describes BLO follow-up for pre-SIR electors missing from the current roll",
+      "status": "Official indexed statement",
+      "source_id": "DELHI-OCT17",
+      "locator": "Indexed text before paragraph 12; paragraphs 15–16",
+      "limitation": "An administrative statement does not establish completed visits or restorations.",
+      "next_evidence": "Signed local operational instruction and outcome returns.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "SSR-PDF-01",
+      "claim": "SSR order requires recognised parties to receive a hard copy and readable PDF of each polling-station roll",
+      "status": "Official direction",
+      "source_id": "ECI-SSR-OCT15",
+      "locator": "Paragraph 23(c)(ii), page 14",
+      "limitation": "PDF has no elector photos; the provision does not promise an unrestricted public CSV, API or a delivered file.",
+      "next_evidence": "Party acknowledgements and samples of the files actually supplied.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "SSR-NOTICE-01",
+      "claim": "SSR order sets display, waiting-period and hearing safeguards before decisions",
+      "status": "Official direction",
+      "source_id": "ECI-SSR-OCT15",
+      "locator": "Paragraph 13, pages 6–7",
+      "limitation": "Directions do not prove actual publication, service or hearings.",
+      "next_evidence": "Dated display records, notices, service evidence and decision files.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "SSR-CHECK-01",
+      "claim": "SSR order requires personal ERO cross-checks above 2% deletions or more than five objections from one person",
+      "status": "Official direction",
+      "source_id": "ECI-SSR-OCT15",
+      "locator": "Paragraph 20(b), page 11",
+      "limitation": "These are checking triggers, not deletion caps, and do not establish that checks took place.",
+      "next_evidence": "Polling-station totals, objector-linked records and signed cross-checks.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "SSR-APPEAL-01",
+      "claim": "SSR order identifies first appeal to District Magistrate and second appeal to CEO",
+      "status": "Official direction",
+      "source_id": "ECI-SSR-OCT15",
+      "locator": "Paragraph 19, pages 10–11",
+      "limitation": "Read with section 24 and rule 27; no individual deadline or outcome established here.",
+      "next_evidence": "Applicable appeal instructions and case-specific order/service dates.",
+      "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "DELHI-QUALDATE-01",
+      "claim": "July Delhi bundle contains different qualifying dates in the forwarding and attached-order subjects",
+      "status": "Scanned primary pages inspected",
+      "source_id": "DELHI-JUL15",
+      "locator": "CEO letter page 1 versus attached ECI order page 2",
+      "limitation": "A document inconsistency does not establish how eligibility was decided. Later August order and October indexed statement use 1 October.",
+      "next_evidence": "Clarifying or correcting instruction and the actual operative implementation record.",
+      "reviewed_on": "2026-10-18"
     }
   ],
   "continuation_review": {
@@ -2558,9 +2714,9 @@
     {
       "id": "G08",
       "topic": "Delhi latest signed schedule",
-      "status": "Open",
-      "needed": "Retrieve indexed official PDF and any later amendment.",
-      "progress": "Official candidate PDF retried on 17 October and returned HTTP 502. News reporting of the local re-verification drive is separately labelled."
+      "status": "Partly filled",
+      "needed": "Latest signed replacement after the August order; full October 17 press-note file and subsequent amendments.",
+      "progress": "Signed 15 July and 19 August schedules downloaded and visually read. The September directory date is distinguished from the August order date. October 17 official indexed text supports the later claims deadline."
     },
     {
       "id": "G09",
@@ -3081,5 +3237,80 @@
       "ECI compilation is dated July 2025; later statutory and rule changes remain to be checked.",
       "Delhi signed local direction and actual restoration outcomes remain missing."
     ]
-  }
+  },
+  "delhi_schedule_versions": [
+    {
+      "source_id": "DELHI-JUL15",
+      "order_date": "2026-07-15",
+      "draft": "2026-08-17",
+      "claims_to": "2026-09-16",
+      "disposal_to": "2026-10-15",
+      "final": "2026-10-19",
+      "status": "Historical",
+      "qualifying_date_wording_conflict": {
+        "forwarding": "2026-10-01",
+        "attachment": "2026-07-01",
+        "later_august_order": "2026-10-01",
+        "implementation_effect_established": false
+      }
+    },
+    {
+      "source_id": "DELHI-AUG19",
+      "order_date": "2026-08-19",
+      "directory_date": "2026-09-19",
+      "draft": "2026-08-31",
+      "claims_to": "2026-09-30",
+      "disposal_to": "2026-10-29",
+      "final": "2026-11-04",
+      "status": "Historical"
+    },
+    {
+      "source_id": "ECI-2026-09",
+      "order_date": "2026-09-26",
+      "claims_to": "2026-10-30",
+      "status": "Later extension directions"
+    },
+    {
+      "source_id": "DELHI-OCT17",
+      "order_date": "2026-10-17",
+      "claims_to": "2026-10-30",
+      "status": "Official indexed press note, not signed replacement schedule"
+    }
+  ],
+  "delhi_form6_intake": {
+    "source_id": "DELHI-OCT17",
+    "statement_date": "2026-10-17",
+    "during_claims": 232514,
+    "before_draft": 212400,
+    "measure": "Form 6 applications received",
+    "unique_people_established": false,
+    "acceptances_observed": false,
+    "published_entries_observed": false
+  },
+  "ssr_safeguards": {
+    "source_id": "ECI-SSR-OCT15",
+    "readable_pdf": {
+      "paragraph": "23(c)(ii)",
+      "recipients": "Recognised political parties",
+      "format": "Readable PDF, without elector photographs",
+      "delivery": "One hard copy and one soft copy for each polling-station roll after draft and final publication",
+      "public_csv_or_api_promised": false,
+      "delivery_verified": false
+    },
+    "cross_checks": {
+      "paragraph": "20(b)",
+      "deletion_percentage_threshold": 2,
+      "objector_cases_threshold": 5,
+      "strictly_greater_than": true,
+      "implementation_verified": false
+    },
+    "appeals": {
+      "paragraph": "19",
+      "first": "District Magistrate",
+      "second": "CEO",
+      "rule": "Rule 27",
+      "law": "Section 24 RPA 1950"
+    }
+  },
+  "research_checked_on": "2026-10-18"
 }

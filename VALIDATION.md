@@ -104,3 +104,13 @@ Current checks are `python3 scripts/validate.py`, `python3 scripts/validate_stru
 - Structure checks compare chart markup with data-generated components and verify menu controls on every active page.
 - Public articles and chronology contain SIR developments, not website or GitHub progress. Source qualifications and corrected SIR facts remain.
 - Browser rendering and touch-device visual inspection remain unverified.
+
+## Further SIR investigation, 18 October 2026
+
+- 47 source records and 31 claims. Three additional official source records; the October press note is explicitly limited to indexed text.
+- Downloaded and visually inspected both pages of the 15 July Delhi bundle and the full 19 August order. SHA-256 fingerprints recorded in the source ledger. The August order differs from the September date on its district directory listing.
+- The July forwarding and attached ECI subjects contain different qualifying dates. This is recorded as a wording inconsistency, not an established eligibility error.
+- Delhi application figures are 232,514 during claims and 212,400 before draft publication. No acceptance, unique-person or published-entry total is inferred.
+- SSR paragraph locators checked for readable PDFs (23(c)(ii)), notice/display safeguards (13), ERO personal checking triggers (20(b)) and appeals (19). Implementation remains unverified.
+- New SIR findings appear in the chronological article, Delhi state report and existing forms/procedure pages. The design is unchanged.
+- Internal links, fragments, source references, data equations, chart-source consistency and existing interaction checks pass. Source access limits are retained.

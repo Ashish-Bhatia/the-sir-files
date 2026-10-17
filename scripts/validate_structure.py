@@ -29,7 +29,17 @@ for p in R.rglob('*.html'):
 home=(R/'index.html').read_text();ordered=['what-is-sir','before-2025','bihar-2025','expansion-2025','may-2026','july-september-2026','october-1-7','october-9','october-12-14','october-15-17','where-things-stand'];assert [home.index('id="'+x+'"') for x in ordered]==sorted(home.index('id="'+x+'"') for x in ordered)
 assert not (R/'assets/theme.js').exists();assert 'prefers-color-scheme' not in (R/'assets/site.css').read_text()
 assert 'GitHub publication review' not in (R/'history/index.html').read_text()
-assert len(json.loads((R/'assets/research-data.json').read_text())['sources'])==44
+data=json.loads((R/'assets/research-data.json').read_text())
+assert {'DELHI-JUL15','DELHI-AUG19','DELHI-OCT17'}<={x['id'] for x in data['sources']}
+assert data['delhi_form6_intake']['during_claims']==232514
+assert data['delhi_form6_intake']['before_draft']==212400
+assert not data['delhi_form6_intake']['published_entries_observed']
+assert data['delhi_schedule_versions'][1]['order_date']=='2026-08-19'
+assert data['delhi_schedule_versions'][1]['directory_date']=='2026-09-19'
+assert data['delhi_schedule_versions'][0]['qualifying_date_wording_conflict']['attachment']=='2026-07-01'
+assert '232,514' in (R/'state-files/delhi/index.html').read_text()
+assert '31 August' in (R/'state-files/delhi/index.html').read_text()
+assert data['ssr_safeguards']['readable_pdf']['public_csv_or_api_promised'] is False
 from chart_components import goa,uttarakhand,ssr
 assert goa() in home and uttarakhand() in home and ssr() in home
 for p in R.rglob('*.html'):

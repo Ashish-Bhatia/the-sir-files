@@ -15,7 +15,7 @@ One fixed dark palette. Serif article typography. No theme switch, case-study ro
 
 ## Data and verification
 
-`assets/research-data.json` contains 44 source records, 23 checked claims, 36 jurisdictions and the correction history. Source records include copies and unverified links; they are not counts of independent corroboration. Eight state reports have detailed analysis; 28 remain brief reference notes. No national total of wrongful exclusions is established.
+`assets/research-data.json` contains 47 source records, 31 checked claims, 36 jurisdictions and the correction history. Source records include copies and unverified links; they are not counts of independent corroboration. Eight state reports have detailed analysis; 28 remain brief reference notes. No national total of wrongful exclusions is established.
 
 After changing the data or article templates:
 
@@ -41,3 +41,11 @@ The hamburger menu supports close, backdrop click, Escape, focus return and keyb
 Sourced interactive charts show Goa roll sizes and draft-to-final movements, Uttarakhand final rolls and changes across all 13 districts, and the 17/16/3 revision-stage groups in the 15 October ECI order. Values come directly from the research dataset. All count bars begin at zero; signed changes use a central zero line. Figures and source links remain visible.
 
 The public pages contain SIR information and source qualifications. Website development, publishing and GitHub updates are excluded. Internal correction history remains in the data and Git history; factual corrections are incorporated into the SIR explanations.
+
+## Delhi and SSR source follow-up, 18 October 2026
+
+Two signed Delhi schedule bundles were downloaded and visually inspected. The July and August targets remain explicitly historical. The district listing date is not substituted for the August order date. The July covering and attached-order subjects contain different qualifying dates, with no inferred individual outcome.
+
+The 17 October CEO note is available as indexed official text. Full PDF retrieval returned HTTP 502. Its 232,514 and 212,400 Form 6 figures are shown only as applications in different periods, with no deduplication or registration-outcome claim.
+
+The 15 October SSR order is now explained for readable PDF distribution, notice and waiting-period safeguards, ERO cross-check triggers and appeals. Directions remain separate from implementation evidence. No design or navigation change accompanies this research update.
