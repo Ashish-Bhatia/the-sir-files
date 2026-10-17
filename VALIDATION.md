@@ -53,3 +53,14 @@ GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claim
 - Research renderer tested for idempotency and applies the shared design after rebuilding research pages.
 - Research JSON is unchanged by this redesign. No new factual research is claimed.
 - Reproduce interaction checks with `node scripts/ui-smoke.cjs`. Browser layout, assistive technology and touch-device inspection remain outstanding.
+
+## Theme repair and layout revision
+
+- Theme selection now runs in an independent head script. Explicit themes set both palette and native colour scheme.
+- Buttons show the target theme, including on narrow screens.
+- Asset URLs include content hashes to prevent a newly loaded page from reusing an earlier CSS or JavaScript version.
+- Theme checks pass for 16 combinations of system appearance, stored preference and blocked browser storage, including repeated toggles.
+- Homepage now leads with an evidenced Goa comparison, followed by short reading paths and the state explorer. The timeline shows four recent entries with a link to the complete history.
+- Research data remains unchanged. Link validation, interaction harness and renderer idempotency checks pass.
+- No rendered browser or touch-device inspection was available. These are functional and structural checks, not visual verification.
+- Reproduce with `node scripts/theme-check.cjs`, `node scripts/ui-smoke.cjs` and `python3 scripts/validate.py`.

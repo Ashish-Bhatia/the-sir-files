@@ -8,10 +8,6 @@ const dismiss=d.createElement('button');dismiss.className='drawer-close';dismiss
 function closeMenu(){rail.classList.remove('mobile-open');shade?.classList.remove('show');menuButton?.setAttribute('aria-expanded','false');menuButton?.focus()}
 dismiss.addEventListener('click',closeMenu);shade?.addEventListener('click',closeMenu);
 rail.addEventListener('keydown',e=>{if(e.key==='Tab'&&rail.classList.contains('mobile-open')){const nodes=[...rail.querySelectorAll('button,a[href],summary')].filter(x=>x.getClientRects().length);const first=nodes[0],last=nodes[nodes.length-1];if(e.shiftKey&&d.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&d.activeElement===last){e.preventDefault();first.focus()}}});
-const themeButton=d.querySelector('[data-theme]');
-function currentTheme(){return d.documentElement.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light')}
-function labelTheme(){themeButton?.setAttribute('aria-label','Switch to '+(currentTheme()==='dark'?'light':'dark')+' theme');themeButton?.setAttribute('title',themeButton.getAttribute('aria-label'))}
-labelTheme();themeButton?.addEventListener('click',()=>{const next=currentTheme()==='dark'?'light':'dark';d.documentElement.dataset.theme=next;try{localStorage.setItem('sir-theme',next)}catch{}labelTheme()});
 const progress=d.querySelector('.reading-progress span');let pending=false;
 function updateProgress(){const total=d.documentElement.scrollHeight-innerHeight;if(progress)progress.style.width=(total>0?Math.min(100,scrollY/total*100):0)+'%';pending=false}
 addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(updateProgress)}},{passive:true});addEventListener('resize',updateProgress);updateProgress();

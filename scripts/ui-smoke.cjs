@@ -10,9 +10,10 @@ class Element{
 const selectors={};for(const k of ['.rail','.mobile-shade','[data-menu]','[data-theme]','.reading-progress span','#search-modal','#site-search','#search-results','#toast','#state-filter','#state-scope','#state-count','#state-empty','[data-save]'])selectors[k]=new Element();
 selectors['#state-scope'].value='detailed';
 const states=[['goa','detailed'],['bihar','detailed'],['assam','reference']].map(([state,scope])=>{const e=new Element();e.dataset={state,scope};return e});
-const all={'[data-menu]':[selectors['[data-menu]']],'[data-search-open]':[new Element()],'[data-search-close]':[new Element()],'[data-state]':states};
-const document={body:{dataset:{base:'../'}},documentElement:{dataset:{},scrollHeight:2000},activeElement:new Element(),querySelector:s=>selectors[s]||null,querySelectorAll:s=>all[s]||[],getElementById:s=>selectors['#'+s]||null,createElement:()=>new Element(),addEventListener(){},title:'Goa | The SIR Files'};
+const all={'[data-theme]':[selectors['[data-theme]']],'[data-menu]':[selectors['[data-menu]']],'[data-search-open]':[new Element()],'[data-search-close]':[new Element()],'[data-state]':states};
+const document={body:{dataset:{base:'../'}},documentElement:{dataset:{},style:{},scrollHeight:2000},readyState:'complete',activeElement:new Element(),querySelector:s=>selectors[s]||null,querySelectorAll:s=>all[s]||[],getElementById:s=>selectors['#'+s]||null,createElement:()=>new Element(),addEventListener(){},title:'Goa | The SIR Files'};
 let storage={};const context={document,location:{pathname:'/the-sir-files/state-files/goa/'},localStorage:{getItem:k=>storage[k]||null,setItem:(k,v)=>storage[k]=v},matchMedia:()=>({matches:true}),addEventListener(){},innerHeight:1000,scrollY:500,requestAnimationFrame:f=>f(),setTimeout:()=>1,clearTimeout(){},navigator:{}};context.window=context;context.SIR_INDEX=[{title:'Goa',description:'Final roll',kind:'State file',url:'state-files/goa/index.html'}];
+vm.runInNewContext(fs.readFileSync('assets/theme.js','utf8'),context);
 vm.runInNewContext(fs.readFileSync('assets/site.js','utf8'),context);
 (async()=>{
  assert.equal(selectors['#state-count'].textContent,'2 jurisdictions');
