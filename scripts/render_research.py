@@ -81,7 +81,7 @@ if start>=0:
  block='<h2 id="correction">Corrections, in public</h2>'+''.join('<p><strong>'+E(x.get('id','Source update'))+' · '+x['date']+'</strong> '+E(x['correction'])+'</p>' for x in D['editorial_corrections'])
  t=t[:start]+block+t[end:];p.write_text(t)
 # Updated legal qualification and links into the audit.
-p=R/'legal/index.html';t=p.read_text();t=t if 'Version warning: the linked Act compilation' in t else t.replace('<main id="main" class="container">','<main id="main" class="container"><div class="insight">Version warning: the linked Act compilation is historical and omits later amendments. Current consolidation remains open. <a href="../form-6/">Read the form and source-version audit.</a></div>',1)
+p=R/'legal/index.html';t=p.read_text();t=t if ('Version warning: the linked Act compilation' in t or 'Version update: the earlier Act compilation' in t) else t.replace('<main id="main" class="container">','<main id="main" class="container"><div class="insight">Version warning: the linked Act compilation is historical and omits later amendments. Current consolidation remains open. <a href="../form-6/">Read the form and source-version audit.</a></div>',1)
 t=t.replace('Section 23(3) also prevents inclusion directions within a defined election-period freeze, beginning after the last nomination date.','Section 23(3) also bars the specified Section 22 amendments, transpositions and deletions, and Section 23 inclusion directions, after the last nomination date and before completion of the relevant election.');p.write_text(t)
 # Audit navigation and dated front-page update.
 for p in R.rglob('*.html'):
@@ -91,6 +91,9 @@ for p in R.rglob('*.html'):
  p.write_text(t)
 p=R/'research/index.html';t=p.read_text();t=t if 'FULL AUDIT / EDITION 1.2' in t else t.replace('<main id="main" class="container">','<main id="main" class="container"><section class="review-strip"><span class="eyebrow">FULL AUDIT / EDITION 1.2</span><h2>Review the corrections and remaining gaps.</h2><p><a href="../audit/">Full audit and coverage matrix →</a> · <a href="../form-6/">Exact Form 6 version analysis →</a></p></section>',1);p.write_text(t)
 p=R/'index.html';t=p.read_text().replace('Maharashtra’s signed extension located. Track what happens next.','Full audit: corrected sources, stronger accounting, explicit gaps.').replace('New primary records, application counts and the transition from SIR to the next summary revision.','Uttarakhand district reconciliation, Form 6 wording and a 36-jurisdiction coverage audit.');p.write_text(t)
+# Render the follow-up before indexing and applying the shared design.
+import runpy
+runpy.run_path(str(R/'scripts/render_followup.py'))
 # Uniform current datasets, search index and sitemap.
 (R/'assets/research-data.json').write_text(json.dumps(D,ensure_ascii=False,indent=2)+'\n')
 idx=[]

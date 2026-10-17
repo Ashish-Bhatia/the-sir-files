@@ -1,6 +1,6 @@
 {
   "title": "The SIR Files",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "source_note": "Editorial source ledger. A citation to an official statement proves that the institution made it, not that underlying actions were correctly implemented.",
   "sources": [
     {
@@ -504,6 +504,47 @@
       "review_status": "Retrieval failed; unverified candidate",
       "audited_on": "2026-10-17",
       "audit_disposition": "qualified"
+    },
+    {
+      "id": "DHC-FORM6-OCT14",
+      "title": "Nilotpal Datta & Anr. v. ECI: Delhi High Court order",
+      "issuer": "Delhi High Court; copy hosted by LiveLaw",
+      "date": "2026-10-14",
+      "type": "Court order copy",
+      "url": "https://www.livelaw.in/pdf_upload/2026/10/16/3-706943.pdf",
+      "note": "Four-page copy of W.P.(C) 14955/2026, CNR DLHC010486872026. Paragraphs 2–7 inspected. Paragraph 7 permits the petitioners to submit Form 6 for processing under law. It does not record completed inclusion or decide the broader challenge. Publisher-hosted copy; Court portal and cryptographic signature have not been independently verified.",
+      "review_status": "PDF text and pages 3–4 visually inspected on 17 October; identical second publisher copy checked",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "primary text in publisher-hosted copy",
+      "sha256": "a2eb7da066bbac363a8c3ddc6f055990ca40d923003f8a99febd50187cd3147f",
+      "mirror_url": "https://lawchakra.in/wp-content/uploads/2026/10/delhi-hc-sir-deleted-voters-form-6-nilotpal-datta-order.pdf",
+      "mirror_note": "Identical bytes, not independent corroboration.",
+      "locator": "Paragraphs 2–7, pages 3–4"
+    },
+    {
+      "id": "RPA-ECI-2025",
+      "title": "RPA 1950: ECI compilation as on 22 July 2025",
+      "issuer": "Election Commission of India",
+      "date": "2025-07-22",
+      "type": "Official statutory compilation",
+      "url": "https://www.eci.gov.in/eci/public/api/document?id=17498",
+      "note": "33-page text includes the 2021 amending Act, four qualifying dates in section 14(b), and sections 23(4)–(6). A better baseline than the earlier historical file. It is dated July 2025, not certified current through October 2026. Later amendments, source footnotes and commencement instruments still require checking.",
+      "review_status": "Indexed PDF text inspected; direct byte retrieval returned HTTP 406; no local PDF hash or full visual verification claimed",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "dated official compilation; currency qualified",
+      "locator": "Title page; amendment list; printed pages 14, 18 and 23"
+    },
+    {
+      "id": "IE-DELHI-RECHECK-OCT17",
+      "title": "Reported Delhi re-verification drive for draft omissions",
+      "issuer": "The Indian Express",
+      "date": "2026-10-17",
+      "type": "News report",
+      "url": "https://indianexpress.com/article/cities/delhi/delhi-sir-poll-officers-reverification-47-lakh-left-out-voters-draft-roll-special-intensive-revision-10925737/",
+      "note": "17 October report describes a CEO-led re-verification drive covering about 47.5 lakh draft omissions. The local signed direction and results have not been obtained. Reported activity is not a count of verified restorations.",
+      "review_status": "Indexed headline and report excerpts inspected; full-page retrieval unavailable",
+      "audited_on": "2026-10-17",
+      "audit_disposition": "secondary report; primary local direction pending"
     }
   ],
   "jurisdictions": [
@@ -921,11 +962,13 @@
         "ECI-2026-05",
         "ECI-2026-09",
         "RPA-1950",
-        "DELHI-SCHEDULE-CANDIDATE"
+        "DELHI-SCHEDULE-CANDIDATE",
+        "DHC-FORM6-OCT14",
+        "IE-DELHI-RECHECK-OCT17"
       ],
       "tag": "A large verification exercise under a changing timetable",
-      "deck": "Delhi’s concern is not only how many notices were issued, but what happened after residents responded.",
-      "lead": "Delhi entered the May 2026 revision with a 2002 historical-roll reference. The Commission’s September update extended the claims-and-objections deadline to 30 October. Reports describe considerable document verification in cases where a historical link was missing or logically inconsistent. Verified cases, accepted inclusions and retained entries are not equivalent measures.",
+      "deck": "A Delhi court order records a route back through Form 6. Whether the applications became entries on the roll remains a separate question.",
+      "lead": "The 14 October High Court order is now available as a publisher-hosted copy. It concerns two petitioners who moved address and missed enumeration. The later report of a wider re-verification drive is separate evidence, with no matched outcomes yet inspected.",
       "facts": [
         [
           "2002",
@@ -952,6 +995,10 @@
         [
           "A practical route to accountability",
           "Data should be obtainable by constituency: flagged cases, served notices, responses received, reasons for rejection, successful appeals and corrections."
+        ],
+        [
+          "What the 14 October order records",
+          "In W.P.(C) 14955/2026, the Court closed the writ proceedings and allowed the two petitioners to fill Form 6 for processing under law. This records an application route, not a completed restoration or a ruling on every challenged declaration."
         ]
       ],
       "questions": [
@@ -1849,6 +1896,11 @@
       "Court reporting says neither approval nor disapproval; signed October order remains to be authenticated."
     ],
     [
+      "14 Oct 2026",
+      "Delhi High Court closes two-voter Form 6 petition",
+      "Order copy inspected: applications permitted for lawful processing; no restoration outcome recorded."
+    ],
+    [
       "15 Oct 2026",
       "Archive reconciles Goa and corrects Tripura report",
       "A signed source resolves a previous research error; the audited Goa figures are separated by legal stage."
@@ -1867,6 +1919,11 @@
       "17 Oct 2026",
       "GitHub publication review",
       "Earlier archive recovered, source gaps narrowed and claims register added."
+    ],
+    [
+      "17 Oct 2026",
+      "Delhi re-verification drive reported",
+      "Local signed instruction and person-linked outcomes remain to be obtained."
     ]
   ],
   "open_questions": [
@@ -2006,10 +2063,16 @@
       "date": "2026-10-17",
       "correction": "Tripura historical May schedule supplemented with later broadcaster account; signed replacement remains pending.",
       "document": "TRIPURA-REVISED-AIR"
+    },
+    {
+      "id": "COR-07",
+      "date": "2026-10-17",
+      "correction": "A newer ECI Act compilation, dated 22 July 2025 and including the 2021 amendments, is now available. The earlier historical file remains qualified. Full current-law consolidation and later rule checks are not claimed.",
+      "document": "RPA-ECI-2025"
     }
   ],
   "review_date": "2026-10-17",
-  "edition": "GitHub publication 1.2, full audit",
+  "edition": "GitHub publication 1.3, Delhi order and statutory-source follow-up",
   "coverage_note": "36 jurisdiction files: 8 developed analyses and 28 reference files. A directory entry is not a completed local investigation. Research review on 17 October IST, sources checked through 16 October 2026. No live monitoring.",
   "claims": [
     {
@@ -2210,6 +2273,36 @@
       "locator": "Sections 14 and 23 in the linked text",
       "limitation": "Do not use it as a current consolidation.",
       "next_evidence": "Current official consolidated Act and amendment chain.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "DELHI-F6-01",
+      "claim": "Delhi High Court permits the two petitioners to submit Form 6 for processing under law",
+      "status": "Court order copy inspected",
+      "source_id": "DHC-FORM6-OCT14",
+      "locator": "14 October order, paragraphs 6–7",
+      "limitation": "No completed restoration is recorded; broader validity of the declaration is not decided.",
+      "next_evidence": "Court-hosted copy and subsequent ERO decisions linked to published entries.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "LAW-VERSION-02",
+      "claim": "ECI July 2025 compilation includes the 2021 electoral-law amendments",
+      "status": "Official compilation text inspected",
+      "source_id": "RPA-ECI-2025",
+      "locator": "Title page; amendment list; section 14(b) and section 23(4)–(6)",
+      "limitation": "A dated consolidation does not establish absence of later changes through October 2026.",
+      "next_evidence": "Later amendment and commencement chain, plus current rule versions.",
+      "reviewed_on": "2026-10-17"
+    },
+    {
+      "id": "DELHI-RECHECK-01",
+      "claim": "17 October reporting describes a Delhi re-verification drive for draft omissions",
+      "status": "Reported administrative activity",
+      "source_id": "IE-DELHI-RECHECK-OCT17",
+      "locator": "17 October indexed report",
+      "limitation": "No signed local direction or matched restoration outcomes inspected.",
+      "next_evidence": "Signed local instruction, constituency returns and resulting roll supplements.",
       "reviewed_on": "2026-10-17"
     }
   ],
@@ -2431,8 +2524,8 @@
       "id": "G03",
       "topic": "Form 6 version and court position",
       "status": "Partly filled",
-      "needed": "Exact challenged online declaration, approval history and signed October court record.",
-      "progress": "Standard PDF first-time declaration inspected."
+      "needed": "Court-hosted confirmation of Delhi copy; exact challenged online declaration, approval history and signed Supreme Court October record.",
+      "progress": "Standard PDF declaration inspected; 14 October Delhi High Court order copy now read. Exact challenged online version and signed Supreme Court record remain missing."
     },
     {
       "id": "G04",
@@ -2467,14 +2560,14 @@
       "topic": "Delhi latest signed schedule",
       "status": "Open",
       "needed": "Retrieve indexed official PDF and any later amendment.",
-      "progress": "Candidate URL located, retrieval failed."
+      "progress": "Official candidate PDF retried on 17 October and returned HTTP 502. News reporting of the local re-verification drive is separately labelled."
     },
     {
       "id": "G09",
       "topic": "Current statutory consolidation",
-      "status": "Open",
-      "needed": "Current amended Act and rule-version/commencement checks.",
-      "progress": "Older Act compilation identified and relabelled; no silent current-law claim."
+      "status": "Partly filled",
+      "needed": "Post-July 2025 amendments, authoritative commencement instruments and current rule versions.",
+      "progress": "A July 2025 ECI compilation including the 2021 amendments is now located and text-inspected. It does not certify October 2026 currency."
     },
     {
       "id": "G10",
@@ -2971,5 +3064,22 @@
         "Were orders implemented in the operative roll before election deadlines?"
       ]
     }
-  ]
+  ],
+  "followup_review": {
+    "date": "2026-10-17",
+    "edition": "1.3",
+    "scope": "Delhi High Court Form 6 order; a newer dated Act compilation; reported local re-verification activity. No fresh person-level legality audit.",
+    "primary_findings": [
+      "DHC-FORM6-OCT14",
+      "RPA-ECI-2025"
+    ],
+    "reported_developments": [
+      "IE-DELHI-RECHECK-OCT17"
+    ],
+    "limitations": [
+      "Court portal and digital signature not independently verified.",
+      "ECI compilation is dated July 2025; later statutory and rule changes remain to be checked.",
+      "Delhi signed local direction and actual restoration outcomes remain missing."
+    ]
+  }
 }

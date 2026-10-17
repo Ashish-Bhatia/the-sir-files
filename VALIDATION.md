@@ -64,3 +64,12 @@ GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claim
 - Research data remains unchanged. Link validation, interaction harness and renderer idempotency checks pass.
 - No rendered browser or touch-device inspection was available. These are functional and structural checks, not visual verification.
 - Reproduce with `node scripts/theme-check.cjs`, `node scripts/ui-smoke.cjs` and `python3 scripts/validate.py`.
+
+## Editorial research edition 1.3
+
+- 54 research/navigation pages plus the 404 page. 44 source records, 23 claims and 36 jurisdiction files.
+- Delhi court order PDF downloaded from two publishers. Both SHA-256 fingerprints equal `a2eb7da066bbac363a8c3ddc6f055990ca40d923003f8a99febd50187cd3147f`. Text inspected; pages 3–4 visually reviewed. This is not a cryptographic-signature or Court-portal verification.
+- New ECI statutory compilation inspected as indexed text. Direct PDF retrieval returned HTTP 406. Delhi candidate schedule retrieval returned HTTP 502. Both limits are disclosed.
+- Internal links, fragments, data equations, CSV count and correction coverage pass. Research rendering is idempotent across generated and retained pages.
+- Independent theme tests cover 16 system/storage combinations. Interaction smoke checks cover search, menu, state filters, saved reading and progress.
+- Layout uses responsive editorial grids, native details elements, readable article typography and contents menus. Browser rendering and touch-device inspection remain unverified because the browser control capability is unavailable.

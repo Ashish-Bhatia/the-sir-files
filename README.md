@@ -4,7 +4,7 @@ Independent documentary investigation of India’s Special Intensive Revision of
 
 ## Scope
 
-52 addressable HTML pages, 36 State/UT files, 8 developed local analyses and 28 reference files. Dated review, legal analysis, chronology, national reconciliation, source ledger, claims register and proposed ECINet audit. Review date: 17 October 2026 IST. Sources checked through 16 October.
+54 research/navigation pages plus a 404 page, 36 State/UT files, 8 developed local analyses and 28 reference files. Dated review, legal analysis, chronology, national reconciliation, source ledger, claims register and proposed ECINet audit. Review date: 17 October 2026 IST. Latest source review: 17 October. Earlier records retain their own review status.
 
 This is an initial research edition. It is not a completed national forensic audit, voter-registration service, live ECI integration or scheduled autonomous investigation.
 
@@ -39,3 +39,12 @@ Added signed Maharashtra extension and CEO application bulletin, public timetabl
 Added a 13-district Uttarakhand reconciliation CSV, standard Form 6 analysis and full coverage audit. Narrowed the historical Uttarakhand date anomaly, added later Tripura reporting, refreshed West Bengal orders and flagged the historical Act compilation. No independent person-level legality audit is claimed.
 
 After changing `assets/research-data.json`, run `python3 scripts/render_research.py` then `python3 scripts/validate.py`. The renderer synchronises state files, source and claim registers, gap register, chronology, search and sitemap.
+
+## Follow-up and editorial edition 1.3
+
+- Two new research notes: the 14 October Delhi High Court Form 6 order and the ECI statutory compilation dated July 2025.
+- 44 source records and 23 tracked claims. Delhi re-verification reporting remains distinct from signed instructions and completed restorations.
+- The Delhi order is a publisher-hosted copy, with identical bytes from a second publisher. Court-portal and cryptographic-signature checks are not claimed.
+- The newer Act compilation is dated July 2025. Later legal changes and current rule versions remain an open check.
+- Editorial masthead, lead report, edition notes, source-based Goa stock comparison, searchable state files and article contents menus. Light and dark themes use independently loaded, content-addressed assets.
+- Run `node scripts/theme-check.cjs` and `node scripts/ui-smoke.cjs` for browser-local logic checks. These do not replace rendered browser inspection.
