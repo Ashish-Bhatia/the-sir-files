@@ -9,9 +9,9 @@ A chronological explanation of India’s Special Intensive Revision of electoral
 - States: direct links to 36 state and Union Territory reports and notes.
 - Forms & law: procedure, Forms 6, 7 and 8, the legal framework and the courts.
 - Documents: source links and their qualifications.
-- About: scope, corrections and additional reference material.
+- SIR basics: how to read omissions, applications, decisions and roll changes.
 
-One fixed dark palette. Serif article typography. No theme switch, case-study routes, chapter loops, saved-reading interface or hidden menu. The six menu items stay visible on mobile. Ten previous entry URLs redirect once to the story or relevant state report.
+One fixed dark palette. Serif article typography. No theme switch, case-study routes, chapter loops or saved-reading interface. A hamburger drawer contains the same six menu items on desktop and mobile. Ten previous entry URLs redirect once to the story or relevant state report.
 
 ## Data and verification
 
@@ -33,3 +33,11 @@ The renderer builds the state reports, source list, chronological article, timel
 GitHub Pages: deploy from branch `main`, root directory. The site is buildless and uses `.nojekyll`. No custom Actions workflow, API key, package installation or server is required. GitHub runs its normal Pages build and deployment process.
 
 https://ashish-bhatia.github.io/the-sir-files/
+
+## SIR charts and navigation
+
+The hamburger menu supports close, backdrop click, Escape, focus return and keyboard focus containment. Background content is inert while the menu is open.
+
+Sourced interactive charts show Goa roll sizes and draft-to-final movements, Uttarakhand final rolls and changes across all 13 districts, and the 17/16/3 revision-stage groups in the 15 October ECI order. Values come directly from the research dataset. All count bars begin at zero; signed changes use a central zero line. Figures and source links remain visible.
+
+The public pages contain SIR information and source qualifications. Website development, publishing and GitHub updates are excluded. Internal correction history remains in the data and Git history; factual corrections are incorporated into the SIR explanations.

@@ -95,3 +95,12 @@ Current checks are `python3 scripts/validate.py`, `python3 scripts/validate_stru
 - Source data, arithmetic checks and correction history preserved. Internal links and fragments pass.
 - Search, close/escape behaviour, state filtering, source filtering and statement filtering tested in a DOM harness.
 - Full rendering tested for idempotency. Browser layout and touch-device visual inspection remain unverified.
+
+## Hamburger menu and SIR charts
+
+- Keyboard-accessible hamburger drawer with close button, backdrop, Escape, focus return and inert background.
+- DOM-harness tests cover opening/closing the menu and switching chart views, in addition to search and content filters.
+- Goa stock and movement charts, all 13 Uttarakhand district figures, and the 17/16/3 scope chart render from the same dataset used by the articles. Source links and numeric labels are explicit; charts do not imply wrongful-exclusion counts.
+- Structure checks compare chart markup with data-generated components and verify menu controls on every active page.
+- Public articles and chronology contain SIR developments, not website or GitHub progress. Source qualifications and corrected SIR facts remain.
+- Browser rendering and touch-device visual inspection remain unverified.

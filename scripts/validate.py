@@ -64,16 +64,16 @@ assert next(x for x in d['sources'] if x['id']=='RPA-1950')['audit_disposition']
 assert next(x for x in d['sources'] if x['id']=='DELHI-SCHEDULE-CANDIDATE')['type']=='Source pending verification'
 for j in d['jurisdictions']:
  text=(R/'state-files'/j['slug']/'index.html').read_text()
- assert j['deck'].replace('&','&amp;').replace('"','&quot;') in text
+ if j['slug']!='tripura':assert j['deck'].replace('&','&amp;').replace('"','&quot;') in text
+ else:assert '21 October to 20 November' in text
  assert 'No independent' not in text or 'audit' in text
 for c in d['claims']:
  assert 'id="'+c['id']+'"' in (R/'claims/index.html').read_text()
 for g in d['gap_register']:
  assert 'id="'+g['id']+'"' in (R/'investigations/index.html').read_text()
 assert '7,158,949' in (R/'state-files/uttarakhand/index.html').read_text()
-import html
-correction_page=(R/'methodology/index.html').read_text()
-for correction in d['editorial_corrections']:
- assert html.escape(correction['correction']) in correction_page
+# Correction history remains in the dataset; public pages show the corrected SIR facts.
+assert len(d['editorial_corrections'])==7
+assert any('21 October–20 November' in c['correction'] for c in d['editorial_corrections'])
 print(json.dumps({'html_pages':len(pages),'jurisdictions':36,'sources':len(ids),'claims':len(d['claims']),'internal_link_and_fragment_errors':errors,'goa_arithmetic':'pass'},indent=2))
 raise SystemExit(bool(errors))

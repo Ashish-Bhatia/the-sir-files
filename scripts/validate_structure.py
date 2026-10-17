@@ -30,4 +30,11 @@ home=(R/'index.html').read_text();ordered=['what-is-sir','before-2025','bihar-20
 assert not (R/'assets/theme.js').exists();assert 'prefers-color-scheme' not in (R/'assets/site.css').read_text()
 assert 'GitHub publication review' not in (R/'history/index.html').read_text()
 assert len(json.loads((R/'assets/research-data.json').read_text())['sources'])==44
+from chart_components import goa,uttarakhand,ssr
+assert goa() in home and uttarakhand() in home and ssr() in home
+for p in R.rglob('*.html'):
+ text=p.read_text()
+ if p.name=='404.html' or 'data-redirect="true"' in text:continue
+ assert 'data-menu-open' in text and 'id="menu-panel"' in text and 'data-menu-close' in text
+ assert 'GitHub publication review' not in text and 'earlier version of this site' not in text and 'This edition tracks' not in text
 print(f'Basic structure: {active} pages, six menu items, dark palette, chronological article, {redirects} one-hop legacy redirects: pass.')
