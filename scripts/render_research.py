@@ -87,7 +87,7 @@ t=t.replace('Section 23(3) also prevents inclusion directions within a defined e
 for p in R.rglob('*.html'):
  if p.name=='404.html':continue
  t=p.read_text();base=re.search('data-base="([^"]*)"',t).group(1)
- if '>Full Audit <' not in t:t=t.replace('</nav><div class="rail-caption">',f'<a class="rail-link" href="{base}audit/">Full Audit <span>↗</span></a></nav><div class="rail-caption">',1)
+ if f'href="{base}audit/"' not in t:t=t.replace('</nav><div class="rail-caption">',f'<a class="rail-link" href="{base}audit/">Full Audit <span>↗</span></a></nav><div class="rail-caption">',1)
  p.write_text(t)
 p=R/'research/index.html';t=p.read_text();t=t if 'FULL AUDIT / EDITION 1.2' in t else t.replace('<main id="main" class="container">','<main id="main" class="container"><section class="review-strip"><span class="eyebrow">FULL AUDIT / EDITION 1.2</span><h2>Review the corrections and remaining gaps.</h2><p><a href="../audit/">Full audit and coverage matrix →</a> · <a href="../form-6/">Exact Form 6 version analysis →</a></p></section>',1);p.write_text(t)
 p=R/'index.html';t=p.read_text().replace('Maharashtra’s signed extension located. Track what happens next.','Full audit: corrected sources, stronger accounting, explicit gaps.').replace('New primary records, application counts and the transition from SIR to the next summary revision.','Uttarakhand district reconciliation, Form 6 wording and a 36-jurisdiction coverage audit.');p.write_text(t)
@@ -100,3 +100,7 @@ for p in sorted(R.rglob('*.html')):
 (R/'assets/search-data.js').write_text('window.SIR_INDEX = '+json.dumps(idx,ensure_ascii=False)+';\n')
 (R/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>https://ashish-bhatia.github.io/the-sir-files/'+x['url']+'</loc><lastmod>2026-10-17</lastmod></url>' for x in idx)+'</urlset>')
 print('Rendered',len(idx),'research pages and all data-backed state, claim, source and gap sections')
+
+# Keep navigation, reading tools and the homepage in sync with regenerated research.
+import runpy
+runpy.run_path(str(R/'scripts/redesign.py'))

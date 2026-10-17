@@ -43,3 +43,13 @@ GitHub Pages returned HTTP 200 for the homepage, research, Form 7, ECINet, claim
 - Rebuilt data-backed sections to eliminate article/data divergence.
 - No national wrongful-exclusion count, legal-compliance certification, independent ECINet audit or completed person-level investigation is claimed.
 - Source retrieval failures and pending originals remain visible in the evidence and gap registers.
+
+## Reader experience redesign
+
+- Replaced the fixed desktop sidebar with top navigation and a keyboard-accessible menu.
+- Added system-aware dark/light themes, saved reading lists on the current device, reading progress, expandable claim summaries and a dated timeline.
+- Rebuilt the homepage around introductory reading paths, evidence and state discovery.
+- Node DOM-harness checks passed for theme persistence, state filtering/empty results, opening and closing menu/search, saved-page toggling and reading progress. These checks do not verify browser rendering.
+- Research renderer tested for idempotency and applies the shared design after rebuilding research pages.
+- Research JSON is unchanged by this redesign. No new factual research is claimed.
+- Reproduce interaction checks with `node scripts/ui-smoke.cjs`. Browser layout, assistive technology and touch-device inspection remain outstanding.
