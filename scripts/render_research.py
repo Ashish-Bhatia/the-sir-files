@@ -74,11 +74,11 @@ if start>=0:
  timeline='<h2 id="timeline">Chronology and review trail</h2>'+''.join('<section class="timeline-item"><span class="eyebrow">'+E(date)+'</span><h3>'+E(title)+'</h3><p>'+E(text)+'</p></section>' for date,title,text in D['chronology'])
  t=t[:start]+timeline+t[end:];p.write_text(t)
 # Refresh correction log from data, avoiding stale copies.
-p=R/'methodology/index.html';t=p.read_text();start=t.find('<h2 id="corrections"')
+p=R/'methodology/index.html';t=p.read_text();start=t.find('<h2 id="correction"')
 if start>=0:
  end=t.find('<h2',start+4)
  if end<0:end=t.find('</article>',start)
- block='<h2 id="corrections">Corrections, in public</h2>'+''.join('<p><strong>'+E(x.get('id','Source update'))+' · '+x['date']+'</strong> '+E(x['correction'])+'</p>' for x in D['editorial_corrections'])
+ block='<h2 id="correction">Corrections, in public</h2>'+''.join('<p><strong>'+E(x.get('id','Source update'))+' · '+x['date']+'</strong> '+E(x['correction'])+'</p>' for x in D['editorial_corrections'])
  t=t[:start]+block+t[end:];p.write_text(t)
 # Updated legal qualification and links into the audit.
 p=R/'legal/index.html';t=p.read_text();t=t if 'Version warning: the linked Act compilation' in t else t.replace('<main id="main" class="container">','<main id="main" class="container"><div class="insight">Version warning: the linked Act compilation is historical and omits later amendments. Current consolidation remains open. <a href="../form-6/">Read the form and source-version audit.</a></div>',1)

@@ -71,5 +71,9 @@ for c in d['claims']:
 for g in d['gap_register']:
  assert 'id="'+g['id']+'"' in (R/'investigations/index.html').read_text()
 assert '7,158,949' in (R/'state-files/uttarakhand/index.html').read_text()
+import html
+correction_page=(R/'methodology/index.html').read_text()
+for correction in d['editorial_corrections']:
+ assert html.escape(correction['correction']) in correction_page
 print(json.dumps({'html_pages':len(pages),'jurisdictions':36,'sources':len(ids),'claims':len(d['claims']),'internal_link_and_fragment_errors':errors,'goa_arithmetic':'pass'},indent=2))
 raise SystemExit(bool(errors))
