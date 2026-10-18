@@ -596,6 +596,28 @@
       "review_status": "Official indexed text inspected, including paragraphs 12–16. Direct PDF retrieval returned HTTP 502; full-file visual inspection and hash unavailable.",
       "audited_on": "2026-10-18",
       "audit_disposition": "official indexed text; byte retrieval pending"
+    },
+    {
+      "id": "AIR-DELHI-OCT16",
+      "title": "Delhi CEO reports around 24 lakh discrepancy cases resolved",
+      "issuer": "Akashvani News",
+      "date": "2026-10-16",
+      "type": "Public broadcaster report",
+      "url": "https://newsonair.gov.in/delhi-ceo-ashok-kumar-says-24-lakh-voter-discrepancy-and-non-mapping-cases-resolved-under-sir/",
+      "note": "Report at 1:57 PM attributes around 24 lakh resolved cases out of 33 lakh to the CEO. Rounded administrative statement, not a person-linked disposal return or count of restored registrations.",
+      "review_status": "Full article text inspected on 18 October",
+      "audited_on": "2026-10-18"
+    },
+    {
+      "id": "PTI-DELHI-OCT16",
+      "title": "Delhi reverification and around 25 lakh resolved notice cases",
+      "issuer": "Press Trust of India via Business Standard",
+      "date": "2026-10-16",
+      "type": "News report",
+      "url": "https://www.business-standard.com/amp/india-news/delhi-sir-reverification-begins-for-4-7-mn-voters-dropped-from-draft-rolls-126101600756_1.html?isa=yes",
+      "note": "Report at 4:11 PM attributes around 25 lakh resolved cases out of 33.12 lakh to the CEO. This differs from the earlier same-day Akashvani account. No common cutoff, underlying return or explanation establishes the reason. Reverification of draft omissions is a separate process.",
+      "review_status": "Full syndicated article text inspected on 18 October",
+      "audited_on": "2026-10-18"
     }
   ],
   "jurisdictions": [
@@ -2460,6 +2482,16 @@
       "limitation": "A document inconsistency does not establish how eligibility was decided. Later August order and October indexed statement use 1 October.",
       "next_evidence": "Clarifying or correcting instruction and the actual operative implementation record.",
       "reviewed_on": "2026-10-18"
+    },
+    {
+      "id": "DELHI-RESOLUTION-01",
+      "claim": "Two 16 October reports give different rounded Delhi notice-case resolution figures",
+      "status": "Attributed reports; figures not reconciled",
+      "source_id": "AIR-DELHI-OCT16",
+      "locator": "Akashvani 1:57 PM, compared with PTI 4:11 PM (PTI-DELHI-OCT16)",
+      "limitation": "Around 24 lakh versus around 25 lakh is not an established increase of one lakh; cutoff and case definitions are unavailable. Resolved notices are not restored registrations.",
+      "next_evidence": "Dated CEO disposal return with a common cutoff, case definitions and matched roll outcomes.",
+      "reviewed_on": "2026-10-18"
     }
   ],
   "continuation_review": {
@@ -2715,8 +2747,8 @@
       "id": "G08",
       "topic": "Delhi latest signed schedule",
       "status": "Partly filled",
-      "needed": "Latest signed replacement after the August order; full October 17 press-note file and subsequent amendments.",
-      "progress": "Signed 15 July and 19 August schedules downloaded and visually read. The September directory date is distinguished from the August order date. October 17 official indexed text supports the later claims deadline."
+      "needed": "Signed contents of CEO-linked 26 and 27 September schedule documents; full October 17 press-note file and subsequent amendments.",
+      "progress": "Signed 15 July and 19 August schedules downloaded and visually read. The September directory date is distinguished from the August order date. October 17 official indexed text supports the later claims deadline. CEO homepage now supplies direct September links, but retrieval failed; their contents remain unverified."
     },
     {
       "id": "G09",
@@ -3312,5 +3344,35 @@
       "law": "Section 24 RPA 1950"
     }
   },
-  "research_checked_on": "2026-10-18"
+  "research_checked_on": "2026-10-18",
+  "delhi_resolution_reports": {
+    "date": "2026-10-16",
+    "reports": [
+      {
+        "source_id": "AIR-DELHI-OCT16",
+        "reported_approximate_lakh": 24,
+        "publication_time_ist": "13:57"
+      },
+      {
+        "source_id": "PTI-DELHI-OCT16",
+        "reported_approximate_lakh": 25,
+        "publication_time_ist": "16:11"
+      }
+    ],
+    "common_cutoff_established": false,
+    "increase_established": false,
+    "restorations_established": false
+  },
+  "delhi_latest_schedule_links": [
+    {
+      "listing_date": "2026-09-26",
+      "url": "https://ceodelhi.gov.in/PDFFolders/2026/Revision_of_Schedule_of_SIR26Sept2026.pdf",
+      "content_verified": false
+    },
+    {
+      "listing_date": "2026-09-27",
+      "url": "https://ceodelhi.gov.in/PDFFolders/2026/Revised_Schedule_of_SIR27Sept2026.pdf",
+      "content_verified": false
+    }
+  ]
 }
